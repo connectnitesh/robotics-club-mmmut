@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Asul:wght@400;700&family=Open+Sans:wght@400;500&family=Ubuntu:wght@400;500;700&display=swap');
+
+/* font-family: 'Asul', sans-serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Ubuntu', sans-serif; */
+
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+
+:root{
+  --dark: #061924;
+  --pure: #fff;
+  --light: #2f87a0;
+  --grey: #b8cad0;
+  --light2: #4c9aab;
+  --fade: #2f6c7d;
+  --dark2: #0b3045;
+  --grey2:#454e53;
+  --green: #2a9474;
+  --lightg: #0decf6;
+  --darkg: #054c47;
+  
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+  background-color: #000;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: var(--dark2); 
+  border-radius: 1px;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  box-shadow: inset 2px 2px 5px #0decf6; 
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: var(--dark); 
+}
+
+::-webkit-cursor{
+  background-color: forestgreen;
+}
+
+h1,h2,h3,h4,h5{
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  list-style-type: none;
+}
+
+section{
+  min-height: 100vh;
+}
+
+html,body{
+  scroll-behavior:smooth;
+}

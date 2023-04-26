@@ -1,0 +1,24 @@
+.sponsor-sec{
+    display: block;
+    min-height: 100vh;
+    color:white;
+  font-family: "Poppins", sans-serif;
+  padding:4rem 10rem;
+}
+
+.sponsor-sec h1{
+  font-size: 4rem;
+  font-weight: 700;
+  margin:2rem 0;
+  width: max-content;
+  color:#fff;
+  text-shadow:  1px 1px 20px #0decf6;
+}
+
+
+.sponsor-list img{
+  padding:1.7rem;
+  margin:1rem;
+  background: rgba(255, 255, 255, 0.05);
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
+}
