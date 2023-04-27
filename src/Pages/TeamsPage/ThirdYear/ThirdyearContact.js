@@ -1,6 +1,6 @@
-import img1 from '../../../assets/images/teams/Ashutosh Shukla.jpg'
-import img2 from '../../../assets/images/teams/IMG_20211107_130139 - Aniket Chaurasia.jpg'
-import img3 from '../../../assets/images/teams/IMG_20230415_210813 - Ashish Patel.jpg'
+import img1 from '../../../assets/images/teams/3rd Year/AkritiSrivastava.jpg'
+import img2 from '../../../assets/images/teams/3rd Year/AkshatAgarwal.jpg'
+import img3 from '../../../assets/images/teams/3rd Year/IshikaGupta.jpeg'
 
 const thirdyear = [
     {

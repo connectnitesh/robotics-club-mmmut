@@ -36,3 +36,108 @@
   box-shadow: 0 10px 15px #0decf6;
   padding: 1rem;
 }
+/* .contact-container{
+  display: flex;
+}
+.details{
+  display: flex;
+  border: 2px solid white;
+
+}
+.details p{
+  color: white;
+}
+.row_details label{
+  color: white;
+}
+.left-contact{
+  margin-right: 200px;
+  width: 50%;
+
+} */
+
+#contact {
+  padding: 80px 0;
+}
+
+.contact-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.left-contact {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0 20px;
+}
+
+.right-contact {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0 20px;
+}
+
+.details {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.details a {
+  font-size: 36px;
+  color: white;
+  margin-right: 10px;
+}
+
+.details p {
+  font-size: 18px;
+  color: white;
+  margin: 0;
+}
+
+form {
+  width: 100%;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.row_details {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+label {
+  font-size: 18px;
+  color: white;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  margin-top: 10px;
+  font-size: 16px;
+}
+
+button[type="submit"] {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+}
