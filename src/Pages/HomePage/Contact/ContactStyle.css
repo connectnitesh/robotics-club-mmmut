@@ -168,7 +168,11 @@ button[type="submit"] {
 }
 
 #contact_head{
-  color: white;
-  margin: 0 0 70px 0 ;
-  text-align: center;
+    margin: 15px 0 70px 156px;
+    text-align: center;
+    font-size: 4rem;
+    font-weight: 700;
+    width: max-content;
+    color:#fff;
+    text-shadow:  1px 1px 10px #0decf6;
 }
