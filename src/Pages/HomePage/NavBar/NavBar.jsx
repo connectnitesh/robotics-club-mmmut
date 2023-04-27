@@ -3,6 +3,16 @@ import './NavStyle.css';
 import Plx from "react-plx";
 
 const NavBar = () => {
+
+  function myFunction() {
+    var x = document.getElementById("mob-navbar");
+    if (x.className === "topnav") {
+      x.className += " responsive";
+    } else {
+      x.className = "topnav";
+    }
+  }
+
   return (
     <nav>
       <Plx
@@ -34,11 +44,14 @@ const NavBar = () => {
           opacity: "1",
         }}
       >
-        <img
+        <div className="bgforeground1"
+          style={{ width: "100%" }}></div>
+        {/* <img className="bgforeground1"
           style={{ width: "100%" }}
           src={require("../../../assets/images/general/bgforeground1.png")}
           alt="foreground"
-        />
+          /> */}
+        
       </Plx>
       <Plx 
         parallaxData={[
@@ -90,7 +103,7 @@ const NavBar = () => {
             />
           </a>
         </div>
-        <div className="nav-items">
+        <div className="nav-items" id="mob-navbar">
           <ul class="menu cf">
             <li>
               <a href="events">EVENTS</a>

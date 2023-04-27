@@ -12,7 +12,7 @@
   margin:2rem 0;
   width: max-content;
   color:#fff;
-  text-shadow:  1px 1px 20px #0decf6;
+  text-shadow:  1px 1px 10px #0decf6;
 }
 
 
@@ -20,5 +20,5 @@
   padding:1.7rem;
   margin:1rem;
   background: rgba(255, 255, 255, 0.05);
-  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 10px 15px #0decf6;
 }

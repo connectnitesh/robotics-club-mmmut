@@ -3,6 +3,12 @@ nav{
   min-height: 100vh;
 }
 
+nav .bgforeground1{
+  background-image: url('../../../assets//images//general/bgforeground1.png');
+  height: 100vh;
+  background-size: cover;
+}
+
 .navbar {
   display: flex;
   position: fixed;
@@ -18,7 +24,7 @@ nav{
   justify-content: center;
   justify-items: center;
   margin-left: 200px;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-weight: 700;
   font-size: 1.3rem;
 }
@@ -46,7 +52,7 @@ nav{
 }
 
 .mmmut-logo {
-  margin: 16px 16px 0 220px;
+  margin: 16px 16px 0 230px;
   --border-size: 50px;
   --border-angle: 0turn;
   width: 110px;
@@ -223,4 +229,14 @@ nav{
 
 .menu > li:hover .submenu li:nth-child(odd) {
   transform: skewX(-25deg) translateX(-15px);
+}
+
+
+/* Mobile Phone */
+@media only screen and (max-width: 480px){
+    nav .bgforeground1{
+      background-image: url('../../../assets/images/general/bgm2.png');
+      background-size:auto;
+    }
+
 }

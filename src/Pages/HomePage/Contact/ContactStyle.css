@@ -2,15 +2,15 @@
     display: block;
     min-height: 90vh;
     color:white;
-  font-family: "Poppins", sans-serif;
+    font-family: 'Open Sans', sans-serif;
     margin:0 auto 0 auto;
     padding:4rem 10rem;
 }
 
 .copyright{
-    color:white;
+    color:rgb(134, 134, 134);
     text-align: center;
-  font-family: "Poppins", sans-serif;
+    font-family: 'Open Sans', sans-serif;
   gap:2px;
   line-break: auto;
   font-size:1rem;
@@ -22,7 +22,7 @@
   margin:2rem 0;
   width: max-content;
   color:#fff;
-  text-shadow:  1px 1px 20px #0decf6;
+  text-shadow:  1px 1px 10px #0decf6;
 }
 
 .contact-sec h3{
@@ -30,10 +30,9 @@
   margin-top:1rem;
   line-height: 1.5;
   margin:2rem 0;
-  font-style: italic;
   width:max-content;
   word-spacing: 10px;
   background: rgba(255, 255, 255, 0.05);
-  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 10px 15px #0decf6;
   padding: 1rem;
 }

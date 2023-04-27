@@ -47,13 +47,13 @@ font-family: 'Ubuntu', sans-serif; */
   background: var(--dark); 
 }
 
-::-webkit-cursor{
-  background-color: forestgreen;
+h1,h2{
+  font-family:'Ubuntu', sans-serif;;
+  list-style-type: none;
 }
 
-h1,h2,h3,h4,h5{
-  font-family: 'Poppins', sans-serif;
-  font-weight: 500;
+h3,h4,h5,p{
+  font-family: 'Open Sans', sans-serif;
   list-style-type: none;
 }
 
@@ -63,4 +63,12 @@ section{
 
 html,body{
   scroll-behavior:smooth;
+}
+
+
+
+/* Mobile Phone */
+@media only screen and (max-width: 480px){
+
+
 }

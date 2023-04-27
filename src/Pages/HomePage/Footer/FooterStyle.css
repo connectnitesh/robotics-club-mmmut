@@ -14,7 +14,7 @@
     display: absolute;
     bottom:0;
     margin-bottom:-500px;
-    margin-left:560px;
+    margin-left:580px;
 }
 
 .mlist > li {
@@ -34,7 +34,7 @@
     text-decoration: none;
     font-size:1rem;
     font-weight: 500;
-  font-family: "Poppins", sans-serif;
+    font-family: 'Open Sans', sans-serif;
 
    }  
 
