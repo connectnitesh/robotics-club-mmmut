@@ -22,7 +22,7 @@ const TeamsPage = () => {
 
   return (
     <>
-      <ParticleBckg myparticle={particleconfiga}/>
+      {/* <ParticleBckg myparticle={particleconfiga}/> */}
       <div className="team-card">
         <h2 className="team-heading">Third Year Members</h2>
         {thirdyearList}

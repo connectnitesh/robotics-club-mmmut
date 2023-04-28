@@ -6,8 +6,8 @@ body{
 }
 
 .team-card{
-    /* background: url('../../assets/images/image.jpg'); */
-
+    /* background: url('../../assets/images/general/lower.png');
+    background-size: cover; */
 }
 
 .team-card > .container{

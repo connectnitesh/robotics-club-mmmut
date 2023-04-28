@@ -1,7 +1,6 @@
 import React from "react";
 import "./FooterStyle.css";
 import { BsFacebook, BsInstagram, BsLinkedin, BsYoutube } from "react-icons/bs";
-import Plx from "react-plx";
 
 const Footer = () => {
   return (
