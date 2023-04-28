@@ -1,54 +1,85 @@
-.about-sec{
-    display: block;
-    min-height: 100vh;
-    color:white;
-    font-family: 'Open Sans', sans-serif;
-    padding:4rem 10rem;
+.about-sec {
+  color: white;
+  margin: 0 auto;
+  width: 80%;
+  padding: 2rem 2rem;
 }
 
-.about-sec h1{
-    font-size: 4rem;
-    font-weight: 700;
-    margin:2rem 0;
-    width: max-content;
-    color:#fff;
-    text-shadow:  1px 1px 10px #0decf6;
+.about-sec h1 {
+  font-size: 4rem;
+  font-weight: 700;
+  margin: 2.5rem 0;
+  color: #fff;
+  text-shadow: 1px 1px 10px #0decf6;
 }
 
-.about-sec h3{
-    background: rgba(255, 255, 255, 0.05);
-    box-shadow: 0 10px 15px #0decf6;
-    font-size: 1.5rem;
-    font-weight: 400;
-    margin-top:1rem;
-    line-height: 1.5;
-    margin:2rem 0;
-    word-spacing: 10px;
+.about-sec h3 {
+  background: rgba(255, 255, 255, 0.05);
+  box-shadow: 0 10px 15px #0decf6;
+  font-size: 1.5rem;
+  font-weight: 400;
+  margin-bottom: 4rem;
+  line-height: 1.5;
+  word-spacing: 10px;
+  padding: 1rem;
+}
+
+.vision {
+  display: flex;
+  flex-direction: row;
+  margin: 2rem 0;
+}
+
+.vision-img img {
+  width: 600px;
+  height: 400px;
+  background: rgba(255, 255, 255, 0.05);
+  box-shadow: 0 10px 15px #0decf6;
+  padding: 0.5rem;
+  border-radius: 15px;
+}
+.vision-items .vision-content {
+  background: rgba(255, 255, 255, 0.05);
+  box-shadow: 0 5px 10px #0decf6;
+  color: #0decf6;
+  margin-left: 7rem;
+  margin-top: 3rem;
+  text-align: center;
+  width: 20rem;
+  padding: 1rem;
+  border-radius: 50px;
+}
+
+
+@media only screen and (max-width: 480px) {
+
+
+  .about-sec h1{
+    font-size: 2rem;
+    margin:0;
+  }
+
+  .about-sec h3{
+    font-size: 0.8rem;
+    margin-top:1.5rem;
+  }
+
+  .vision{
+    flex-direction: column;
+  }
+
+  .vision-img img{
+    width: 250px;
+    height:150px;
+  }
+
+
+  .vision-items .vision-content {
+    margin:0;
+    margin-left: 1rem;
+    margin-top: 2rem;
+    width:14rem;
     padding: 1rem;
-}
-
-.vision{
-    display:flex;
-    margin:2rem 0;
-}
-
-
-
-
-.vision-img img{
-    background: rgba(255, 255, 255, 0.05);
-    box-shadow: 0 10px 15px #0decf6;
-    padding:0.5rem;
-    border-radius: 15px;
-}
-.vision-items .vision-content{
-    background: rgba(255, 255, 255, 0.05);
-    box-shadow: 0 5px 10px #0decf6;
-    color:#0decf6;
-    margin-left:7rem;
-    margin-top:3rem;
-    text-align: center;
-    width:20rem;
-    padding:1rem;
     border-radius: 50px;
+  }
 }

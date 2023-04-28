@@ -1,77 +1,63 @@
-nav{
-  display: block;
-  min-height: 100vh;
-}
-
-nav .bgforeground1{
-  background-image: url('../../../assets//images//general/bgforeground1.png');
-  height: 100vh;
-  background-size: cover;
-}
-
-.navbar {
-  display: flex;
-  position: fixed;
+.nav-rc {
+  position: absolute;
+  left: 1rem;
   top: 0;
-  margin-left: 1rem;
-  z-index: 2;
-  min-height: 200vh;
-  transition: top 0.3s ease;
+}
+
+.nav-rc img {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  margin: 5px 5px;
+}
+
+.nav-mmm {
+  position: absolute;
+  top: 0;
+  right: 1rem;
+}
+
+.nav-mmm img {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  margin: 5px 5px;
+}
+
+.logo-bg {
+  margin: 1rem;
+  height: 110px;
+  width: 110px;
+  --border-size: 50px;
+  --border-angle: 0turn;
+  border-radius: 50%;
+  background-image: conic-gradient(
+      from var(--border-angle),
+      #213,
+      #112 50%,
+      #213
+    ),
+    conic-gradient(from var(--border-angle), transparent 20%, #08f, #f03);
+  background-size: calc(100% - (var(--border-size) * 2))
+      calc(100% - (var(--border-size) * 2)),
+    cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  animation: bg-spin 3s linear infinite;
 }
 
 .nav-items {
+  margin: auto;
+  width: 45%;
   text-align: center;
   justify-content: center;
   justify-items: center;
-  margin-left: 200px;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-weight: 700;
   font-size: 1.3rem;
 }
 
-.nav-brand {
-  margin:1rem;
-  --border-size: 50px;
-  --border-angle: 0turn;
-  width: 110px;
-  height: 110px;
-  border-radius: 50%;
-  background-image: conic-gradient(
-      from var(--border-angle),
-      #213,
-      #112 50%,
-      #213
-    ),
-    conic-gradient(from var(--border-angle), transparent 20%, #08f, #f03);
-  background-size: calc(100% - (var(--border-size) * 2))
-      calc(100% - (var(--border-size) * 2)),
-    cover;
-  background-position: center center;
-  background-repeat: no-repeat;
-  animation: bg-spin 3s linear infinite;
-}
-
-.mmmut-logo {
-  margin: 16px 16px 0 230px;
-  --border-size: 50px;
-  --border-angle: 0turn;
-  width: 110px;
-  height: 110px;
-  border-radius: 50%;
-  background-image: conic-gradient(
-      from var(--border-angle),
-      #213,
-      #112 50%,
-      #213
-    ),
-    conic-gradient(from var(--border-angle), transparent 20%, #08f, #f03);
-  background-size: calc(100% - (var(--border-size) * 2))
-      calc(100% - (var(--border-size) * 2)),
-    cover;
-  background-position: center center;
-  background-repeat: no-repeat;
-  animation: bg-spin 3s linear infinite;
-}
+/* --------------- Animation --------- */
 
 @keyframes bg-spin {
   to {
@@ -85,51 +71,11 @@ nav .bgforeground1{
   initial-value: 0turn;
 }
 
-.nav-brand img {
-  margin-top:5px;
-  margin-left:5px;
-  border-radius: 50%;
-}
-
-.mmmut-logo img {
-  margin-top: 5px;
-  margin-left:5px;
-  border-radius: 50%;
-}
-
-/* Menu Dropdown */
-.cf:before,
-.cf:after {
-  content: " ";
-  display: table;
-}
-
-.cf:after {
-  clear: both;
-}
-
-.cf {
-  *zoom: 1;
-}
-
-.menu,
-.submenu {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-}
-
-.menu {
-  /* margin: 50px auto; */
-  width: 800px;
-  width: -moz-fit-content;
-  width: -webkit-fit-content;
-  width: fit-content;
-}
-
 .menu > li {
+  text-align: center;
+  list-style: none;
   background: linear-gradient(0deg, #0deaf60c 0%, #0deaf66e 100%);
-  box-shadow: inset 2px 2px 5px #0decf6; 
+  box-shadow: inset 2px 2px 5px #0decf6;
   float: left;
   position: relative;
   transform: skewX(25deg);
@@ -137,6 +83,7 @@ nav .bgforeground1{
 }
 
 .menu a {
+  text-align: center;
   display: block;
   color: #fff;
   text-transform: uppercase;
@@ -152,91 +99,27 @@ nav .bgforeground1{
   padding: 0.7rem 2rem;
 }
 
-/* Dropdown */
-.submenu {
-  position: absolute;
-  width: 200px;
-  left: 50%;
-  margin-left: -100px;
-  transform: skewX(-25deg);
-  transform-origin: left top;
-}
-
-.submenu li {
-  position: relative;
-  overflow: hidden;
-}
-
-.submenu > li > a {
-  padding: 1em 2em;
-}
-
-.submenu > li::after {
-  content: "";
-  position: absolute;
-  top: -125%;
-  height: 100%;
-  width: 100%;
-  box-shadow: 0 0 50px rgba(0, 0, 0, 0.9);
-}
-
-.submenu > li:nth-child(odd) {
-  transform: skewX(-25deg) translateX(0);
-}
-
-.submenu > li:nth-child(odd) > a {
-  transform: skewX(25deg);
-}
-
-.submenu > li:nth-child(odd)::after {
-  right: -50%;
-  transform: skewX(-25deg) rotate(3deg);
-}
-
-.submenu > li:nth-child(even) {
-  transform: skewX(25deg) translateX(0);
-}
-
-.submenu > li:nth-child(even) > a {
-  transform: skewX(-25deg);
-}
-
-.submenu > li:nth-child(even)::after {
-  left: -50%;
-  transform: skewX(25deg) rotate(3deg);
-}
-
-/* Show dropdown */
-.submenu,
-.submenu li {
-  opacity: 0;
-  visibility: hidden;
-}
-
-.submenu li {
-  transition: 0.2s ease transform;
-}
-
-.menu > li:hover .submenu,
-.menu > li:hover .submenu li {
-  opacity: 1;
-  visibility: visible;
-}
-
-.menu > li:hover .submenu li:nth-child(even) {
-  transform: skewX(25deg) translateX(15px);
-}
-
-.menu > li:hover .submenu li:nth-child(odd) {
-  transform: skewX(-25deg) translateX(-15px);
-}
-
-
 /* Mobile Phone */
-@media only screen and (max-width: 480px){
-    nav .bgforeground1{
-      background-image: url('../../../assets/images/general/bgm2.png');
-      background-size:auto;
-    }
+@media only screen and (max-width: 480px) {
+  .nav-mmm{
+    display: none;
+  }
 
+  .nav-items{
+    display: none;
+  }
+
+  .nav-rc{
+    margin:25%;
+  }
+
+  .nav-rc img{
+    width:150px;
+    height: 150px;
+  }
+
+  .logo-bg {
+    width:160px;
+    height: 160px;
+  }
 }

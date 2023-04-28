@@ -1,0 +1,11 @@
+.mainPage {
+  /* background: url('../../assets/images/Parallax/4568884-Recovered\ 5.png'); */
+  background-size: cover;
+}
+
+@media only screen and (max-width: 480px) {
+  .mainPage {
+    background: url("../../assets/images/Parallax/bgm\ copy.png");
+    background-size:cover;
+  }
+}

@@ -1,24 +1,40 @@
-.sponsor-sec{
-    display: block;
-    min-height: 100vh;
-    color:white;
-  font-family: "Poppins", sans-serif;
-  padding:4rem 10rem;
+.sponsor-sec {
+  color: white;
+  margin: 0 auto;
+  width: 80%;
+  padding: 2rem 2rem;
 }
 
-.sponsor-sec h1{
+.sponsor-sec h1 {
+  font-family: "Poppins", sans-serif;
   font-size: 4rem;
   font-weight: 700;
-  margin:2rem 0;
+  margin: 2rem 0;
   width: max-content;
-  color:#fff;
-  text-shadow:  1px 1px 10px #0decf6;
+  color: #fff;
+  text-shadow: 1px 1px 10px #0decf6;
 }
 
+.sponsor-list {
+  display: flex;
+  flex-direction: row;
+  margin: 2rem 0;
+}
 
-.sponsor-list img{
-  padding:1.7rem;
-  margin:1rem;
+.sponsor-list img {
+  padding: 1.5rem;
+  margin: 2rem;
   background: rgba(255, 255, 255, 0.05);
   box-shadow: 0 10px 15px #0decf6;
+}
+
+@media only screen and (max-width: 480px) {
+  .sponsor-list {
+    flex-direction: column;
+  }
+
+  .sponsor-sec h1 {
+    font-size: 2rem;
+    margin: 0;
+  }
 }

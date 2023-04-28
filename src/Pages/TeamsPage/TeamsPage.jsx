@@ -2,6 +2,8 @@ import React from "react";
 import './TeamsStyle.css'
 import Card from "./Card";
 import ThirdyearContact from './ThirdYear/ThirdyearContact'
+import ParticleBckg from "../../components/ParticleBckg/ParticleBckg";
+import particleconfiga from "./particleconfiga";
 
 const TeamsPage = () => {
 
@@ -20,7 +22,7 @@ const TeamsPage = () => {
 
   return (
     <>
-      
+      <ParticleBckg myparticle={particleconfiga}/>
       <div className="team-card">
         <h2 className="team-heading">Third Year Members</h2>
         {thirdyearList}
