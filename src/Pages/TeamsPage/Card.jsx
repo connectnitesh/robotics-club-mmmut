@@ -1,8 +1,13 @@
-import React from "react";
+import React, {useEffect} from "react";
 import './TeamsStyle.css'
 import {BsFacebook, BsInstagram, BsLinkedin} from 'react-icons/bs'
+import Aos from "aos";
+import "aos/dist/aos.css";
 
 const Card = (props) => {
+  useEffect(()=>{
+    Aos.init({duration: 200});
+  },[]);
   return (
       <div className="container">
         <div className="card cardcnt">
