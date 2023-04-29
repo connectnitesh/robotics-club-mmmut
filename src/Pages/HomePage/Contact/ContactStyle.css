@@ -115,29 +115,41 @@ button[type="submit"] {
 @media only screen and (max-width: 480px) {
   .contact-container{
     flex-direction: column;
+    width: 350px;
+    margin-left: -2rem;
   }
-
+  
   .contact-sec h1 {
     font-size: 2rem;
-    margin: 0;
+    margin-left: -2rem;
   }
 
   .left-contact iframe{
-    width:250px;
-    height:150px;
+    width: 350px;
+    height: 150px;
   }
 
   .right-contact{
-    margin-top:1.5rem;
+    margin-top:2.5rem;
     padding-left: 0;
+    width: 350px;
   }
 
   .details-container {
     flex-direction: column;
+    margin-top: 1.5rem;
+    
   }
-
+#contact-us{
+  padding: 0;
+}
   .details-container a{
     padding:0;
     margin:0;
+    font-size: 1rem;
+  }
+  .copyright{
+    font-size: 0.65rem;
+    margin-top: 3rem;
   }
 }

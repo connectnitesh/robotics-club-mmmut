@@ -14,7 +14,7 @@ export default function ParticleBckg(props) {
 
   return (
     <div>
-      <div className="bckg"></div>
+      {/* <div className="bckg"></div> */}
       <Particles
         id="tsparticles"
         init={particlesInit}

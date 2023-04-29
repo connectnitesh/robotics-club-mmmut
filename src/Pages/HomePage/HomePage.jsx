@@ -12,21 +12,21 @@ import particleconfig from './ParticleConfig.js'
 const HomePage = () => {
   return (
     <>
-      <section className="mainPage" id="#home-page">
+      <section className="mainPage" id="home-page">
         <NavBar />
         <RcText />
         <Footer />
       </section>
-      <section id="#about-us">
+      <section id="about-us">
         <About />
       </section>
-      <section id="#sponsors">
+      <section id="sponsors">
         <Sponsors />
       </section>
-      <section id="#contact-us">
+      <section id="contact-us">
         <Contact />
       </section>
-      <ParticleBckg myparticle={particleconfig}/>
+      {/* <ParticleBckg myparticle={particleconfig}/> */}
     </>
   );
 };

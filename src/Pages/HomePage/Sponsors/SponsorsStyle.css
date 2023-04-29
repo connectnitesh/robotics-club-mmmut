@@ -19,22 +19,35 @@
   display: flex;
   flex-direction: row;
   margin: 2rem 0;
+  display: inline-block;
+  width:100%;
 }
 
 .sponsor-list img {
-  padding: 1.5rem;
+  padding: 1.5rem; 
   margin: 2rem;
   background: rgba(255, 255, 255, 0.05);
   box-shadow: 0 10px 15px #0decf6;
 }
 
 @media only screen and (max-width: 480px) {
-  .sponsor-list {
-    flex-direction: column;
+  .sponsor-sec{
+    width: 100%;
   }
-
-  .sponsor-sec h1 {
-    font-size: 2rem;
-    margin: 0;
-  }
+    .sponsor-sec h1{
+      font-size: 2rem;
+      margin:0;
+    }
+    .sponsor-list{
+      display: inline-block;
+      width:100%;
+      margin-left: 0;
+    }
+    .sponsor-list img{
+      display: inline-block;
+      width:100%;
+      margin-left: 0;
+      margin-top: 2rem;
+      padding: 0.5rem;
+    }
 }
