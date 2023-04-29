@@ -1,11 +1,11 @@
 .mainPage {
-  /* background: url('../../assets/images/general/background.png'); */
+  background: url('../../assets/images/general/background.png');
   background-size: cover;
 }
 
 @media only screen and (max-width: 480px) {
   .mainPage {
-    /* background: url("../../assets/images/general/bgmobile.png"); */
+    background: url("../../assets/images/general/bgmobile.png");
     background-size:cover;
   }
 }
