@@ -69,7 +69,7 @@ const Contact = () => {
         </a>
       </div>
 
-      <div className="copyright"></div>
+      <div className="copyright"> ©️Robotics Club MMMUT All rights reserved. </div>
     </section>
   );
 };
