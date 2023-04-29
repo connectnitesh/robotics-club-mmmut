@@ -1,11 +1,4 @@
-<<<<<<< HEAD
-import img1 from '../../../assets/images/teams/NiteshRawat.jpg'
-import img2 from '../../../assets/images/teams/IMG_20211107_130139 - Aniket Chaurasia.jpg'
-import img3 from '../../../assets/images/teams/IMG_20230415_210813 - Ashish Patel.jpg'
-=======
 import { Image } from 'cloudinary-react';
-
->>>>>>> af4adbe7e7532d80f00e8b6eb3918ef9b0aab023
 
 const thirdyear = [
     {
