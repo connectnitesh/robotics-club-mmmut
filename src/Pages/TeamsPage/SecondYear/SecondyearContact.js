@@ -42,6 +42,12 @@ const secondyear = [
      "lin": "https://www.linkedin.com/in/nitish-kumar-bharti-171640228"
     },
     {
+        "name": "Anubhav Sonker",
+        "image": "https://res.cloudinary.com/dhlsvwpny/image/upload/v1682714383/Robotics%20Club%20Team%20Images/2nd%20Year/2nd%20Year/Anubhav_Sonker_sxamtj.jpg",
+        "position": "Executive Member",
+        "lin": "https://www.linkedin.com/in/anubhav-sonkar-93762122b"
+       },
+    {
      "name": "Akash Singh ",
      "image": "https://res.cloudinary.com/dhlsvwpny/image/upload/v1682714387/Robotics%20Club%20Team%20Images/2nd%20Year/2nd%20Year/IMG_3242_-_Akash_singh_iyy6kr.jpg",
      "position": "Executive Member",
@@ -58,10 +64,11 @@ const secondyear = [
      "lin": "https://www.linkedin.com/in/gaurav-sen-317093228"
     },
     {
-     "name": "Anubhav Sonker",
-     "image": "https://res.cloudinary.com/dhlsvwpny/image/upload/v1682714383/Robotics%20Club%20Team%20Images/2nd%20Year/2nd%20Year/Anubhav_Sonker_sxamtj.jpg",
-     "position": "Executive Member",
-     "lin": "https://www.linkedin.com/in/anubhav-sonkar-93762122b"
+        "name": "Jyoti Rai",
+        "image": "https://res.cloudinary.com/dhlsvwpny/image/upload/v1682714383/Robotics%20Club%20Team%20Images/2nd%20Year/2nd%20Year/IMG-20230418-WA0019_-_Jyoti_rai_qzb75d.jpg",
+        "position": "Exectutive Member",
+        "insta": "https://instagram.com/jyo_brai?igshid=ZDdkNTZiNTM=",
+        "lin": "https://www.linkedin.com/in/jyoti-rai-732176228"
     },
     {
      "name": "Vandana Yadav",
@@ -114,13 +121,7 @@ const secondyear = [
         "insta": "https://instagram.com/jyotijulisingh?igshid=ZDdkNTZiNTM=",
         "lin": "https://www.linkedin.com/in/jyoti-singh-8a7bb2260"
     },
-    {
-        "name": "Jyoti Rai",
-        "image": "https://res.cloudinary.com/dhlsvwpny/image/upload/v1682714383/Robotics%20Club%20Team%20Images/2nd%20Year/2nd%20Year/IMG-20230418-WA0019_-_Jyoti_rai_qzb75d.jpg",
-        "position": "Exectutive Member",
-        "insta": "https://instagram.com/jyo_brai?igshid=ZDdkNTZiNTM=",
-        "lin": "https://www.linkedin.com/in/jyoti-rai-732176228"
-    },
+   
     {
         "name": "Saurabh Mishra",
         "image": "https://res.cloudinary.com/dhlsvwpny/image/upload/v1682714382/Robotics%20Club%20Team%20Images/2nd%20Year/2nd%20Year/IMG_20220624_223614_081_-_Saurabh_Mishra_ti7i0r.jpg",
