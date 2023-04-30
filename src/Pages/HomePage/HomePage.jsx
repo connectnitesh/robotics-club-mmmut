@@ -26,7 +26,7 @@ const HomePage = () => {
       <section id="contact-us">
         <Contact />
       </section>
-      {/* <ParticleBckg myparticle={particleconfig}/> */}
+      <ParticleBckg myparticle={particleconfig}/>
     </>
   );
 };
