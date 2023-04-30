@@ -1,15 +1,24 @@
-import React from "react";
+import React, { useState } from "react";
 import "./NavStyle.css";
 import Rclogo from "../../../assets/images/general/logo.jpg";
 import Mmmlogo from "../../../assets/images/general/mmmlogo.png";
+import { FiMenu } from "react-icons/fi";
+import { GiCrossMark } from "react-icons/gi";
 
 const NavBar = () => {
-  function myFunction() {
-    var x = document.getElementById("mob-navbar");
-    if (x.className === "topnav") {
-      x.className += " responsive";
+  const [state, setState] = useState(false);
+  const [navIcon, setnavIcon] = useState({ icon: <FiMenu /> });
+
+  function handleClick() {
+    setState(!state);
+    if (state === false) {
+      setnavIcon({
+        icon: <GiCrossMark />,
+      });
     } else {
-      x.className = "topnav";
+      setnavIcon({
+        icon: <FiMenu />,
+      });
     }
   }
 
@@ -20,7 +29,7 @@ const NavBar = () => {
           <img src={Rclogo} alt="" />
         </a>
       </div>
-      <div className="nav-items" id="mob-navbar">
+      <div className="nav-items" id="pc-navbar">
         <ul class="menu">
           <li>
             <a href="events">EVENTS</a>
@@ -47,6 +56,29 @@ const NavBar = () => {
             alt=""
           />
         </a>
+      </div>
+      <div className={`mob-navbar ${state? "" : "active"}`}>
+        <i
+          id="bars"
+          onClick={handleClick}
+
+        >
+          {navIcon.icon}
+        </i>
+        <ul className={`menu mob-menu  ${state? "" :  "active"}`}>
+          <li>
+            <a href="events">EVENTS</a>
+          </li>
+          <li>
+            <a href="workshops">WORKSHOPS</a>
+          </li>
+          <li>
+            <a href="gallery">GALLERY</a>
+          </li>
+          <li>
+            <a href="team">TEAM</a>
+          </li>
+        </ul>
       </div>
     </nav>
   );
