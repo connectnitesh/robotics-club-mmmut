@@ -152,8 +152,9 @@
     }
     .team-card h2{
         font-size: 1.5rem;
+        margin-top: 2.5rem;
     }
     .team-card{
-        margin-top: 15px;
+        margin-top: 0px;
     }
 }
