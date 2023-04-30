@@ -1,17 +1,10 @@
-body{
-    background: #000;
-    background-size:cover;
-    background-repeat: no-repeat;
-    
-}
 
 .team-card{
-    /* background: url('../../assets/images/general/lower.png');
-    background-size: cover; */
+    background: #000;
 }
 
 .team-card > .container{
-    padding:4rem 85px;
+    padding:2rem 1rem;
     padding-left: 3rem;
     margin-left:4rem;
     display: inline-block;
@@ -32,12 +25,6 @@ body{
     font-weight: 700;
     text-shadow: 2px blue;
 }
-
-
-
-
-
-
 
 
 /*  Card Styles  */
@@ -140,4 +127,9 @@ body{
 {
     color: #fff;
     font-size:22px;
+}
+
+
+@media only screen and (max-width: 480px) {
+    /* //yet to add  */
 }
