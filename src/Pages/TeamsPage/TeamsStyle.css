@@ -1,10 +1,10 @@
 
 .team-card{
-    background: #000;
+    background-color: #000;
 }
 
 .team-card > .container{
-    padding:2rem 1rem;
+    padding:4rem 85px;
     padding-left: 3rem;
     margin-left:4rem;
     display: inline-block;
@@ -25,6 +25,12 @@
     font-weight: 700;
     text-shadow: 2px blue;
 }
+
+
+
+
+
+
 
 
 /*  Card Styles  */
@@ -129,7 +135,25 @@
     font-size:22px;
 }
 
-
-@media only screen and (max-width: 480px) {
-    /* //yet to add  */
+@media only screen and (max-width:480px) {
+    
+    .team-card{
+        overflow-x: hidden;
+    }
+    .team-card .container{
+        width: auto;
+        /* width: 380px; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 0;
+        margin-top: 35px;
+        padding:5px ;
+    }
+    .team-card h2{
+        font-size: 1.5rem;
+    }
+    .team-card{
+        margin-top: 15px;
+    }
 }

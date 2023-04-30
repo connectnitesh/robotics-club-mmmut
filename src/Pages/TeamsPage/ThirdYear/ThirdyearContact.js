@@ -31,13 +31,7 @@ const thirdyear = [
      "fb": "https:\/\/www.facebook.com\/archana.chaurasiya.7399?mibextid=ZbWKwL",
      "lin": "https:\/\/www.linkedin.com\/in\/archana-chaurasiya-4507bb182"
     },
-    {
-     "name": "Akshay Singh Kushwaha",
-     "image": "https://res.cloudinary.com/dhlsvwpny/image/upload/v1682714427/Robotics%20Club%20Team%20Images/3rd%20Year/3rd%20Year/IMG_20201213_194554_863_-_Akshay_Singh_venzpc.jpg",
-     "insta": "https:\/\/instagram.com\/choexo_freak?igshid=ZDdkNTZiNTM=",
-     "fb": "https:\/\/www.facebook.com\/profile.php?id=100005430964788",
-     "lin": "https:\/\/www.linkedin.com\/in\/akshay-singh-kushwaha-b0b295203"
-    },
+    
     {
      "name": "Akriti Srivastava ",
      "image": "https://res.cloudinary.com/dhlsvwpny/image/upload/v1682714424/Robotics%20Club%20Team%20Images/3rd%20Year/3rd%20Year/Akriti_Srivastava_-_Akriti_Srivastava_ctmnir.jpg",
@@ -80,7 +74,13 @@ const thirdyear = [
      "position": "Web Development Lead",
      "insta": "https:\/\/www.instagram.com\/akshat493\/",
      "lin": "https:\/\/www.linkedin.com\/in\/akshat-agarwal-263995210"
-    }
+    },{
+        "name": "Akshay Singh Kushwaha",
+        "image": "https://res.cloudinary.com/dhlsvwpny/image/upload/v1682714427/Robotics%20Club%20Team%20Images/3rd%20Year/3rd%20Year/IMG_20201213_194554_863_-_Akshay_Singh_venzpc.jpg",
+        "insta": "https:\/\/instagram.com\/choexo_freak?igshid=ZDdkNTZiNTM=",
+        "fb": "https:\/\/www.facebook.com\/profile.php?id=100005430964788",
+        "lin": "https:\/\/www.linkedin.com\/in\/akshay-singh-kushwaha-b0b295203"
+       }
    ]
 
 export default thirdyear;
