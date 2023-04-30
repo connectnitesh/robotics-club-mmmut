@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.work-container{
+    width: 100vw;
+    background-color: black;
+    height: 600px;
+    /* margin-bottom: 20px; */
+    display: flex;
+    justify-content: space-evenly; 
+     align-items: center; 
+}
+
+
+.webd{
+    width: 600px;
+    height: 300px;
+    margin-top: 0;
+    /* background-color: white; */
+}
+.webd p{
+    font-size: 1rem;
+    color: white;
+    /* font-family: 'Baloo Bhai 2', cursive; */
+    font-family: 'Open Sans', sans-serif;
+    letter-spacing: 0.2rem;
+    font-weight: 400;
+    word-spacing: 10px;
+}
+
+
+/* 00009  NAVBAR  */
+
+/* Position and sizing of burger button */
+.bm-burger-button {
+   
+  position: fixed;
+  width: 36px;
+  height: 30px;
+  top:2rem;
+  right: 2rem;
+  }
+  
+  /* Color/shape of burger icon bars */
+  .bm-burger-bars {
+    background: #fff;
+  }
+  
+  /* Color/shape of burger icon bars on hover*/
+  .bm-burger-bars-hover {
+    background: #0084a9;
+  }
+  
+  /* Position and sizing of clickable cross button */
+  .bm-cross-button {
+    height: 24px;
+    width: 24px;
+  }
+  
+  /* Color/shape of close button cross */
+  .bm-cross {
+    background: #bdc3c7;
+  }
+  
+  /*
+  Sidebar wrapper styles
+  Note: Beware of modifying this element as it can break the animations - you should not need to touch it in most cases
+  */
+  .bm-menu-wrap {
+    position: fixed;
+    height: 100%;
+  }
+  
+  /* General sidebar styles */
+  .bm-menu {
+    background: #373a47;
+    padding: 2.5em 1.5em 0;
+    font-size: 1.15em;
+  }
+  
+  /* Morph shape necessary with bubble or elastic */
+  .bm-morph-shape {
+    fill: #373a47;
+  }
+  
+  /* Wrapper for item list */
+  .bm-item-list {
+    color: #b8b7ad;
+    padding: 0.8em;
+  }
+  
+  /* Individual item */
+  .bm-item {
+    display: inline-block;
+    color: #d1d1d1;
+  margin-bottom: 10px;
+  text-align: left;
+  text-decoration: none;
+  transition: color 0.2s;
+  }
+  .bm-item:hover {
+    color: #ffffff;
+  }
+
+  /* Styling of overlay */
+  .bm-overlay {
+    background: rgba(0, 0, 0, 0.3);
+  }
+
+
+
+@media only screen and (max-width:480px) {
+    .work-container{
+        flex-direction: column;
+        width: 100vw;
+        height: 800px;
+    }
+    .webd{
+        width: 300px;
+        height: 350px;
+    }
+    .webd p{
+        font-size: 0.7rem;
+        letter-spacing: 0.2rem;
+        word-spacing: 5px;
+        font-weight: 300;
+    }
+    .video iframe{
+        width: 300px;
+        height: 315px;
+    }
+
+}
