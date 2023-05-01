@@ -5,7 +5,6 @@ import './WorkshopsStyle.css'
 const WorkshopsPage = () => {
   return (
     <>
-
     <Menu right>
       <a className="menu-item" href="/">
         HOME
@@ -19,7 +18,6 @@ const WorkshopsPage = () => {
       <a className="menu-item" href="/">
         CONTACT US
       </a>
-      
     </Menu>
      <div className="work-container">
     <div className="video">

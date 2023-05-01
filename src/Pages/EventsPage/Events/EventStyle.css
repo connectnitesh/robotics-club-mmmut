@@ -1,0 +1,254 @@
+.maincontainer {
+    position: absolute;
+    top: 0px;
+    width: 100vw;
+    height: 800px;
+    background-image: url(../../../assets/images/events/newbg1.jpg);
+    /* background-color: black; */
+    background-position: center center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .main img{
+    width: 200px;
+    height: 200px;
+    margin-left: -40px;
+  }
+  .main{
+    display: flex;
+  }
+  .heading {
+    display: flex;
+    width: 99vw;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 200px;
+  }
+  .heading img {
+    width: 300px;
+    height: 300px;
+  }
+  .heading h1 {
+    color:white;
+    font-size: 3rem;
+    font-family: "Bruno Ace SC", cursive;
+    letter-spacing: 0.2rem;
+    /* margin-top: 300px;
+      margin-left: 550px; */
+  }
+  #about{
+    
+    display: flex;
+    height: 340px;
+  }
+  .text{
+    width: 200px;
+    height: 40px;
+   margin-top: 85px;
+    display: flex;
+    justify-content: center;
+    background-color: #007690;
+    align-items: center;
+    color: white;
+    font-family: 'Baloo Bhai 2', cursive;
+    font-weight:bold;
+    letter-spacing: 2px;
+    font-size: 1.245rem;
+    clip-path: polygon(0% 0%,84% 0%,100% 100%,0% 100%);
+  }
+  .ntext{
+    width: 78.5px;
+    height: 40px;
+   margin-left: -20px;
+    margin-top: 85px;
+    background-color: #007690;
+    clip-path: polygon(0% 0%, 58% 0%, 90% 100%, 35% 100%);
+  }
+  .para{
+    width: 750px;
+    height: 220px;
+    margin-top:140px ;
+    margin-left: 150px;
+    text-align: center;
+    font-family: 'Baloo Bhai 2', cursive;
+    color: white;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+    text-shadow: 2px;
+    
+  }
+  #format{
+    height: 350px;
+    display: flex;
+    margin-top: 15px;
+  }
+  #schedule{
+    height: 350px;
+    display: flex;
+    margin-top: 15px;
+  }
+  #full{
+    margin-top: 800px;
+    position: absolute;
+    top: 0px;
+    width: 100vw;
+   height: 1500px;
+   background-image: url(../../../assets/images/events/best.jpg);
+   background-position: center center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   opacity: 0.75;
+  }
+  #contact{
+    height: 350px;
+    display: flex;
+    margin-top: 15px;
+  }
+  .btn {
+  
+   
+    width: 176px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background:linear-gradient(to right, rgba(192, 13, 192, 0.818),rgba(15, 15, 212, 0.878));
+    text-align: center;
+    flex-direction: column;
+    margin: auto;
+   }
+   .btn a{
+     color: white;
+     text-decoration: none;
+   }
+   @media only screen and (max-width:480px){
+   .heading h1{
+      color: white;
+      font-size: 1.6rem;
+      font-family: 'Bruno Ace SC', cursive;
+      letter-spacing: 0.2rem; 
+    /* margin-top: 370px;
+    margin-left: 74px; */
+    }
+    .main img{
+      width: 100px;
+      height: 100px;
+      margin: 0px;
+    }
+    
+    .heading img{
+      width: 200px;
+      height: 200px;
+    }
+    #about{
+        display: flex;
+        flex-direction: column;
+        height: 300px;
+        width: auto;
+        /* overflow: hidden; */
+    }
+    #format{
+        display: flex;
+        flex-direction: column;
+        margin-top: 60px;
+        height: 300px;
+        width: auto;
+    }
+    #schedule{
+        display: flex;
+        flex-direction: column;
+        margin-top: 60px;
+        width: auto;
+        /* overflow: hidden; */
+    }
+    #contact{
+        display: flex;
+        flex-direction: column;
+        margin-top: 60px;
+        width: auto;
+    }
+    .para{
+        width: auto;
+      height: 50px;
+      margin-top:3px;
+      margin-left: 4px;
+      font-family: 'Baloo Bhai 2', cursive;
+      color: white;
+     text-align: left;
+      font-size: 0.75rem;
+      text-shadow: 2px;
+      word-spacing: 1px;
+      padding-right: 10px;
+    }
+    .text{
+        width: 120px;
+        height: 20px;
+       margin-top: 50px;
+        display: flex;
+        justify-content: center;
+        background-color: #007690;
+        align-items: center;
+        color: white;
+        font-family: 'Baloo Bhai 2', cursive;
+        font-weight:bold;
+    
+        font-size: 10px;
+        clip-path: polygon(0% 0%,84% 0%,100% 100%,0% 100%);
+    }
+    .ntext{
+        width: 50px;
+        height: 20px;
+       margin-left: -10px;
+        margin-top: 50px;
+        background-color: #007690;
+        clip-path: polygon(0% 0%, 58% 0%, 90% 100%, 42% 100%);
+      }
+      #para1{
+        margin-top: 2px;
+        padding: 8px;
+        margin-left: -2px;
+        height: 50px;
+      }
+      
+      #full{
+        margin-top: 800px;
+        height: 1691px;
+        margin-left: -1px;
+        background:url(../../../assets/images/events/best.jpg);
+        background-position: center center;
+        background-size: cover;
+        background-repeat: no-repeat;
+      }
+      .botimg{
+        width: 281px;
+        height: 185px;
+        left: 8px;
+        bottom: 55px;
+      }
+      .sparks{
+        left: 122px;
+        width: 87px;
+        height: 94px;
+        bottom: 106px;
+      }
+      .btn{
+        width: 150px;
+        height: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background:linear-gradient(to right, rgba(192, 13, 192, 0.818),rgba(15, 15, 212, 0.878));
+        text-align: center;
+        margin-top: -76px;
+        /* margin: auto; */
+        letter-spacing: 1.5px;
+        word-spacing: 1px;
+      }
+     .para li{
+        margin-left: 44px;
+     }
+   }
+  
