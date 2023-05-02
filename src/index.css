@@ -22,6 +22,9 @@ font-family: 'Ubuntu', sans-serif; */
   --green: #2a9474;
   --lightg: #0decf6;
   --darkg: #054c47;
+  --glow-color: hsl(186 100% 69%);
+  --glow-color2: hsl(57, 100%, 69%);
+  --glow-color3: hsl(0, 100%, 69%);
   
 }
 
