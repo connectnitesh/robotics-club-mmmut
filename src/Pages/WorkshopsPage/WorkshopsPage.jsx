@@ -5,7 +5,6 @@ import './WorkshopsStyle.css'
 const WorkshopsPage = () => {
   return (
     <>
-
     <Menu right>
       <a className="menu-item" href="/">
         HOME
