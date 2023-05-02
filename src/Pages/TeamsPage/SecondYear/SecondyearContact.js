@@ -6,7 +6,7 @@ const secondyear = [
      "name": "Aryan Anand",
      "image": "https://res.cloudinary.com/dhlsvwpny/image/upload/v1682714383/Robotics%20Club%20Team%20Images/2nd%20Year/2nd%20Year/Aryan_Anand_kb1kgh.jpg",
      "position": "Executive Member",
-     "insta": "https:\/\/instagram.com\/ashutosh_shukla99?igshid=ZDdkNTZiNTM=",
+     "insta": "https://instagram.com/iaryan_anand_2003?igshid=NzMyMjgxZWIzNw==",
      "fb": "https://www.facebook.com/profile.php?id=100075712623601&mibextid=ZbWKwL",
      "lin": "https://www.linkedin.com/in/aryan-anand-948998229"
     },
@@ -19,6 +19,15 @@ const secondyear = [
      "lin": "https://www.linkedin.com/in/anubhav-gupta-011164210"
     },
     {
+        "name": "Anubhav Sonker",
+        "image": "https://res.cloudinary.com/dhlsvwpny/image/upload/v1683058672/Robotics%20Club%20Team%20Images/2nd%20Year/2nd%20Year/msg1101088209-244_gn6mab.jpg",
+        "position": "Executive Member",
+        "insta": "https://instagram.com/anubhav_sonker?igshid=ZDdkNTZiNTM=",
+         "fb": "https://www.facebook.com/profile.php?id=100079561038653&mibextid=ZbWKwL",
+        "lin": "https://www.linkedin.com/in/anubhav-sonkar-93762122b"
+        
+       },
+    {
      "name": "Akhil Verma",
      "image": "https://res.cloudinary.com/dhlsvwpny/image/upload/v1682714384/Robotics%20Club%20Team%20Images/2nd%20Year/2nd%20Year/IMG_20220802_201456_-_Akhil_Verma_q1oqs5.jpg",
      "position": "Executive Member",
@@ -26,20 +35,8 @@ const secondyear = [
      "fb": "https://www.facebook.com/profile.php?id=100073450068479&mibextid=ZbWKwL",
      "lin": "https://www.linkedin.com/in/akhil-verma-67a3bb171"
     },
-    {
-        "name": "Anubhav Sonker",
-        "image": "https://res.cloudinary.com/dhlsvwpny/image/upload/v1682714383/Robotics%20Club%20Team%20Images/2nd%20Year/2nd%20Year/Anubhav_Sonker_sxamtj.jpg",
-        "position": "Executive Member",
-        "lin": "https://www.linkedin.com/in/anubhav-sonkar-93762122b"
-       },
-    {
-     "name": "Sahil Srivastava",
-     "image": "https://res.cloudinary.com/dhlsvwpny/image/upload/v1682714384/Robotics%20Club%20Team%20Images/2nd%20Year/2nd%20Year/IMG_20230216_043844_349_-_Sahil_Srivastava_g4k5pp.jpg",
-     "position": "Executive Member",
-     "insta": "https://instagram.com/sahil_srivastava_25?igshid=ZDdkNTZiNTM=",
-     "fb": "https://www.facebook.com/profile.php?id=100075365914423&mibextid=ZbWKwL",
-     "lin": "https://www.linkedin.com/in/sahil-srivastava-211957225"
-    },
+   
+    
     {
      "name": "Nitish Kumar Bharti",
      "image": "https://res.cloudinary.com/dhlsvwpny/image/upload/v1682714383/Robotics%20Club%20Team%20Images/2nd%20Year/2nd%20Year/IMG_20220802_165200_-_Nitish_Kumar_Bharti_c3x5y6.jpg",
@@ -56,6 +53,14 @@ const secondyear = [
      "fb": "https://www.facebook.com/profile.php?id=100032861633645",
      "lin": "https://www.linkedin.com/in/akash-singh-0b950a22a"
     },
+    {
+        "name": "Sahil Srivastava",
+        "image": "https://res.cloudinary.com/dhlsvwpny/image/upload/v1682714384/Robotics%20Club%20Team%20Images/2nd%20Year/2nd%20Year/IMG_20230216_043844_349_-_Sahil_Srivastava_g4k5pp.jpg",
+        "position": "Executive Member",
+        "insta": "https://instagram.com/sahil_srivastava_25?igshid=ZDdkNTZiNTM=",
+        "fb": "https://www.facebook.com/profile.php?id=100075365914423&mibextid=ZbWKwL",
+        "lin": "https://www.linkedin.com/in/sahil-srivastava-211957225"
+       },
     {
      "name": "Gaurav Kumar Sen",
      "image": "https://res.cloudinary.com/dhlsvwpny/image/upload/v1682714387/Robotics%20Club%20Team%20Images/2nd%20Year/2nd%20Year/IMG_20230418_164328_-_Gaurav_Sen_dpzxn8.jpg",
@@ -93,7 +98,7 @@ const secondyear = [
      "insta": "https://instagram.com/sudreksha?igshid=YmMyMTA2M2Y=",
     },
     {
-        "name": "Neeraj Kumar",
+        "name": "Niraj Kumar",
         "image": "https://res.cloudinary.com/dhlsvwpny/image/upload/v1682714384/Robotics%20Club%20Team%20Images/2nd%20Year/2nd%20Year/IMG_20230215_143447_656_-_Niraj_Kumar_fpez38.jpg",
         "position": "Exectutive Member",
         "fb": "https://www.facebook.com/profile.php?id=100077897731686",
