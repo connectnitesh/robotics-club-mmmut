@@ -35,79 +35,79 @@ const EventsPage = () => {
             dolore, architecto at fugiat amet voluptatibus. Ab vel eos est
             voluptatibus?</p>
           <div >
-            <a href="" className="btn-robomania" ><span>Explore</span></a>
+            <a href="#laserStrike" className="btn-robomania" ><span>Explore</span></a>
           </div>
         </div>
         <div className="landing-details">
           <div className="landing-icons licon1">
-            <p>52L+</p>
+            <p>50K+</p>
             <p><i></i>Prize Money</p>
           </div>
           <div className="landing-icons licon2">
-            <p>15+</p>
+            <p>25+</p>
             <p><i></i>Events</p>
           </div>
           <div className="landing-icons licon3">
-            <p>52K+</p>
+            <p>42K+</p>
             <p><i></i>Participants</p>
           </div>
         </div>
         <img src={rbRobot} className="rc-robot" alt="" />
       </section>
-      <div className="rb-events laser-strike">
+      <div className="rb-events laser-strike" id="laserStrike">
         <h2 className="rs-text">Laser <br></br><span>Strike</span> </h2>
         <img src={laserStrike} className="rcevent-img ls-img" alt="" />
         <div className="events-btn">
-          <a href="">View Event</a>
+          <a href="laserstrike">View Event</a>
         </div>   
       </div>
       <div className="rb-events electro-nfs">
         <h2 className="ls-text">Electro <br></br><span>NFS</span> </h2>
         <img src={laserStrike} className="rcevent-img rs-img" alt="" />
         <div className="events-btn">
-          <a href="">View Event</a>
+          <a href="electronfs">View Event</a>
         </div>   
       </div>
       <div className="rb-events sher-lock">
         <h2 className="rs-text">Sherlocked <br></br><span></span> </h2>
         <img src={laserStrike} className="rcevent-img ls-img" alt="" />
         <div className="events-btn">
-          <a href="">View Event</a>
+          <a href="sherlocked">View Event</a>
         </div>   
       </div>
       <div className="rb-events electro-chess">
         <h2 className="ls-text">Electronic <br></br><span>Chess</span> </h2>
         <img src={laserStrike} className="rcevent-img rs-img" alt="" />
         <div className="events-btn">
-          <a href="">View Event</a>
+          <a href="electronicchess">View Event</a>
         </div>   
       </div>
       <div className="rb-events electro-art">
         <h2 className="rs-text">Electronic <br></br><span>Art</span> </h2>
         <img src={laserStrike} className="rcevent-img ls-img" alt="" />
         <div className="events-btn">
-          <a href="">View Event</a>
+          <a href="electronicart">View Event</a>
         </div>   
       </div>
       <div className="rb-events clad-code">
         <h2 className="ls-text">Cladding <br></br><span>the code</span> </h2>
         <img src={laserStrike} className="rcevent-img rs-img" alt="" />
         <div className="events-btn">
-          <a href="">View Event</a>
+          <a href="claddingcode">View Event</a>
         </div>   
       </div>
-      <div className="rb-events web-arquestt">
+      <div className="rb-events web-quest">
         <h2 className="rs-text">Web <br></br><span>Quest</span> </h2>
         <img src={laserStrike} className="rcevent-img ls-img" alt="" />
         <div className="events-btn">
-          <a href="">View Event</a>
+          <a href="webquest">View Event</a>
         </div>   
       </div>
       <div className="rb-events infor-mal">
         <h2 className="ls-text">Informals <br></br><span></span> </h2>
         <img src={laserStrike} className="rcevent-img rs-img" alt="" />
         <div className="events-btn">
-          <a href="">View Event</a>
+          <a href="informals">View Event</a>
         </div>   
       </div>
     </div>
