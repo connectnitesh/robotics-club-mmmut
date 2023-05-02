@@ -18,7 +18,7 @@
   .main{
     display: flex;
   }
-  .heading {
+  .heading-h1 {
     display: flex;
     width: 99vw;
     height: 100px;
@@ -27,11 +27,11 @@
     flex-direction: column;
     margin-top: 200px;
   }
-  .heading img {
+  .heading-h1 img {
     width: 300px;
     height: 300px;
   }
-  .heading h1 {
+  .heading-h1 h1 {
     color:white;
     font-size: 3rem;
     font-family: "Bruno Ace SC", cursive;
@@ -39,7 +39,7 @@
     /* margin-top: 300px;
       margin-left: 550px; */
   }
-  #about{
+  #about-page{
     
     display: flex;
     height: 340px;
@@ -102,14 +102,12 @@
    background-size: cover;
    opacity: 0.75;
   }
-  #contact{
+  #contact-page{
     height: 350px;
     display: flex;
     margin-top: 15px;
   }
   .btn {
-  
-   
     width: 176px;
     height: 40px;
     display: flex;
@@ -125,7 +123,7 @@
      text-decoration: none;
    }
    @media only screen and (max-width:480px){
-   .heading h1{
+   .heading-h1 h1{
       color: white;
       font-size: 1.6rem;
       font-family: 'Bruno Ace SC', cursive;
@@ -139,11 +137,11 @@
       margin: 0px;
     }
     
-    .heading img{
+    .heading-h1 img{
       width: 200px;
       height: 200px;
     }
-    #about{
+    #about-page{
         display: flex;
         flex-direction: column;
         height: 300px;
@@ -164,7 +162,7 @@
         width: auto;
         /* overflow: hidden; */
     }
-    #contact{
+    #contact-page{
         display: flex;
         flex-direction: column;
         margin-top: 60px;

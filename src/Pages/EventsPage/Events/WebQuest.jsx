@@ -22,13 +22,13 @@ const WebQuest = () => {
       </a>
     </Menu>
     <div className="maincontainer">
-        <div className="heading">
+    <div className="heading-h1">
           <img src={roboGif} alt id="img" />
           <h1>ROBOWARS</h1>
         </div>
       </div>
     <div id="full">
-    <div id="about">
+    <div id="about-page">
       <div class="main">
         <div class="text">DESCRIPTION</div>
       <div class="ntext"></div>
@@ -63,7 +63,7 @@ const WebQuest = () => {
         Let the wars begin! With the increasing popularity of robotic combat sports such as RoboWars and Battle of Bots, many students think about building a fighting robot of their own. If you are crazy enough, then you can build your own fighting machine then here stands your chance , conducted by the <strong>Robotics Club</strong> of MMMUT Gorakhpur. It is savage. It is treacherous. It is a game of style, control, damage and aggression with the robots pitting each other in deadly combat. It is time to concentrate on the hacking and slashing of the robots. Now it is time to rumble. It's the Grand Finale of war. Get ready to feel the chills and shivers down your spine and become a part of Robowars
       </div>
      </div>
-     <div id="contact">
+     <div id="contact-page">
      <div class="main">
       <div class="text">CONTACT</div>
       <div class="ntext"></div>
