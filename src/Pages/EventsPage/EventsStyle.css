@@ -1,0 +1,128 @@
+.eventPage-container {
+  background-color: black;
+  color: white;
+}
+
+.events-landing {
+  position: relative;
+  height: 100vh;
+  background-color: black;
+  color: white;
+}
+
+.events-items {
+  position: absolute;
+  top: 15%;
+  width: 70%;
+  padding: 2rem;
+}
+
+.events-items img {
+  width: 100%;
+}
+
+.rc-robot {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.btn-robomania {
+  color: #ff0000;
+  background: #fff;
+  margin: 2rem;
+  text-align: center;
+  text-decoration: none;
+  font-size: 1.5rem;
+  padding: 0.4rem 4rem;
+  display: inline-block;
+  transform: skew(15deg);
+}
+
+.btn-robomania > span {
+  display: inline-block;
+  transform: skew(-15deg);
+}
+
+.landing-details {
+  display: flex;
+  position: absolute;
+  bottom: 2rem;
+  left: 2rem;
+}
+
+.landing-icons {
+  margin-right: 2rem;
+  padding: 1rem;
+}
+
+.rb-events {
+  position: relative;
+  min-height: 100vh;
+  padding: 6rem;
+}
+
+.rb-events h2 {
+  z-index: 2;
+  font-family: "Asul", sans-serif;
+  font-size: 8rem;
+  text-decoration: solid;
+  text-transform: uppercase;
+  font-weight: 800;
+  color: var(--glow-color);
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke-color: #000;
+  -webkit-text-stroke-width: 0.3rem;
+  text-shadow: 1px 5px 15px var(--glow-color);
+}
+
+
+.events-btn {
+  position: absolute;
+  bottom:20%;
+  left: 40%;
+  background-color: transparent;
+  width: 100px;
+  height: 100px;
+  border: 0.2rem solid var(--glow-color2);
+  border-radius: 50%;
+  padding: 1.4rem;
+  -webkit-box-shadow: inset 0px 0px 0.3rem 0px var(--glow-color2),
+    0px 0px 0.5em 0px var(--glow-color);
+  -moz-box-shadow: inset 0px 0px 0.5em 0px var(--glow-color2),
+    0px 0px 0.5em 0px var(--glow-color);
+  box-shadow: inset 0px 0px 0.5em 0px var(--glow-color2),
+    0px 0px 0.5em 0px var(--glow-color2);
+}
+
+.events-btn a {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 1.2rem;
+  text-decoration: none;
+  font-weight: 500;
+  color: var(--pure);
+}
+
+  .rs-text{
+    position: absolute;
+    left:10%;
+    top:0%;
+  }
+  
+  .ls-img{
+    position: absolute;
+    right:10%;
+    top:20%;
+  }
+
+  .ls-text{
+    position: absolute;
+    right:10%;
+    top:20%;
+  }
+  
+  .rs-img{
+    position: absolute;
+    left:10%;
+    top:15%;
+  }
