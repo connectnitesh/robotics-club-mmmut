@@ -5,6 +5,7 @@ import ThirdyearContact from './ThirdYear/ThirdyearContact'
 import ParticleBckg from "../../components/ParticleBckg/ParticleBckg";
 import particleconfiga from "./particleconfiga";
 import SecondyearContact from './SecondYear/SecondyearContact'
+import FinalyearContact from "./FinalYear/FinalyearContact";
 import { elastic as Menu } from 'react-burger-menu';
 import Aos from "aos";
 import "aos/dist/aos.css";
@@ -14,6 +15,18 @@ const TeamsPage = () => {
     Aos.init({duration: 800});
   },[]);
 
+  const finalyearList = FinalyearContact.map( (members) => {
+    return (
+        <Card
+        image={members.image}
+        name= {members.name}
+        position= {members.position}
+        insta={members.insta}
+        fb={members.fb}
+        lin={members.lin}
+      />
+    )
+})
   const thirdyearList = ThirdyearContact.map( (members) => {
       return (
           <Card
@@ -64,8 +77,8 @@ const TeamsPage = () => {
    </div>
     <section id="final-year">
     <div className="team-card">
-        <h2 className="team-heading">Third Year Members</h2>
-        {thirdyearList}
+        <h2 className="team-heading">Final Year Members</h2>
+        {finalyearList}
       </div>
     </section>
 
