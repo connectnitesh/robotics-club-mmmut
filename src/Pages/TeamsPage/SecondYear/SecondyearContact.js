@@ -27,6 +27,12 @@ const secondyear = [
      "lin": "https://www.linkedin.com/in/akhil-verma-67a3bb171"
     },
     {
+        "name": "Anubhav Sonker",
+        "image": "https://res.cloudinary.com/dhlsvwpny/image/upload/v1682714383/Robotics%20Club%20Team%20Images/2nd%20Year/2nd%20Year/Anubhav_Sonker_sxamtj.jpg",
+        "position": "Executive Member",
+        "lin": "https://www.linkedin.com/in/anubhav-sonkar-93762122b"
+       },
+    {
      "name": "Sahil Srivastava",
      "image": "https://res.cloudinary.com/dhlsvwpny/image/upload/v1682714384/Robotics%20Club%20Team%20Images/2nd%20Year/2nd%20Year/IMG_20230216_043844_349_-_Sahil_Srivastava_g4k5pp.jpg",
      "position": "Executive Member",
@@ -41,12 +47,7 @@ const secondyear = [
      "fb": "https://www.facebook.com/profile.php?id=100008422118217&mibextid=ZbWKwL",
      "lin": "https://www.linkedin.com/in/nitish-kumar-bharti-171640228"
     },
-    {
-        "name": "Anubhav Sonker",
-        "image": "https://res.cloudinary.com/dhlsvwpny/image/upload/v1682714383/Robotics%20Club%20Team%20Images/2nd%20Year/2nd%20Year/Anubhav_Sonker_sxamtj.jpg",
-        "position": "Executive Member",
-        "lin": "https://www.linkedin.com/in/anubhav-sonkar-93762122b"
-       },
+   
     {
      "name": "Akash Singh ",
      "image": "https://res.cloudinary.com/dhlsvwpny/image/upload/v1682714387/Robotics%20Club%20Team%20Images/2nd%20Year/2nd%20Year/IMG_3242_-_Akash_singh_iyy6kr.jpg",

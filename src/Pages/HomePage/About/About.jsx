@@ -38,7 +38,7 @@ const About = () => {
         <div data-aos="fade-left" className="vision-items">
           <h3 className="vision-content">Explore</h3>
           <h3 className="vision-content">Develope</h3>
-          <h3 className="vision-content">Inovate</h3>
+          <h3 className="vision-content">Innovate</h3>
         </div>
       </div>
       <div data-aos="fade-up"><h3>

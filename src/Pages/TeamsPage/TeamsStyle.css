@@ -1,3 +1,50 @@
+/*       Navbar           */
+.navbar{
+    width: 100vw;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    scroll-behavior: smooth;
+}
+
+.navbar ul{
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+}
+.navbar ul li{
+    padding: 5px;
+    list-style: none;
+    text-decoration: none;
+    /* width: 120px;
+    height: 40px; */
+    /* border: 2px solid red; */
+    text-align: center;
+    background-color: #F0EEED;
+    margin: 0.6rem;
+   border-radius: 8px 8px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   padding: 0.7rem;
+
+
+}
+.navbar li a{
+    text-decoration: none;
+    color: black;
+    font-size: 0.8rem;
+    font-family: 'Ubuntu', sans-serif;
+    /* font-family: 'Asul', sans-serif; */
+    font-weight: 600;
+
+
+}
+.humburger{
+    display: none;
+}
 
 .team-card{
     background-color: #000;
@@ -156,5 +203,16 @@
     }
     .team-card{
         margin-top: 0px;
+    }
+    .navbar{
+        display: none;
+    }
+    .bm-burger-button{
+        display: block;
+        position: fixed;
+        width: 20px;
+        height: 16px;
+        top:1rem;
+        right: 1rem;
     }
 }
