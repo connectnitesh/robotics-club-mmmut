@@ -24,6 +24,41 @@ const finalyear=[
         "position": "Vice President ",
         "insta": "singh_alisha007"
        },
+       {
+     
+        "name": "Prakrity Srivastava",
+        "image": "https://res.cloudinary.com/dhlsvwpny/image/upload/v1683123422/Robotics%20Club%20Team%20Images/Final%20year/final%20year/P4_-_Prakrity_Srivastava_oxvoj9.jpg",
+        "position": "Joint Secretary ",
+        "insta": "https:\/\/instagram.com\/_prakritisrivastava?igshid=ZDdkNTZiNTM=",
+         "fb": "https:\/\/www.facebook.com\/prakritiisrivastava?mibextid=ZbWKwL",
+         "lin": "https:\/\/www.linkedin.com\/in\/prakrity-srivastava-94b7a5204"
+       },
+       {
+     
+        "name": "Pranjul Pal",
+        "image": "https://res.cloudinary.com/dhlsvwpny/image/upload/v1683123423/Robotics%20Club%20Team%20Images/Final%20year/final%20year/InShot_20220103_131928306_copy_960x960_-_Pranjul_Pal_fo7lh5.jpg",
+        "position": "Secretary ",
+        "insta": "https:\/\/instagram.com\/badmin.passion?igshid=NzMyMjgxZWIzNw==",
+         "fb": "https:\/\/www.facebook.com\/pranjul.pal.399?mibextid=ZbWKwL",
+         "lin": "https:\/\/www.linkedin.com\/in\/pranjul-pal-7269971b9"
+       },
+       {
+     
+        "name": "Avantika Singh",
+        "image": "https://res.cloudinary.com/dhlsvwpny/image/upload/v1683123423/Robotics%20Club%20Team%20Images/Final%20year/final%20year/Snapchat-1267114925-01_-_Avantika_singh_ceb2pg.jpg",
+        "position": "Technical Head",
+        "insta": "https:\/\/www.instagram.com\/avantika_s_singh_\/",
+         "fb": "https:\/\/www.facebook.com\/profile.php?id=100005882074641"
+       },
+       {
+     
+        "name": "Harsh Kumar Bharti",
+        "image": "https://res.cloudinary.com/dhlsvwpny/image/upload/v1683123424/Robotics%20Club%20Team%20Images/Final%20year/final%20year/PSX_20220609_212336-01_-_Harsh_Kumar_Bharti_cmbld6.jpg",
+        "position": "Secretary ",
+        
+         "fb": "https:\/\/www.facebook.com\/harsh.bharti.146",
+         "lin": "https:\/\/www.linkedin.com\/in\/harsh-kumar-bharti-385b601ba"
+       },
     {
    
      "name": "Krishna Saxena",

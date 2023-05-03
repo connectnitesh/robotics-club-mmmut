@@ -6,8 +6,8 @@ const thirdyear = [
      "name": "Nitesh Rawat",
      "image": "https://res.cloudinary.com/dhlsvwpny/image/upload/v1683057948/Robotics%20Club%20Team%20Images/3rd%20Year/3rd%20Year/NiteshRawat_wuhsoe.jpg",
      "position": "Technical Lead",
-     "insta": "https:\/\/instagram.com\/ashutosh_shukla99?igshid=ZDdkNTZiNTM=",
-     "lin": "https:\/\/www.linkedin.com\/in\/ashutosh-shukla9\/"
+     "insta": "/",
+     "lin": "/"
     },
    
     {
@@ -32,6 +32,21 @@ const thirdyear = [
      "insta": "https:\/\/www.instagram.com\/invites\/contact\/?i=qe4prn5njs9r&amp;utm_content=jkm9u84",
      "fb": "https:\/\/www.facebook.com\/archana.chaurasiya.7399?mibextid=ZbWKwL",
      "lin": "https:\/\/www.linkedin.com\/in\/archana-chaurasiya-4507bb182"
+    },
+    {
+     "name": "Nitish Kumar Singh",
+     "image": "https://res.cloudinary.com/dhlsvwpny/image/upload/v1683121763/Robotics%20Club%20Team%20Images/3rd%20Year/3rd%20Year/IMG-20180728-WA0001_-_NITISH_SINGH_xmyk6d.jpg",
+     "position": "Managerial Lead",
+     
+     "fb": "https:\/\/www.facebook.com\/nitish.singhchauhan.357?mibextid=ZbWKwL",
+     "lin": "https:\/\/www.linkedin.com\/in\/nitishwa"
+    },
+    {
+     "name": "Kshitiz Patel",
+     "image": "https://res.cloudinary.com/dhlsvwpny/image/upload/v1683121872/Robotics%20Club%20Team%20Images/3rd%20Year/3rd%20Year/IMG_20211105_222842_-_Kshitiz_Patel_xsmgb2.jpg",
+     "position": "Web Development Lead",
+     "insta": "https:\/\/www.instagram.com\/astronaut_wolowitz\/",
+     "lin": "https:\/\/www.linkedin.com\/in\/kshitiz-patel\/"
     },
     
     {
@@ -76,7 +91,14 @@ const thirdyear = [
      "position": "Web Development Lead",
      "insta": "https:\/\/www.instagram.com\/akshat493\/",
      "lin": "https:\/\/www.linkedin.com\/in\/akshat-agarwal-263995210"
-    },{
+    },
+    {
+        "name": "Anushka Yadav",
+        "image": "https://res.cloudinary.com/dhlsvwpny/image/upload/v1683122233/Robotics%20Club%20Team%20Images/3rd%20Year/3rd%20Year/20230315_190621_-_Anu_Yadav_y3fyvq.jpg",
+        "position": "Designing Lead",
+        
+       },
+    {
         "name": "Akshay Singh Kushwaha",
         "image": "https://res.cloudinary.com/dhlsvwpny/image/upload/v1682714427/Robotics%20Club%20Team%20Images/3rd%20Year/3rd%20Year/IMG_20201213_194554_863_-_Akshay_Singh_venzpc.jpg",
         "insta": "https:\/\/instagram.com\/choexo_freak?igshid=ZDdkNTZiNTM=",
