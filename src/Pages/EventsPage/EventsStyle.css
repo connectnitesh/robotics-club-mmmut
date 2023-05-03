@@ -1,12 +1,12 @@
 .eventPage-container {
-  background-color: black;
+  background : url(../../assets/images/events/bg_event.jpg) no-repeat fixed;
   color: white;
 }
 
 .events-landing {
   position: relative;
   height: 100vh;
-  background-color: black;
+  background : url(../../assets/images/events/bg_event.jpg) no-repeat fixed;
   color: white;
 }
 
