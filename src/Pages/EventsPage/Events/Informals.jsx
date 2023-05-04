@@ -23,10 +23,10 @@ const Informals = () => {
     </Menu>
 
 
-    <div className="maincontainer">
+    <div className="maincontainer_informal">
     <div className="heading-h1">
           <img src={roboGif} alt id="img" />
-          <h1>ROBOWARS</h1>
+          <h1>Informals</h1>
         </div>
       </div>
     <div id="full">
