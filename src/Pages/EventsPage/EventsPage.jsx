@@ -32,16 +32,10 @@ const EventsPage = () => {
       <section className="events-landing">
         <div data-aos="fade-up" className="events-items">
           <img src={rbText} className="rb-text" alt="" />
-          <p className="robo-para">
-            Robomania is the coalescence of caliber and rewards, technical
-            expertise and valor where budding engi Lorem ipsum dolor sit amet
-            consectetur adipisicing elit. Odit necessitatibus nesciunt
-            exercitationem! Incidunt quia iusto totam nobis quis explicabo
-            dolore, architecto at fugiat amet voluptatibus. Ab vel eos est
-            voluptatibus?</p>
-          <div >
-            <a href="#laserStrike" className="btn-robomania" ><span>Explore</span></a>
-          </div> */}
+         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates consequatur placeat doloremque soluta saepe possimus optio sit delectus accusamus perferendis et fugiat illum, repellat quisquam velit id vel autem pariatur nam perspiciatis nulla assumenda! Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo asperiores delectus eius porro mollitia quis expedita! Quos fugiat pariatur officia porro dicta eveniet alias rem exercitationem accusantium, illum facere voluptatem.
+
+         </p>
+          
         </div>
         <div data-aos="fade-right" className="landing-details">
           <div className="landing-icons licon1">
@@ -60,7 +54,7 @@ const EventsPage = () => {
         <img src={rbRobot} className="rc-robot" alt="" />
       </section>
       <div data-aos="zoom-in" className="rb-events laser-strike" id="laserStrike">
-        <h2 className="rs-text">Laser <br></br><span>Strike</span> </h2>
+        <h2 className="rs-text" >Laser <br></br><span>Strike</span> </h2>
         <img src={laserStrike} className="rcevent-img ls-img" alt="" />
         <div className="events-btn">
           <a href="laserstrike">View Event</a>
@@ -74,21 +68,21 @@ const EventsPage = () => {
         </div>   
       </div>
       <div className="rb-events sher-lock">
-        <h2 className="rs-text">Sherlocked <br></br><span></span> </h2>
+        <h2 className="rs-text" id="sher-text">Sherlocked <br></br><span></span> </h2>
         <img src={laserStrike} className="rcevent-img ls-img" alt="" />
         <div className="events-btn">
           <a href="sherlocked">View Event</a>
         </div>   
       </div>
       <div className="rb-events electro-chess">
-        <h2 className="ls-text">Electronic <br></br><span>Chess</span> </h2>
+        <h2 className="ls-text" id="chess-text">Electronic <br></br><span>Chess</span> </h2>
         <img src={laserStrike} className="rcevent-img rs-img" alt="" />
         <div className="events-btn">
           <a href="electronicchess">View Event</a>
         </div>   
       </div>
       <div className="rb-events electro-art">
-        <h2 className="rs-text">Electronic <br></br><span>Art</span> </h2>
+        <h2 className="rs-text" id="art-text">Electronic <br></br><span>Art</span> </h2>
         <img src={laserStrike} className="rcevent-img ls-img" alt="" />
         <div className="events-btn">
           <a href="electronicart">View Event</a>
@@ -109,7 +103,7 @@ const EventsPage = () => {
         </div>   
       </div>
       <div className="rb-events infor-mal">
-        <h2 className="ls-text">Informals <br></br><span></span> </h2>
+        <h2 className="ls-text" id="informals-text">Informals <br></br><span></span> </h2>
         <img src={laserStrike} className="rcevent-img rs-img" alt="" />
         <div className="events-btn">
           <a href="informals">View Event</a>
