@@ -125,14 +125,14 @@ button[type="submit"] {
   }
 
   .left-contact iframe{
-    width: 350px;
-    height: 150px;
+    width: 86%;
+    height: 15%;
   }
 
   .right-contact{
     margin-top:2.5rem;
     padding-left: 0;
-    width: 350px;
+    width: 86%;
   }
 
   .details-container {
@@ -152,4 +152,5 @@ button[type="submit"] {
     font-size: 0.65rem;
     margin-top: 3rem;
   }
+ 
 }

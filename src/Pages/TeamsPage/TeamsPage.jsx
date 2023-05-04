@@ -6,6 +6,7 @@ import ParticleBckg from "../../components/ParticleBckg/ParticleBckg";
 import particleconfiga from "./particleconfiga";
 import SecondyearContact from './SecondYear/SecondyearContact'
 import FinalyearContact from "./FinalYear/FinalyearContact";
+import FacultyContact from "./Faculty/FacultyContact"
 import { elastic as Menu } from 'react-burger-menu';
 import Aos from "aos";
 import "aos/dist/aos.css";
@@ -15,6 +16,18 @@ const TeamsPage = () => {
     Aos.init({duration: 800});
   },[]);
 
+  const facultyList = FacultyContact.map( (members) => {
+    return (
+        <Card
+        image={members.image}
+        name= {members.name}
+        position= {members.position}
+        insta={members.insta}
+        fb={members.fb}
+        lin={members.lin}
+      />
+    )
+})
   const finalyearList = FinalyearContact.map( (members) => {
     return (
         <Card
@@ -57,6 +70,7 @@ const TeamsPage = () => {
       {/* <ParticleBckg myparticle={particleconfiga}/> */}
     <nav className="navbar">
       <ul>
+        <li><a href="#final-year">Faculty</a> </li>
         <li><a href="#final-year">FINAL YEAR</a> </li>
         <li> <a href="#third-year">THIRD YEAR</a> </li>
         <li> <a href="#second-year">SECOND YEAR</a> </li>
@@ -64,6 +78,9 @@ const TeamsPage = () => {
     </nav>
    <div className="humburger">
    <Menu right>
+      <a className="menu-item" href="#final-year">
+        FACULTY
+      </a>
       <a className="menu-item" href="#final-year">
         FINAL YEAR
       </a>
@@ -75,6 +92,12 @@ const TeamsPage = () => {
       </a>
     </Menu>
    </div>
+    <section id="faculty">
+    <div className="team-card">
+        <h2 className="team-heading">Faculty</h2>
+        {facultyList}
+      </div>
+    </section>
     <section id="final-year">
     <div className="team-card">
         <h2 className="team-heading">Final Year Members</h2>

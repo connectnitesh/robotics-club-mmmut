@@ -20,22 +20,13 @@ const secondyear = [
     },
     {
         "name": "Anubhav Sonker",
-        "image": "https://res.cloudinary.com/dhlsvwpny/image/upload/v1683058672/Robotics%20Club%20Team%20Images/2nd%20Year/2nd%20Year/msg1101088209-244_gn6mab.jpg",
+        "image": "https://res.cloudinary.com/dhlsvwpny/image/upload/v1683117421/Robotics%20Club%20Team%20Images/2nd%20Year/2nd%20Year/msg1101088209-243_rjcybm.jpg",
         "position": "Executive Member",
         "insta": "https://instagram.com/anubhav_sonker?igshid=ZDdkNTZiNTM=",
          "fb": "https://www.facebook.com/profile.php?id=100079561038653&mibextid=ZbWKwL",
         "lin": "https://www.linkedin.com/in/anubhav-sonkar-93762122b"
         
        },
-    {
-     "name": "Akhil Verma",
-     "image": "https://res.cloudinary.com/dhlsvwpny/image/upload/v1682714384/Robotics%20Club%20Team%20Images/2nd%20Year/2nd%20Year/IMG_20220802_201456_-_Akhil_Verma_q1oqs5.jpg",
-     "position": "Executive Member",
-     "insta": "https://instagram.com/akhilverma_27?igshid=ZDdkNTZiNTM=",
-     "fb": "https://www.facebook.com/profile.php?id=100073450068479&mibextid=ZbWKwL",
-     "lin": "https://www.linkedin.com/in/akhil-verma-67a3bb171"
-    },
-   
     
     {
      "name": "Nitish Kumar Bharti",
@@ -44,6 +35,13 @@ const secondyear = [
      "fb": "https://www.facebook.com/profile.php?id=100008422118217&mibextid=ZbWKwL",
      "lin": "https://www.linkedin.com/in/nitish-kumar-bharti-171640228"
     },
+    {
+        "name": "Ashish Gupta",
+        "image": "https://res.cloudinary.com/dhlsvwpny/image/upload/v1683122957/Robotics%20Club%20Team%20Images/2nd%20Year/2nd%20Year/IMG_20230321_184422_838_-_Ashish_Gupta_vdmrmc.jpg",
+        "position": "Executive Member",
+        "insta": "https:\/\/instagram.com\/ashish_gupta_curious_?igshid=ZDdkNTZiNTM=",
+        "lin": "https:\/\/www.linkedin.com\/in\/ashish-gupta-5b7282228"
+       },
    
     {
      "name": "Akash Singh ",
@@ -54,13 +52,14 @@ const secondyear = [
      "lin": "https://www.linkedin.com/in/akash-singh-0b950a22a"
     },
     {
-        "name": "Sahil Srivastava",
-        "image": "https://res.cloudinary.com/dhlsvwpny/image/upload/v1682714384/Robotics%20Club%20Team%20Images/2nd%20Year/2nd%20Year/IMG_20230216_043844_349_-_Sahil_Srivastava_g4k5pp.jpg",
+        "name": "Akhil Verma",
+        "image": "https://res.cloudinary.com/dhlsvwpny/image/upload/v1683184063/Robotics%20Club%20Team%20Images/2nd%20Year/2nd%20Year/msg1816448441-250_pu9yfh.jpg",
         "position": "Executive Member",
-        "insta": "https://instagram.com/sahil_srivastava_25?igshid=ZDdkNTZiNTM=",
-        "fb": "https://www.facebook.com/profile.php?id=100075365914423&mibextid=ZbWKwL",
-        "lin": "https://www.linkedin.com/in/sahil-srivastava-211957225"
+        "insta": "https://instagram.com/akhilverma_27?igshid=ZDdkNTZiNTM=",
+        "fb": "https://www.facebook.com/profile.php?id=100073450068479&mibextid=ZbWKwL",
+        "lin": "https://www.linkedin.com/in/akhil-verma-67a3bb171"
        },
+   
     {
      "name": "Gaurav Kumar Sen",
      "image": "https://res.cloudinary.com/dhlsvwpny/image/upload/v1682714387/Robotics%20Club%20Team%20Images/2nd%20Year/2nd%20Year/IMG_20230418_164328_-_Gaurav_Sen_dpzxn8.jpg",
@@ -121,6 +120,14 @@ const secondyear = [
         "lin": "www.linkedin.com/in/ divyanshi-gautam-b7ba66228"
     },
     {
+        "name": "Sahil Srivastava",
+        "image": "https://res.cloudinary.com/dhlsvwpny/image/upload/v1682714384/Robotics%20Club%20Team%20Images/2nd%20Year/2nd%20Year/IMG_20230216_043844_349_-_Sahil_Srivastava_g4k5pp.jpg",
+        "position": "Executive Member",
+        "insta": "https://instagram.com/sahil_srivastava_25?igshid=ZDdkNTZiNTM=",
+        "fb": "https://www.facebook.com/profile.php?id=100075365914423&mibextid=ZbWKwL",
+        "lin": "https://www.linkedin.com/in/sahil-srivastava-211957225"
+       },
+    {
         "name": "Jyoti Singh",
         "image": "https://res.cloudinary.com/dhlsvwpny/image/upload/v1682714385/Robotics%20Club%20Team%20Images/2nd%20Year/2nd%20Year/Jyoti_Singh_qgiusy.jpg",
         "position": "Exectutive Member",
@@ -142,6 +149,25 @@ const secondyear = [
         "position": "Exectutive Member",
         "fb": "https://www.facebook.com/profile.php?id=100013653669037&mibextid=ZbWKwL",
         "insta": "https://instagram.com/ut_covers",
+    },
+    {
+        "name": "Sameeksha Mishra",
+        "image": "https://res.cloudinary.com/dhlsvwpny/image/upload/v1683122956/Robotics%20Club%20Team%20Images/2nd%20Year/2nd%20Year/Snapchat-142212149_-_Sameeksha_Mishra_d7dyax.jpg",
+        "position": "Exectutive Member",
+    
+    },
+    {
+        "name": "Sandesh kumar",
+        "image": "https://res.cloudinary.com/dhlsvwpny/image/upload/v1683122957/Robotics%20Club%20Team%20Images/2nd%20Year/2nd%20Year/IMG_20220802_144639_-_Sandesh_Kumar_wuzabv.jpg",
+        "position": "Exectutive Member",
+        
+    },{
+        "name": "Yogeshwar Gupta",
+        "image": "https://res.cloudinary.com/dhlsvwpny/image/upload/v1683122958/Robotics%20Club%20Team%20Images/2nd%20Year/2nd%20Year/IMG_20230101_215518_-_Yogeshwar_Gupta_xertdj.jpg",
+        "position": "Exectutive Member",
+        "insta": "http:\/\/instagram.com\/yogeshwar.gupta.73?utm_source=qr",
+        "fb": "https:\/\/www.facebook.com\/yogeshwar.gupta.73?mibextid=ZbWKwL",
+        "lin": "https:\/\/www.linkedin.com\/in\/yogeshwar-gupta-689562228"
     }
    ]
 
