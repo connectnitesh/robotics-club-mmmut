@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import { BrowserRouter, Routes, Route } from "react-router-dom"; 
 import HomePage from './Pages/HomePage/HomePage';
 import EventsPage from './Pages/EventsPage/EventsPage';
@@ -14,8 +14,8 @@ import LaserStrike from './Pages/EventsPage/Events/LaserStrike';
 import Sherlocked from './Pages/EventsPage/Events/Sherlocked';
 import WebQuest from './Pages/EventsPage/Events/WebQuest';
 
-
 function App() {
+
   return (
     <BrowserRouter>
       <Routes> 
