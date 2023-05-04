@@ -1,12 +1,13 @@
 .eventPage-container {
-  background-color: black;
+  background : url(../../assets/images/events/bg_event.jpg) no-repeat fixed;
   color: white;
+  background-color: black;
 }
 
 .events-landing {
   position: relative;
   height: 100vh;
-  background-color: black;
+  /* background : url(../../assets/images/events/bg_event.jpg) no-repeat fixed; */
   color: white;
 }
 
@@ -126,97 +127,8 @@
     left:10%;
     top:15%;
   }
-  @media only screen and (max-width:480px){
-    .rc-robot{
-      width: 100%;
-      height: 59%;
-      bottom: 15%;
-    }
-    .rb-events{
-      margin-top: 5rem;
-    }
-    .rb-events h2 {
-      z-index: 2;
-      font-family: "Asul", sans-serif;
-      font-size: 3.5rem;
-      text-decoration: solid;
-      text-transform: uppercase;
-      font-weight: 700;
-      color: var(--glow-color);
-      -webkit-text-fill-color: transparent;
-      -webkit-text-stroke-color: #000;
-      -webkit-text-stroke-width: 0.3rem;
-      text-shadow: 1px 5px 15px var(--glow-color);
-    }
-   .rs-text{
-    left: 20%;
-   }
-   .ls-img{
-    width: 80%;
-    height: 38%;
-   }
-   .events-btn {
-    position: absolute;
-    bottom:32%;
-    left: 65%;
-    background-color: transparent;
-    width: 100px;
-    height: 100px;
-    border: 0.2rem solid var(--glow-color2);
-    border-radius: 50%;
-    padding: 1.4rem;
-    -webkit-box-shadow: inset 0px 0px 0.3rem 0px var(--glow-color2),
-      0px 0px 0.5em 0px var(--glow-color);
-    -moz-box-shadow: inset 0px 0px 0.5em 0px var(--glow-color2),
-      0px 0px 0.5em 0px var(--glow-color);
-    box-shadow: inset 0px 0px 0.5em 0px var(--glow-color2),
-      0px 0px 0.5em 0px var(--glow-color2);
-  }
-  .rs-img{
-      width: 80%;
-      height: 40%;
-  }
-  .ls-text{
-    top: 0%;
-    left: 10%;
-  }
-  #sher-text{
-    left: 2%;
-    font-size: 3rem;
-    top: 9%;
-  }
-  #chess-text{
-    left: 1.5%;
-    font-size: 3rem;
-    top: 10%;
-  }
-  #art-text{
-    left: 2%;
-    font-size: 3rem;
-  }
-  #informals-text{
-    left: 7%;
-    font-size: 3rem;
-    top: 15%;
-  }
-  .events-items {
-    position: absolute;
-    top: 15%;
-    width: 100%;
-    padding: 1rem;
-  }
-  .landing-details{
-    /* flex-direction: column; */
-    left: 2%;
-    bottom: 0%;
-    margin-top: 4rem;
-    width: 100%;
-   
-  }
-  .landing-icons {
-    margin-right: 3rem;
-    padding: 0.5rem;
- 
-    /* padding-left: 0%; */
-  }
-  }
+
+
+
+  /********* */
+

@@ -1,4 +1,4 @@
-const particleconfiga = {
+const particleconfig = {
   "autoPlay": true,
   "background": {
     "color": {
@@ -34,7 +34,7 @@ const particleconfiga = {
     "events": {
       "onClick": {
         "enable": false,
-        "mode": "push"
+        "mode": []
       },
       "onDiv": {
         "selectors": [],
@@ -44,10 +44,10 @@ const particleconfiga = {
       },
       "onHover": {
         "enable": true,
-        "mode": "repulse",
+        "mode": "trail",
         "parallax": {
-          "enable": true,
-          "force": 12,
+          "enable": false,
+          "force": 2,
           "smooth": 10
         }
       },
@@ -362,7 +362,7 @@ const particleconfiga = {
         "height": 1080
       },
       "limit": 0,
-      "value": 291
+      "value": 100
     },
     "opacity": {
       "random": {
@@ -464,7 +464,7 @@ const particleconfiga = {
         "decay": 0,
         "sync": false
       },
-      "direction": "random",
+      "direction": "clockwise",
       "path": false
     },
     "destroy": {
@@ -498,16 +498,13 @@ const particleconfiga = {
         "enable": false,
         "value": 0
       },
-      "enable": true,
+      "enable": false,
       "enlighten": {
         "enable": false,
         "value": 0
       },
       "mode": "vertical",
-      "speed": 25,
-      "backColor": {
-        "value": "#00eeff"
-      }
+      "speed": 25
     },
     "tilt": {
       "random": {
@@ -533,10 +530,7 @@ const particleconfiga = {
       "particles": {
         "enable": false,
         "frequency": 0.05,
-        "opacity": 1,
-        "color": {
-          "value": "#ffffff"
-        }
+        "opacity": 1
       }
     },
     "wobble": {
@@ -613,4 +607,4 @@ const particleconfiga = {
   "emitters": []
 }
 
-export default particleconfiga;
+export default particleconfig;

@@ -1,5 +1,5 @@
 import React from 'react'
-import './EventStyle.css'
+
 import roboGif from '../../../assets/images/events/Hi Robot Sticker - Hi Robot - Discover & Share GIFs.gif';
 import newgif from '../../../assets/images/events/newgif.gif'
 import { elastic as Menu } from 'react-burger-menu';
@@ -23,10 +23,10 @@ const ElectroNfs = () => {
     </Menu>
 
 
-     <div className="maincontainer">
+     <div className="maincontainer_nfs">
         <div className="heading-h1">
           <img src={roboGif} alt id="img" />
-          <h1>ROBOWARS</h1>
+          <h1>Electro NFS</h1>
         </div>
       </div>
     <div id="full">
@@ -37,7 +37,7 @@ const ElectroNfs = () => {
       <img src={newgif}alt="" id="img1"/>
       </div>
       <div class="para">
-        <p>Let the wars begin! With the increasing popularity of robotic combat sports such as <strong>RoboWars</strong> and Battle of Bots, many students think about building a fighting robot of their own. If you are crazy enough, then you can build your own fighting machine then here stands your chance , conducted by the <strong>Robotics Club</strong> of <strong>MMMUT Gorakhpur</strong>. It is savage. It is treacherous. It is a game of style, control, damage and aggression with the robots pitting each other in deadly combat. It is time to concentrate on the hacking and slashing of the robots. Now it is time to rumble. It's the Grand Finale of war. Get ready to feel the chills and shivers down your spine and become a part of Robowars</p>
+        <p>"Need For Speed brought to life....Get Ready to experience more thrilling,more exciting larger than life gaming with the club's newly introduced event NFS,gripping you more and more with its magnanimous setup both literally and metaphorically thrust your control skils at the stearing and race your opponent to the finish for a win.....!"</p>
       </div>
      </div>
      <div id="format">

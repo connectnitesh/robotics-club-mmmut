@@ -8,6 +8,7 @@ font-family: 'Ubuntu', sans-serif; */
   margin:0;
   padding:0;
   box-sizing: border-box;
+
 }
 
 :root{
@@ -32,6 +33,7 @@ font-family: 'Ubuntu', sans-serif; */
   display:none;     
 
 }
+
 
 h1,h2{
   font-family:'Ubuntu', sans-serif;;
