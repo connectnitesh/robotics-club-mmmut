@@ -53,7 +53,7 @@ const secondyear = [
     },
     {
         "name": "Akhil Verma",
-        "image": "https://res.cloudinary.com/dhlsvwpny/image/upload/v1682714384/Robotics%20Club%20Team%20Images/2nd%20Year/2nd%20Year/IMG_20220802_201456_-_Akhil_Verma_q1oqs5.jpg",
+        "image": "https://res.cloudinary.com/dhlsvwpny/image/upload/v1683184063/Robotics%20Club%20Team%20Images/2nd%20Year/2nd%20Year/msg1816448441-250_pu9yfh.jpg",
         "position": "Executive Member",
         "insta": "https://instagram.com/akhilverma_27?igshid=ZDdkNTZiNTM=",
         "fb": "https://www.facebook.com/profile.php?id=100073450068479&mibextid=ZbWKwL",

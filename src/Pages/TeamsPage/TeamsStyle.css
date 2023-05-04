@@ -60,7 +60,9 @@
     justify-items: center;
 }
 
-
+#faculty{
+    min-height: 80vh;
+}
 .team-heading {
     padding-top:2rem;
     color: white;
@@ -214,5 +216,8 @@
         height: 16px;
         top:1rem;
         right: 1rem;
+    }
+    .humburger{
+        display: block;
     }
 }

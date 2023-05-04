@@ -26,6 +26,14 @@ const thirdyear = [
      "lin": "https:\/\/www.linkedin.com\/in\/ashish-patel-3464b7203"
     },
     {
+        "name": "Ishika Gupta ",
+        "image": "https://res.cloudinary.com/dhlsvwpny/image/upload/v1682714425/Robotics%20Club%20Team%20Images/3rd%20Year/3rd%20Year/IMG_20220708_164413_822-01_-_Ishika_Gupta_vuf2rb.jpg",
+        "position": "Web Development Lead ",
+        "insta": "https:\/\/instagram.com\/confusishika",
+        "fb": "https:\/\/www.facebook.com\/confusishika",
+        "lin": "http:\/\/www.linkedin.com\/in\/ishikagupta19"
+       },
+    {
      "name": "Archana Chaurasiya",
      "image": "https://res.cloudinary.com/dhlsvwpny/image/upload/v1682714425/Robotics%20Club%20Team%20Images/3rd%20Year/3rd%20Year/IMG-20230418-WA0022_-_Archana_Chaurasiya_ljduwr.jpg",
      "position": "Editorial Lead",
@@ -48,6 +56,18 @@ const thirdyear = [
      "insta": "https:\/\/www.instagram.com\/astronaut_wolowitz\/",
      "lin": "https:\/\/www.linkedin.com\/in\/kshitiz-patel\/"
     },
+    {
+     "name": "Akash Singh",
+     "image": "https://res.cloudinary.com/dhlsvwpny/image/upload/v1683197038/Robotics%20Club%20Team%20Images/2nd%20Year/2nd%20Year/user_in4p2o.jpg",
+     "position": "Web Development Lead",
+  
+    },
+    {
+     "name": "Rohit Jaiswal",
+     "image": "https://res.cloudinary.com/dhlsvwpny/image/upload/v1683197038/Robotics%20Club%20Team%20Images/2nd%20Year/2nd%20Year/user_in4p2o.jpg",
+     "position": "Web Development Lead",
+    
+    },
     
     {
      "name": "Akriti Srivastava ",
@@ -56,6 +76,19 @@ const thirdyear = [
      "fb": "https:\/\/www.facebook.com\/akriti.srivastava.3939503",
      "lin": "https:\/\/www.linkedin.com\/in\/akriti-srivastava-0b4b97215"
     },
+    {
+        "name": "Akshat Agarwal",
+        "image": "https://res.cloudinary.com/dhlsvwpny/image/upload/v1682714428/Robotics%20Club%20Team%20Images/3rd%20Year/3rd%20Year/IMG20221107200907_-_Akshat_Agarwal_v4hyts.jpg",
+        "position": "Web Development Lead",
+        "insta": "https:\/\/www.instagram.com\/akshat493\/",
+        "lin": "https:\/\/www.linkedin.com\/in\/akshat-agarwal-263995210"
+       },
+       {
+        "name": "Mohammad Ifham ",
+        "image": "https://res.cloudinary.com/dhlsvwpny/image/upload/v1682714431/Robotics%20Club%20Team%20Images/3rd%20Year/3rd%20Year/IMG_20230421_123219_-_Mohammad_Ifham_crvr9k.jpg",
+        "position": "Editorial Lead",
+        "lin": "https:\/\/www.linkedin.com\/in\/mohammad-ifham-549446226"
+       },
     {
      "name": "Arunesh Kumar Sagar",
      "image": "https://res.cloudinary.com/dhlsvwpny/image/upload/v1682714425/Robotics%20Club%20Team%20Images/3rd%20Year/3rd%20Year/WhatsApp_Image_2023-04-18_at_8.28.30_PM_-_Arunesh_Kumar_Sagar_qhoedt.jpg",
@@ -71,27 +104,9 @@ const thirdyear = [
      "fb": "https:\/\/www.facebook.com\/profile.php?id=100068451654507",
      "lin": "https:\/\/www.linkedin.com\/in\/pragya-gupta-6262a9204"
     },
-    {
-     "name": "Ishika Gupta ",
-     "image": "https://res.cloudinary.com/dhlsvwpny/image/upload/v1682714425/Robotics%20Club%20Team%20Images/3rd%20Year/3rd%20Year/IMG_20220708_164413_822-01_-_Ishika_Gupta_vuf2rb.jpg",
-     "position": "Web Development Lead ",
-     "insta": "https:\/\/instagram.com\/confusishika",
-     "fb": "https:\/\/www.facebook.com\/confusishika",
-     "lin": "http:\/\/www.linkedin.com\/in\/ishikagupta19"
-    },
-    {
-     "name": "Mohammad Ifham ",
-     "image": "https://res.cloudinary.com/dhlsvwpny/image/upload/v1682714431/Robotics%20Club%20Team%20Images/3rd%20Year/3rd%20Year/IMG_20230421_123219_-_Mohammad_Ifham_crvr9k.jpg",
-     "position": "Editorial Lead",
-     "lin": "https:\/\/www.linkedin.com\/in\/mohammad-ifham-549446226"
-    },
-    {
-     "name": "Akshat Agarwal",
-     "image": "https://res.cloudinary.com/dhlsvwpny/image/upload/v1682714428/Robotics%20Club%20Team%20Images/3rd%20Year/3rd%20Year/IMG20221107200907_-_Akshat_Agarwal_v4hyts.jpg",
-     "position": "Web Development Lead",
-     "insta": "https:\/\/www.instagram.com\/akshat493\/",
-     "lin": "https:\/\/www.linkedin.com\/in\/akshat-agarwal-263995210"
-    },
+    
+   
+    
     {
         "name": "Anushka Yadav",
         "image": "https://res.cloudinary.com/dhlsvwpny/image/upload/v1683122233/Robotics%20Club%20Team%20Images/3rd%20Year/3rd%20Year/20230315_190621_-_Anu_Yadav_y3fyvq.jpg",
@@ -104,6 +119,16 @@ const thirdyear = [
         "insta": "https:\/\/instagram.com\/choexo_freak?igshid=ZDdkNTZiNTM=",
         "fb": "https:\/\/www.facebook.com\/profile.php?id=100005430964788",
         "lin": "https:\/\/www.linkedin.com\/in\/akshay-singh-kushwaha-b0b295203"
+       },
+    {
+        "name": "Priyanshi Verma",
+        "image": "https://res.cloudinary.com/dhlsvwpny/image/upload/v1683197038/Robotics%20Club%20Team%20Images/2nd%20Year/2nd%20Year/user_in4p2o.jpg",
+        
+       },
+    {
+        "name": "Ankit Garg",
+        "image": "https://res.cloudinary.com/dhlsvwpny/image/upload/v1683197038/Robotics%20Club%20Team%20Images/2nd%20Year/2nd%20Year/user_in4p2o.jpg",
+        
        },
        {
         "name": "Ashutosh Shukla",
