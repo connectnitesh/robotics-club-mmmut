@@ -21,10 +21,10 @@ const WebQuest = () => {
         CONTACT US
       </a>
     </Menu>
-    <div className="maincontainer">
+    <div className="maincontainer_web">
     <div className="heading-h1">
           <img src={roboGif} alt id="img" />
-          <h1>ROBOWARS</h1>
+          <h1>Web Quest</h1>
         </div>
       </div>
     <div id="full">

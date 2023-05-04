@@ -23,10 +23,10 @@ const Sherlocked = () => {
     </Menu>
 
 
-      <div className="maincontainer">
+      <div className="maincontainer_sher">
         <div className="heading-h1">
           <img src={roboGif} alt id="img" />
-          <h1>ROBOWARS</h1>
+          <h1>Sherlocked</h1>
         </div>
       </div>
     <div id="full">
@@ -37,7 +37,7 @@ const Sherlocked = () => {
       <img src={newgif}alt="" id="img1"/>
       </div>
       <div class="para">
-        <p>Let the wars begin! With the increasing popularity of robotic combat sports such as <strong>RoboWars</strong> and Battle of Bots, many students think about building a fighting robot of their own. If you are crazy enough, then you can build your own fighting machine then here stands your chance , conducted by the <strong>Robotics Club</strong> of <strong>MMMUT Gorakhpur</strong>. It is savage. It is treacherous. It is a game of style, control, damage and aggression with the robots pitting each other in deadly combat. It is time to concentrate on the hacking and slashing of the robots. Now it is time to rumble. It's the Grand Finale of war. Get ready to feel the chills and shivers down your spine and become a part of Robowars</p>
+        <p>Let the wars begin! With the increasing popularity of robotic combat sports such as RoboWars and Battle of Bots, many students think about building a fighting robot of their own. If you are crazy enough, then you can build your own fighting machine then here stands your chance , conducted by the Robotics Club of MMMUT Gorakhpur. It is savage. It is treacherous. It is a game of style, control, damage and aggression with the robots pitting each other in deadly combat. It is time to concentrate on the hacking and slashing of the robots. Now it is time to rumble. It's the Grand Finale of war. Get ready to feel the chills and shivers down your spine and become a part of Robowars.</p>
       </div>
      </div>
      <div id="format">
