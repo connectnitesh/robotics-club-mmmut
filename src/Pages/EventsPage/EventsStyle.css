@@ -132,6 +132,12 @@
 
   /********* */
   @media only screen and (max-width:480px){
+    footer{
+      display: block;
+    }
+    .bm-menu-wrap{
+      width: 500px;
+    }
     .rc-robot{
       width: 100%;
       height: 65%;
@@ -227,5 +233,6 @@
   .events-items p{
     display: none;
   }
+ 
   }
-
+  

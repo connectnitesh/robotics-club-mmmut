@@ -9,7 +9,7 @@ const Card = (props) => {
     Aos.init({duration: 200});
   },[]);
   return (
-      <div className="container">
+      <div className="card-container">
         <div className="card cardcnt">
           <div className="content">
             <div className="imgBx">

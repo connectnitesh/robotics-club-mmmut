@@ -1,4 +1,16 @@
 const finalyear=[
+  {
+     
+    "name": "Prakhar Saxena ",
+    "image": "https://res.cloudinary.com/dhlsvwpny/image/upload/v1683287010/Robotics%20Club%20Team%20Images/Final%20year/final%20year/IMG_20210128_192416_-_prakhar_saxena_epdgoy.jpg",
+    "position": "President"
+   },
+   {
+     
+    "name": "Shantanu Tiwari",
+    "image": "https://res.cloudinary.com/dhlsvwpny/image/upload/v1683197038/Robotics%20Club%20Team%20Images/2nd%20Year/2nd%20Year/user_in4p2o.jpg",
+    "position": "Vice President",
+   },
     {
    
         "name": "Ayush Mishra",
@@ -15,15 +27,10 @@ const finalyear=[
        {
    
         "name": "Sanskar Srivastava",
-        "image": "https://res.cloudinary.com/dhlsvwpny/image/upload/v1683059136/Robotics%20Club%20Team%20Images/Final%20year/final%20year/msg1101088209-246_raodzk.jpg",
+        "image": "https://res.cloudinary.com/dhlsvwpny/image/upload/v1683288477/Robotics%20Club%20Team%20Images/Final%20year/final%20year/sanskar_sri_-_sanskar_srivastava_yupqoc.jpg",
         "position": "Treasurer"
        },
-       {
-     
-        "name": "Prakhar Saxena ",
-        "image": "https://res.cloudinary.com/dhlsvwpny/image/upload/v1683197038/Robotics%20Club%20Team%20Images/2nd%20Year/2nd%20Year/user_in4p2o.jpg",
-        "position": "President"
-       },
+       
      
        {
      
@@ -34,16 +41,11 @@ const finalyear=[
          "fb": "https:\/\/www.facebook.com\/pranjul.pal.399?mibextid=ZbWKwL",
          "lin": "https:\/\/www.linkedin.com\/in\/pranjul-pal-7269971b9"
        },
-       {
-     
-        "name": "Shantanu Tiwari",
-        "image": "https://res.cloudinary.com/dhlsvwpny/image/upload/v1683197038/Robotics%20Club%20Team%20Images/2nd%20Year/2nd%20Year/user_in4p2o.jpg",
-        "position": "Vice President",
-       },
+      
        {
      
         "name": "Anubhav Omar",
-        "image": "https://res.cloudinary.com/dhlsvwpny/image/upload/v1683197038/Robotics%20Club%20Team%20Images/2nd%20Year/2nd%20Year/user_in4p2o.jpg",
+        "image": "https://res.cloudinary.com/dhlsvwpny/image/upload/v1683287852/Robotics%20Club%20Team%20Images/Final%20year/final%20year/20210806_191230_-_Anubhav_Omar_yacjbz.jpg",
         "position": "Secretary",
        },
        {
@@ -66,14 +68,6 @@ const finalyear=[
        },
        {
      
-        "name": "Avantika Singh",
-        "image": "https://res.cloudinary.com/dhlsvwpny/image/upload/v1683123423/Robotics%20Club%20Team%20Images/Final%20year/final%20year/Snapchat-1267114925-01_-_Avantika_singh_ceb2pg.jpg",
-        "position": "Technical Head",
-        "insta": "https:\/\/www.instagram.com\/avantika_s_singh_\/",
-         "fb": "https:\/\/www.facebook.com\/profile.php?id=100005882074641"
-       },
-       {
-     
         "name": "Harsh Kumar Bharti",
         "image": "https://res.cloudinary.com/dhlsvwpny/image/upload/v1683123424/Robotics%20Club%20Team%20Images/Final%20year/final%20year/PSX_20220609_212336-01_-_Harsh_Kumar_Bharti_cmbld6.jpg",
         "position": "Management Lead",
@@ -89,6 +83,7 @@ const finalyear=[
         "insta": "https:\/\/instagram.com\/swaraj_ji_?igshid=ZDdkNTZiNTM=",
         "lin": "https:\/\/linkedin.com\/in\/swaraj-jisrivastava-9043b6193"
        },
+        
        {
      
         "name": "Prateek Jain",
@@ -109,6 +104,7 @@ const finalyear=[
         "image": "https://res.cloudinary.com/dhlsvwpny/image/upload/v1683197038/Robotics%20Club%20Team%20Images/2nd%20Year/2nd%20Year/user_in4p2o.jpg",
         "position": "Editorial Head"
        },
+        
        {
      
         "name": "Twinkle",
@@ -124,6 +120,19 @@ const finalyear=[
         "fb": "https:\/\/www.facebook.com\/gireesh.chandvishwakarma?mibextid=ZbWKwL",
         "lin": "www.linkedin.com\/in\/gcvishwakarma"
        },
+       {
+     
+        "name": "Avantika Singh",
+        "image": "https://res.cloudinary.com/dhlsvwpny/image/upload/v1683123423/Robotics%20Club%20Team%20Images/Final%20year/final%20year/Snapchat-1267114925-01_-_Avantika_singh_ceb2pg.jpg",
+        "position": "Technical Head",
+        "insta": "https:\/\/www.instagram.com\/avantika_s_singh_\/",
+         "fb": "https:\/\/www.facebook.com\/profile.php?id=100005882074641"
+       },
+       
+      
+       
+      
+       
        {
      
         "name": "Sonali ",

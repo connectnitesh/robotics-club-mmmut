@@ -12,14 +12,14 @@ const WorkshopsPage = () => {
         <a className="menu-item" href="/">
           HOME
         </a>
-        <a className="menu-item" href="/">
+        <a className="menu-item" href="events">
           EVENTS
         </a>
-        <a className="menu-item" href="/">
+        <a className="menu-item" href="galery">
           GALLERY
         </a>
-        <a className="menu-item" href="/">
-          CONTACT US
+        <a className="menu-item" href="team">
+          TEAM
         </a>
       </Menu>
 
@@ -157,76 +157,61 @@ const WorkshopsPage = () => {
       </div>
 
       <footer>
-        <div class="footer-container">
-          <div class="col">
-            <img src={img3} alt="logo" class="footlogo" />
-            <div class="footercontent">
-              <h2 class="footerheading">Robotics Club</h2>
-            </div>
-          </div>
+    <div className="footer-container">
+  <div className="col">
+    <img src={img3} alt="logo" className="footlogo" />
+    <div className="footercontent">
+      <h2 className="footerheading">Robotics Club</h2>
+    </div>
+  </div>
+  <div className="footer-side-col">
 
-          <div class="footer-side-col">
-            <div class="col">
-              <h3>
-                ADDRESS
-                <div class="underline">
-                  <span></span>
-                </div>
-              </h3>
-              <p>MMMUT, Gorakhpur</p>
-              <p class="email-id">
-                <a href="mailto:mgsaryananand2003@gmail.com">
-                  mgsaryananand2003@gmail.com
-                </a>
-              </p>
-              <p class="email-id">
-                <a href="mailto:anubhavgu2002@gmail.com">
-                  anubhavgu2002@gmail.com
-                </a>
-              </p>
-            </div>
 
-            <div class="col">
-              <h3>HOME</h3>
-              <ul>
-                <li>
-                  <a href="#about">About Us</a>
-                </li>
-                <li>
-                  <a href="#">Contribute</a>
-                </li>
-              </ul>
-            </div>
-            <div class="col">
-              <h3>
-                CONTACTS
-                <div class="underline">
-                  <span></span>
-                </div>
-              </h3>
-              <div class="social-menu">
-                <ul>
-                  <a href="#" target="_blank">
-                    <li id="social-twitter">
-                      <i class="fab fa-2x fa-twitter"></i>
-                    </li>
-                  </a>
-                  <a href="#" target="_blank">
-                    <li id="social-github">
-                      <i class="fab fa-2x fa-github"></i>
-                    </li>
-                  </a>
-                  <a href="#" target="_blank">
-                    <li id="social-linkedin">
-                      <i class="fab fa-2x fa-linkedin-in"></i>
-                    </li>
-                  </a>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </div>
-      </footer>
+  <div className="col">
+  <h3>
+    ADDRESS
+    <div className="underline"><span /></div>
+  </h3>
+  <p>MMMUT, Gorakhpur</p>
+  <p className="email-id"><a href="mailto:mgsaryananand2003@gmail.com">mgsaryananand2003@gmail.com</a></p>
+  <p className="email-id"><a href="mailto:anubhavgu2002@gmail.com">anubhavgu2002@gmail.com</a></p>
+</div>
+
+        <div className="col">
+  <h3>HOME</h3>
+  <ul>
+    <li><a href="#about">About Us</a></li>
+    <li>
+      <a href="#">Contribute</a>
+    </li>
+  </ul>
+</div>
+
+        <div className="col">
+  <h3>
+    CONTACTS
+    <div className="underline"><span /></div>
+  </h3>
+  <div className="social-menu">
+    <ul>
+      <a href="#" target="_blank">
+        <li id="social-twitter"><i className="fab fa-2x fa-twitter" /></li>
+      </a>
+      <a href="#" target="_blank">
+        <li id="social-github"><i className="fab fa-2x fa-github" /></li>
+      </a>
+      <a href="#" target="_blank">
+        <li id="social-linkedin"><i className="fab fa-2x fa-linkedin-in" /></li>
+      </a>
+    </ul>
+  </div>
+</div>
+
+  </div>
+</div>
+
+</footer>
+
     </>
   );
 };

@@ -37,7 +37,7 @@ const secondyear = [
     },
     {
         "name": "Ashish Gupta",
-        "image": "https://res.cloudinary.com/dhlsvwpny/image/upload/v1683122957/Robotics%20Club%20Team%20Images/2nd%20Year/2nd%20Year/IMG_20230321_184422_838_-_Ashish_Gupta_vdmrmc.jpg",
+        "image": "https://res.cloudinary.com/dhlsvwpny/image/upload/v1683289268/Robotics%20Club%20Team%20Images/2nd%20Year/2nd%20Year/msg942954692-263_ga4snm.jpg",
         "position": "Executive Member",
         "insta": "https:\/\/instagram.com\/ashish_gupta_curious_?igshid=ZDdkNTZiNTM=",
         "lin": "https:\/\/www.linkedin.com\/in\/ashish-gupta-5b7282228"

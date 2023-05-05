@@ -85,7 +85,7 @@ html,body{
   
   /* Color/shape of burger icon bars on hover*/
   .bm-burger-bars-hover {
-    background: #0084a9;
+    background: gray;
   }
   
   /* Position and sizing of clickable cross button */
@@ -106,13 +106,16 @@ html,body{
   .bm-menu-wrap {
     position: fixed;
     height: 100%;
+ 
   }
   
   /* General sidebar styles */
   .bm-menu {
     background: #373a47;
-    padding: 2.5em 1.5em 0;
-    font-size: 1.15em;
+    padding: 1.5em 0.5em 0;
+    font-size: 1.5rem;
+    font-family: 'Ubuntu', sans-serif;
+    width: 395px;
   }
   
   /* Morph shape necessary with bubble or elastic */
@@ -130,13 +133,14 @@ html,body{
   .bm-item {
     display: inline-block;
     color: #d1d1d1;
-  margin-bottom: 10px;
+  margin-bottom: 2rem;
   text-align: left;
   text-decoration: none;
   transition: color 0.2s;
   }
   .bm-item:hover {
     color: #ffffff;
+    
   }
 
   /* Styling of overlay */

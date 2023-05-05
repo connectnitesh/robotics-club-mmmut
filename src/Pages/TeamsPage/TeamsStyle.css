@@ -50,7 +50,7 @@
     background-color: #000;
 }
 
-.team-card > .container{
+.team-card > .card-container{
     padding:4rem 85px;
     padding-left: 3rem;
     margin-left:4zrem;
@@ -61,6 +61,9 @@
 }
 
 #faculty{
+    min-height: 80vh;
+}
+#developers{
     min-height: 80vh;
 }
 .team-heading {
@@ -84,7 +87,7 @@
 
 /*  Card Styles  */
 
-.container .card
+.card-container .card
 {
     width: 300px;
     height: 400px;
@@ -98,7 +101,7 @@
     backdrop-filter: blur(5px);
 }
 
-.container .card .content
+.card-container .card .content
 {
     position: relative;
     display: flex;
@@ -109,14 +112,14 @@
     transition: 0.5s;
 }
 
-.container .cardcnt:hover .content
+.card-container .cardcnt:hover .content
 {
     opacity: 1;
     transform: translateY(-30px);
 }
 
 
-.container .card .content .imgBx
+.card-container .card .content .imgBx
 {
     position: relative;
     width: 200px;
@@ -126,7 +129,7 @@
     border: 5px solid rgba(0, 0, 0, 0.25);
 }
 
-.container .card .content .imgBx img
+.card-container .card .content .imgBx img
 {
     position: absolute;
     top: 0;
@@ -136,7 +139,7 @@
     object-fit: cover;
 }
 
-.container .card .content .contentBx h3
+.card-container .card .content .contentBx h3
 {
     color: #fff;
     text-transform: uppercase;
@@ -148,21 +151,27 @@
     line-height: 1.1em;
 }
 
-.container .card .content .contentBx h3 span
+.card-container .card .content .contentBx h3 p
+{
+    font-size: 12px;
+    font-weight: 300;
+    text-transform: initial;
+}
+.card-container .card .content .contentBx h3 span
 {
     font-size: 12px;
     font-weight: 300;
     text-transform: initial;
 }
 
-.container .card .sci
+.card-container .card .sci
 {
     position: absolute;
     bottom: 50px;
     display: flex;
 }
 
-.container .card .sci li
+.card-container .card .sci li
 {
     list-style: none;
     margin: 0 10px;
@@ -172,7 +181,7 @@
     transition-delay: calc(0.1s);
 }
 
-.container .card:hover .sci li
+.card-container .card:hover .sci li
 {
     transform: translateY(0px);
     opacity: 1;
@@ -189,7 +198,7 @@
     .team-card{
         overflow-x: hidden;
     }
-    .team-card .container{
+    .team-card .card-container{
         width: auto;
         /* width: 380px; */
         display: flex;

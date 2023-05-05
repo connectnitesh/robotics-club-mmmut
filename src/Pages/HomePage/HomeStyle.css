@@ -8,9 +8,9 @@
   height: 100vh;
   position: fixed;
   background: #090914e2
-      url("../../assets/images/general/preloader4.gif") center
+      url("../../assets/images/general/preloadernew.gif") center
       no-repeat;
-  /* background-size: cover; */
+  background-size: cover;
   z-index: 1;
 }
 
