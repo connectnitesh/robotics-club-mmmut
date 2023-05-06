@@ -125,7 +125,7 @@ const WorkshopsPage = () => {
               Lorem ipsum dolor sit amet consectetur adipisicing elit.
               Laudantium voluptate quas aperiam incidunt. Quam, veritatis totam
               asperiores expedita consectetur molestias officiis vitae nostrum!
-              Dolore.
+              Doloree.
             </p>
           </div>
         </div>
