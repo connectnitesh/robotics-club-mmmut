@@ -3,7 +3,6 @@ import "./WorkshopsStyle.css";
 import { Link } from "react-router-dom";
 import img1 from "../../assets/images/workshop/bluetoothcar.jpg";
 import img2 from "../../assets/images/workshop/monster.jpg";
-import img3 from "../../assets/images/general/logorc2.png";
 
 const WorkshopsPage = () => {
   return (
