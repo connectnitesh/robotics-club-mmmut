@@ -1,8 +1,6 @@
 import React from "react";
 import "./WorkshopsStyle.css";
-import { Link } from "react-router-dom";
 import img1 from "../../assets/images/workshop/bluetoothcar.jpg";
-import img2 from "../../assets/images/workshop/monster.jpg";
 
 const WorkshopsPage = () => {
   return (
@@ -116,7 +114,7 @@ const WorkshopsPage = () => {
         </div>
         <div className="workshop-content">
           <div className="workshop-leftcontent">
-            <img src={img2} width={400} height={350} alt="monster" />
+            <img src={img1} width={400} height={350} alt="monster" />
           </div>
           <div className="workshop-rightcontent">
             <h3>Monster Design</h3>
