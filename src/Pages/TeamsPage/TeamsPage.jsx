@@ -6,6 +6,7 @@ import SecondyearContact from './SecondYear/SecondyearContact'
 import FinalyearContact from "./FinalYear/FinalyearContact";
 import Aos from "aos";
 import "aos/dist/aos.css";
+import { Link } from "react-router-dom";
 
 const TeamsPage = () => {
   useEffect(()=>{
@@ -51,11 +52,11 @@ const TeamsPage = () => {
 
   return (
     <>
-    <nav className="navbar">
+    <nav className="team-uppernav">
       <ul>
-        <li><a href="#final-year">FINAL YEAR</a> </li>
-        <li> <a href="#third-year">THIRD YEAR</a> </li>
-        <li> <a href="#second-year">SECOND YEAR</a> </li>
+        <li><Link href="">FINAL YEAR</Link> </li>
+        <li> <Link href="third-year">THIRD YEAR</Link> </li>
+        <li> <Link href="second-year">SECOND YEAR</Link> </li>
       </ul>
     </nav>
     <section id="final-year">

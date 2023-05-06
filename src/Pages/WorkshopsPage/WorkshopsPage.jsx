@@ -1,6 +1,7 @@
 import React from "react";
 import "./WorkshopsStyle.css";
 import img1 from "../../assets/images/workshop/bluetoothcar.jpg";
+import img2 from "../../assets/images/workshop/monster.jpg";
 
 const WorkshopsPage = () => {
   return (
@@ -9,9 +10,7 @@ const WorkshopsPage = () => {
         <h1>Web-Development Workshops</h1>
         <div className="workshop-content">
           <div className="workshop-leftcontent">
-            <iframe
-              width={400}
-              height={350}
+            <iframe className="embed-video"
               src="https://www.youtube.com/embed/jgteldtj1MQ"
               title="YouTube workshop-leftcontent player"
               frameBorder={0}
@@ -31,9 +30,7 @@ const WorkshopsPage = () => {
         </div>
         <div className="workshop-content">
           <div className="workshop-leftcontent">
-            <iframe
-              width={400}
-              height={350}
+            <iframe className="embed-video"
               src="https://www.youtube.com/embed/4yXkEc5Jd0g"
               title="YouTube workshop-leftcontent player"
               frameBorder={0}
@@ -53,9 +50,7 @@ const WorkshopsPage = () => {
         </div>
         <div className="workshop-content">
           <div className="workshop-leftcontent">
-            <iframe
-              width={400}
-              height={350}
+            <iframe className="embed-video"
               src="https://www.youtube.com/embed/xO9wP6FoDik"
               title="YouTube workshop-video player"
               frameBorder={0}
@@ -75,9 +70,7 @@ const WorkshopsPage = () => {
         </div>
         <div className="workshop-content">
           <div className="workshop-leftcontent">
-            <iframe
-              width={400}
-              height={350}
+            <iframe className="embed-video"
               src="https://www.youtube.com/embed/yWmRVsPA648"
               title="YouTube workshop-video player"
               frameBorder={0}
@@ -96,10 +89,10 @@ const WorkshopsPage = () => {
           </div>
         </div>
 
-        <h1>Web-Development Workshops</h1>
+        <h1>Circuitary Workshops</h1>
         <div className="workshop-content">
           <div className="workshop-leftcontent">
-            <img src={img1} width={400} height={350} alt="bluetooth-car" />
+            <img src={img1} className="embed-video" alt="bluetooth-car" />
           </div>
           <div className="workshop-rightcontent">
             <h3>Bluetooth Car Project</h3>
@@ -114,7 +107,7 @@ const WorkshopsPage = () => {
         </div>
         <div className="workshop-content">
           <div className="workshop-leftcontent">
-            <img src={img1} width={400} height={350} alt="monster" />
+            <img src={img2} className="embed-video" alt="monster" />
           </div>
           <div className="workshop-rightcontent">
             <h3>Monster Design</h3>

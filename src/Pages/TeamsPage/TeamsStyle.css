@@ -1,5 +1,5 @@
-/*       Navbar           */
-.navbar{
+/*       team-uppernav           */
+.team-uppernav{
     width: 100vw;
     background-color: black;
     display: flex;
@@ -9,18 +9,15 @@
     scroll-behavior: smooth;
 }
 
-.navbar ul{
+.team-uppernav ul{
     display: flex;
     justify-content: center;
     margin-top: 2rem;
 }
-.navbar ul li{
+.team-uppernav ul li{
     padding: 5px;
     list-style: none;
     text-decoration: none;
-    /* width: 120px;
-    height: 40px; */
-    /* border: 2px solid red; */
     text-align: center;
     background-color: #F0EEED;
     margin: 0.6rem;
@@ -32,28 +29,28 @@
 
 
 }
-.navbar li a{
+
+.team-uppernav li a{
     text-decoration: none;
     color: black;
     font-size: 0.8rem;
     font-family: 'Ubuntu', sans-serif;
-    /* font-family: 'Asul', sans-serif; */
     font-weight: 600;
 
 
 }
-.humburger{
-    display: none;
-}
 
 .team-card{
-    background-color: #000;
+    background: #00043d;
+    margin:0 auto;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding:5rem;
 }
 
 .team-card > .container{
-    padding:4rem 85px;
-    padding-left: 3rem;
-    margin-left:4zrem;
+    padding:3rem;
     display: inline-block;
     text-align: center;
     justify-content: center;
@@ -183,36 +180,16 @@
 }
 
 @media only screen and (max-width:480px) {
+    .container .card{
+        flex-direction: column;
+    }
+
     
     .team-card{
-        overflow-x: hidden;
+        padding:0;
     }
-    .team-card .container{
-        width: auto;
-        /* width: 380px; */
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        margin-left: 0;
-        margin-top: 35px;
-        padding:5px ;
-    }
-    .team-card h2{
-        font-size: 1.5rem;
-        margin-top: 2.5rem;
-    }
-    .team-card{
-        margin-top: 0px;
-    }
-    .navbar{
-        display: none;
-    }
-    .bm-burger-button{
-        display: block;
-        position: fixed;
-        width: 20px;
-        height: 16px;
-        top:1rem;
-        right: 1rem;
+
+    .team-card > .container {
+        padding: 3rem 0;
     }
 }

@@ -10,7 +10,6 @@ import prakrity from "../../../assets/images/teams/final year/prakrity.jpg";
 import harsh from "../../../assets/images/teams/final year/harsh.jpeg";
 import swaraj from "../../../assets/images/teams/final year/swaraj.jpg";
 import shantanu from "../../../assets/images/teams/final year/shantanu.jpg";
-
 import prateek from "../../../assets/images/teams/final year/prateek.jpg";
 import avantika from "../../../assets/images/teams/final year/avantika.jpeg";
 import gireesh from "../../../assets/images/teams/final year/gireesh.jpg";
