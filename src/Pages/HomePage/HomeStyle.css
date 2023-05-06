@@ -1,15 +1,16 @@
-.mainPage {
+.homepage-body{
+  background: url('../../assets/images/general/bg_event.jpg');
+}
+
+.homepage-section {
   background: url('../../assets/images/general/background.png');
-  background-size: cover;
+  background-size:cover;
+  background-repeat: no-repeat;
 }
 
 @media only screen and (max-width: 480px) {
-  .mainPage {
+  .homepage-section {
     background: url("../../assets/images/general/bgmobile.png");
-    background-size:cover;
-    background-position: center center;
-    background-repeat: no-repeat;
-    width: 100vw;
   }
 
 }

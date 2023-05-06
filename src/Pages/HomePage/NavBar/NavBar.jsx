@@ -3,7 +3,7 @@ import "./NavStyle.css";
 import Rclogo from "../../../assets/images/general/logo.jpg";
 import Mmmlogo from "../../../assets/images/general/mmmlogo.png";
 import { FiMenu } from "react-icons/fi";
-import { GiCrossMark } from "react-icons/gi";
+import { RxCross1 } from "react-icons/rx";
 
 const NavBar = () => {
   const [state, setState] = useState(false);
@@ -13,7 +13,7 @@ const NavBar = () => {
     setState(!state);
     if (state === false) {
       setnavIcon({
-        icon: <GiCrossMark />,
+        icon: <RxCross1 />,
       });
     } else {
       setnavIcon({

@@ -1,6 +1,5 @@
 import React from "react";
 import "./EventsStyle.css";
-import { elastic as Menu } from 'react-burger-menu';
 import rbText from "../../assets/images/general/robomania-text.png";
 import rbRobot from "../../assets/images/general/bg-robomania.png";
 import laserStrike from "../../assets/images/events/laser.jpg"
@@ -8,21 +7,6 @@ import laserStrike from "../../assets/images/events/laser.jpg"
 const EventsPage = () => {
   return (
     <>
- <Menu right>
-      <a className="menu-item" href="/">
-        HOME
-      </a>
-      <a className="menu-item" href="/">
-        EVENTS
-      </a>
-      <a className="menu-item" href="/">
-        GALLERY
-      </a>
-      <a className="menu-item" href="/">
-        CONTACT US
-      </a>
-      
-    </Menu>
     <div className="eventPage-container">
       <section className="events-landing">
         <div className="events-items">

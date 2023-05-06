@@ -6,13 +6,12 @@ import About from "./About/About";
 import Sponsors from "./Sponsors/Sponsors";
 import Contact from "./Contact/Contact";
 import RcText from "./RcText/RcText";
-import ParticleBckg from "../../components/ParticleBckg/ParticleBckg";
-import particleconfig from './ParticleConfig.js'
 
 const HomePage = () => {
   return (
     <>
-      <section className="mainPage" id="home-page">
+      <div className="homepage-body">
+      <section className="homepage-section">
         <NavBar />
         <RcText />
         <Footer />
@@ -26,7 +25,7 @@ const HomePage = () => {
       <section id="contact-us">
         <Contact />
       </section>
-      <ParticleBckg myparticle={particleconfig}/>
+      </div>
     </>
   );
 };

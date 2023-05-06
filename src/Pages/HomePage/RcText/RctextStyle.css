@@ -1,64 +1,30 @@
-.rctext-container {
+.rcmmmut-text-container {
   margin: auto;
   width: 50%;
-  padding-top: 20%;
+  padding-top: 17%;
 }
 
-.heading {
-  color: #ffffff;
+.brand-text {
+  color:var(--pure);
+  text-shadow: 1px 1px 10px #0decf6;
   text-align: center;
-  font-size: 4.5rem;
-  font-family: "Asul", sans-serif;
+  font-family: 'Black Ops One', cursive;
+  font-size: 5rem;
   text-transform: uppercase;
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
-  animation: animate 5s infinite;
 }
 
-.sm-heading {
-  font-size: 1rem;
-  text-transform: none;
-  margin: 40px;
-  font-family: "Open Sans", sans-serif;
+.brand-college-text {
+  color:var(--pure);
+  text-shadow: 1px 1px 10px #0decf6;
+  font-family: 'Black Ops One', cursive;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  text-align: center;
 }
 
-/*animate text*/
-@keyframes animate {
-  0%,
-  20%,
-  40%,
-  40%,
-  20%,
-  100% {
-    color: #0e3742;
-    text-shadow: none;
-  }
-  0%,
-  20%,
-  10%,
-  20%,
-  10%,
-  100% {
-    color: #fff;
-    text-shadow: 0px 0px 10px #03bcf4, 0px 0px 20px #03bcf4,
-      0px 0px 40px #03bcf4, 0px 0px 80px #03bcf4, 0px 0px 160px #03bcf4;
-  }
-}
 
 @media only screen and (max-width: 480px) {
-  .rctext-container {
+  .rcmmmut-text-container {
     display: none;
-  }
-}
-
-@media (max-width: 768px) {
-  .heading {
-    font-size: 1.5rem;
-    word-break: break-all;
-    text-transform: uppercase;
-  }
-  .sm-heading {
-    font-size: 1.4rem;
-    margin: 17px;
-    text-transform: none;
   }
 }

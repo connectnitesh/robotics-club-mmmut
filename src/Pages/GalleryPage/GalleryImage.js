@@ -1,64 +1,85 @@
+import img1 from '../../assets/images/gallery/robomania1.jpg'
+import img2 from '../../assets/images/gallery/robomania2.jpg'
+import img3 from '../../assets/images/gallery/robomania3.jpg'
+import img4 from '../../assets/images/gallery/robomania4.jpg'
+import img5 from '../../assets/images/gallery/robomania5.jpg'
+import img6 from '../../assets/images/gallery/robomania6.jpg'
+import img7 from '../../assets/images/gallery/robomania7.jpg'
+import img8 from '../../assets/images/gallery/robomania8.jpg'
+import img9 from '../../assets/images/gallery/robomania9.jpg'
+import img10 from '../../assets/images/gallery/robomania10.jpg'
+import img11 from '../../assets/images/gallery/robomania11.jpg'
+import img12 from '../../assets/images/gallery/robomania12.jpg'
+import img13 from '../../assets/images/gallery/robomania13.jpg'
+import img14 from '../../assets/images/gallery/robomania14.jpg'
+import img15 from '../../assets/images/gallery/robomania15.jpg'
+import img16 from '../../assets/images/gallery/robomania16.jpg'
+import img17 from '../../assets/images/gallery/robomania17.jpg'
+import img18 from '../../assets/images/gallery/robomania18.jpg'
+import img19 from '../../assets/images/gallery/robomania19.jpg'
+import img20 from '../../assets/images/gallery/robomania20.jpg'
+
 
 const GalleryImage = [
     {
-       src: 'https://res.cloudinary.com/dhlsvwpny/image/upload/v1683052904/Gallery/1_cook0l.jpg',
+       src: img1,
     },
     {
-       src: 'https://res.cloudinary.com/dhlsvwpny/image/upload/v1683052907/Gallery/9_guujqf.jpg',
+       src: img2,
     },
     {
-       src: 'https://res.cloudinary.com/dhlsvwpny/image/upload/v1683052907/Gallery/8_pmyv13.jpg',
+       src: img3,
     },
     {
-       src: 'https://res.cloudinary.com/dhlsvwpny/image/upload/v1683052906/Gallery/6_gr7y6u.jpg',
+       src: img4,
     },
     {
-       src: 'https://res.cloudinary.com/dhlsvwpny/image/upload/v1683052906/Gallery/22_d269ho.jpg',
+       src: img5,
     },
     {
-       src: 'https://res.cloudinary.com/dhlsvwpny/image/upload/v1683052906/Gallery/7_uxiakd.jpg',
+       src: img6,
     },
     {
-       src: 'https://res.cloudinary.com/dhlsvwpny/image/upload/v1683052906/Gallery/5_g2suao.jpg',
+       src: img7,
     },
     {
-       src: 'https://res.cloudinary.com/dhlsvwpny/image/upload/v1683052906/Gallery/20_bt99tf.jpg',
+       src: img8,
     },
     {
-      src: 'https://res.cloudinary.com/dhlsvwpny/image/upload/v1683052906/Gallery/4_mzppas.jpg',
+      src: img9,
    },
    {
-      src: 'https://res.cloudinary.com/dhlsvwpny/image/upload/v1683052906/Gallery/3_szo1ot.jpg',
+      src:img10,
    },
    {
-      src: 'https://res.cloudinary.com/dhlsvwpny/image/upload/v1683052905/Gallery/19_br5eva.jpg',
+      src: img11,
    },
    {
-      src: 'https://res.cloudinary.com/dhlsvwpny/image/upload/v1683052905/Gallery/21_glkwbr.jpg',
+      src: img12,
    },
    {
-      src: 'https://res.cloudinary.com/dhlsvwpny/image/upload/v1683052905/Gallery/2_cddjqm.jpg',
+      src: img13,
    },
    {
-      src: 'https://res.cloudinary.com/dhlsvwpny/image/upload/v1683052905/Gallery/16_mlznvg.jpg',
+      src: img14,
    },
    {
-      src: 'https://res.cloudinary.com/dhlsvwpny/image/upload/v1683052905/Gallery/18_krtdvj.jpg',
+      src: img15,
    },
    {
-      src: 'https://res.cloudinary.com/dhlsvwpny/image/upload/v1683052905/Gallery/17_vw6hui.jpg',
+      src: img16,
    },
    {
-      src: 'https://res.cloudinary.com/dhlsvwpny/image/upload/v1683052904/Gallery/15_fq6muk.jpg',
+      src: img17,
    },
    {
-      src: 'https://res.cloudinary.com/dhlsvwpny/image/upload/v1683052904/Gallery/12_r8xkyk.jpg',
+      src: img18,
    },
    {
-      src: 'https://res.cloudinary.com/dhlsvwpny/image/upload/v1683052904/Gallery/14_thoabk.jpg',
+      src: img19,
    },
    {
-      src: 'https://res.cloudinary.com/dhlsvwpny/image/upload/v1683052904/Gallery/13_ufct0z.jpg',
+      src: img20,
    }
  ];
 

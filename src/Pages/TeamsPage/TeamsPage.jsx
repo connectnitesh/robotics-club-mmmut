@@ -2,11 +2,8 @@ import React, {useEffect} from "react";
 import './TeamsStyle.css'
 import Card from "./Card";
 import ThirdyearContact from './ThirdYear/ThirdyearContact'
-import ParticleBckg from "../../components/ParticleBckg/ParticleBckg";
-import particleconfiga from "./particleconfiga";
 import SecondyearContact from './SecondYear/SecondyearContact'
 import FinalyearContact from "./FinalYear/FinalyearContact";
-import { elastic as Menu } from 'react-burger-menu';
 import Aos from "aos";
 import "aos/dist/aos.css";
 
@@ -54,7 +51,6 @@ const TeamsPage = () => {
 
   return (
     <>
-      {/* <ParticleBckg myparticle={particleconfiga}/> */}
     <nav className="navbar">
       <ul>
         <li><a href="#final-year">FINAL YEAR</a> </li>
@@ -62,19 +58,6 @@ const TeamsPage = () => {
         <li> <a href="#second-year">SECOND YEAR</a> </li>
       </ul>
     </nav>
-   <div className="humburger">
-   <Menu right>
-      <a className="menu-item" href="#final-year">
-        FINAL YEAR
-      </a>
-      <a className="menu-item" href="#third-year">
-        THIRD YEAR
-      </a>
-      <a className="menu-item" href="#second-year">
-        SECOND YEAR
-      </a>
-    </Menu>
-   </div>
     <section id="final-year">
     <div className="team-card">
         <h2 className="team-heading">Final Year Members</h2>

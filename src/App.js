@@ -14,7 +14,6 @@ import LaserStrike from './Pages/EventsPage/Events/LaserStrike';
 import Sherlocked from './Pages/EventsPage/Events/Sherlocked';
 import WebQuest from './Pages/EventsPage/Events/WebQuest';
 
-
 function App() {
   return (
     <BrowserRouter>

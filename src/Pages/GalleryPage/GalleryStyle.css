@@ -1,8 +1,7 @@
 .app-gallery {
-  background: #000;
-  background: linear-gradient(90deg, #434343, #000);
+  background: url("../../assets/images/gallery/bg_event.jpg");
   min-height: 100vh;
-  padding: 3rem 1rem;
+  padding: 6rem 2.5rem;
 }
 
 .gallery-container {
@@ -11,10 +10,7 @@
   flex-wrap: wrap;
   flex-direction: row;
   justify-content: center;
-  margin: 10vmin 4vmin;
   overflow: hidden;
-  -webkit-transform: skew(3deg);
-  transform: skew(3deg);
 }
 
 .gallery-container .gallery-image-card {
@@ -34,14 +30,14 @@
 }
 
 .gallery-container .gallery-image-card:hover img {
-  -webkit-filter: opacity(1);
-  filter: opacity(1);
+  -webkit-filter: brightness(1);
+  filter: brightness(1);
   box-shadow: 2px oldlace #000;
 }
 
 .gallery-container .gallery-image-card img {
-  -webkit-filter: opacity(0.7);
-  filter: opacity(0.7);
+  -webkit-filter: brightness(0.6);
+  filter: brightness(0.6);
   height: 100%;
   object-fit: cover;
   transition: all 1s ease-in-out;
@@ -56,8 +52,6 @@
 @media only screen and (max-width: 480px)  {
   .gallery-container {
     flex-direction: column;
-    -webkit-transform: skew(0deg);
-    transform: skew(0deg);
   }
 
   .gallery-container .gallery-image-card {
@@ -72,5 +66,13 @@
    transform: scale(1.5);
    z-index: 1;
    transition:all 0.5s ease;
+  }
+  .gallery-container .gallery-image-card img {
+    -webkit-filter: brightness(0.95);
+    filter: brightness(0.95);
+    height: 100%;
+    object-fit: cover;
+    transition: all 1s ease-in-out;
+    width: 100%;
   }
 }

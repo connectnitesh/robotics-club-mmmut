@@ -3,9 +3,9 @@ import "./RctextStyle.css";
 
 const RcText = () => {
   return (
-    <div className="rctext-container">
-      <h1 className="heading">Robotics Club </h1>
-      <h5 className="heading sm-heading">MMMUT Gorakhpur</h5>
+    <div className="rcmmmut-text-container">
+      <h1 className="brand-text">Robotics Club </h1>
+      <h5 className="brand-college-text">MMMUT Gorakhpur</h5>
     </div>
   );
 };
