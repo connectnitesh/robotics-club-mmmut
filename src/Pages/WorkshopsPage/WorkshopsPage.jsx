@@ -1,7 +1,6 @@
-import React from "react";
-import "./WorkshopsStyle.css";
-import img1 from "../../assets/images/workshop/bluetoothcar.jpg";
-import img2 from "../../assets/images/workshop/monster.jpg";
+import './WorkshopsStyle.css';
+import img1 from '../../assets/images/workshop/bluetoothcar.jpg';
+import img2 from '../../assets/images/workshop/monsterpro.jpg';
 
 const WorkshopsPage = () => {
   return (
