@@ -3,11 +3,13 @@ import { Link } from "react-router-dom";
 import "./EventStyle.css";
 import roboGif from "../../../assets/images/events/robotgif.gif";
 import roboGif2 from "../../../assets/images/events/robotgif2.gif";
+import NavMenu from '../../../components/NavMenu/NavMenu';
 
 const Informals = () => {
   return (
     <>
       <div className="eventpage-container">
+        <NavMenu />
         <div className="eventpage-hero">
           <img src={roboGif} alt="robogif" />
           <h1>tekken</h1>

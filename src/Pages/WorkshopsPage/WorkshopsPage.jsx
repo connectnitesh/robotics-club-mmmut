@@ -1,10 +1,14 @@
 import './WorkshopsStyle.css';
 import img1 from '../../assets/images/workshop/bluetoothcar.jpg';
 import img2 from '../../assets/images/workshop/monsterpro.jpg';
+import NavMenu from '../../components/NavMenu/NavMenu';
 
 const WorkshopsPage = () => {
   return (
     <>
+    <div className='workshop-bckg'>
+
+        <NavMenu />
       <div className="workshopPage-container">
         <h1>Web-Development Workshops</h1>
         <div className="workshop-content">
@@ -119,6 +123,7 @@ const WorkshopsPage = () => {
           </div>
         </div>
       </div>
+    </div>
     </>
   );
 };

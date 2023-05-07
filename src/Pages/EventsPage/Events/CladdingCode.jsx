@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import NavMenu from "../../../components/NavMenu/NavMenu";
 import "./EventStyle.css";
 import roboGif from "../../../assets/images/events/robotgif.gif";
 import roboGif2 from "../../../assets/images/events/robotgif2.gif";
@@ -8,6 +9,7 @@ const CladdingCode = () => {
   return (
     <>
       <div className="eventpage-container">
+        <NavMenu />
         <div className="eventpage-hero">
           <img src={roboGif} alt="robogif" />
           <h1>tekken</h1>

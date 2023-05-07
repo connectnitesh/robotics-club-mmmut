@@ -7,6 +7,7 @@ import FinalyearContact from "./FinalYear/FinalyearContact";
 import Aos from "aos";
 import "aos/dist/aos.css";
 import { Link } from "react-router-dom";
+import NavMenu from "../../components/NavMenu/NavMenu";
 
 const TeamsPage = () => {
   useEffect(()=>{
@@ -52,6 +53,7 @@ const TeamsPage = () => {
 
   return (
     <>
+    <NavMenu />
     <nav className="team-uppernav">
       <ul>
         <li><Link href="">FINAL YEAR</Link> </li>

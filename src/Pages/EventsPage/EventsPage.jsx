@@ -3,7 +3,8 @@ import "./EventsStyle.css";
 import rbText from "../../assets/images/general/robomania-text.png";
 import rbRobot from "../../assets/images/general/bg-robomania.png";
 import laserStrike from "../../assets/images/events/laser.jpg"
-import NavMenu from "../../components/NavMenu";
+import NavMenu from "../../components/NavMenu/NavMenu";
+import FooterBar from "../../components/FooterBar/FooterBar";
 
 const EventsPage = () => {
   return (
@@ -98,6 +99,7 @@ const EventsPage = () => {
         </div>    
       </div>
     </div>
+    <FooterBar />
     </>
 
   );

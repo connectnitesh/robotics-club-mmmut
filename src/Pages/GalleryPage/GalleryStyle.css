@@ -1,6 +1,9 @@
-.app-gallery {
+.gallery-bckg{
   background: url("../../assets/images/gallery/bg_event.jpg");
   min-height: 100vh;
+}
+
+.app-gallery {
   padding: 6rem 2.5rem;
 }
 
