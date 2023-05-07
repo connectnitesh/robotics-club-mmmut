@@ -101,6 +101,17 @@
   color: var(--pure);
 }
 
+.events-btn .laser-btn{
+  animation: circle 6s linear infinite;
+}
+
+
+@keyframes circle{
+  100%{
+    transform:rotate(360deg);
+  }
+}
+
 .rs-text {
   position: absolute;
   left: 10%;

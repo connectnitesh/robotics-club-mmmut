@@ -1,0 +1,72 @@
+.navcard-container {
+  display: flex;
+  position: sticky;
+  background: #00000057;
+  padding: 0 2rem;
+  z-index: 1000;
+}
+
+.navcard-left {
+  display: flex;
+}
+
+.navcard-left h1 {
+  font-size: 1.3rem;
+  font-weight: 600;
+  padding: 1rem;
+}
+
+.navcard-right ul {
+  display: flex;
+  position: absolute;
+  right: 0;
+  flex-direction: row;
+  list-style-type: none;
+}
+
+.navcard-right a {
+  color: var(--pure);
+  font-size: 1.3rem;
+  margin: 2rem;
+  text-decoration: none;
+}
+
+.navcard-right ul li {
+  padding: 1rem;
+}
+
+.mob-menu {
+  display: none;
+}
+
+@media only screen and (max-width: 480px) {
+
+    .mob-menu{
+        display: block;
+        position: absolute;
+        right:0;
+        top:0;
+    }
+
+    .navcard-left h1 {
+        display: none;
+    }
+
+    .navcard-right ul {
+        background-color:#000;
+        width:100%;
+        flex-direction: column;
+        top: 4.5rem;
+      }
+
+    
+.navcard-right a {
+    font-size: 1.5rem;
+    margin: 0;
+  }
+  
+  .navcard-right ul li {
+    padding: 0.5rem;
+  }
+  
+}
