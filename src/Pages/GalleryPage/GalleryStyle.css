@@ -1,6 +1,10 @@
 .gallery-bckg{
   background: url("../../assets/images/gallery/bg_event.jpg");
   min-height: 100vh;
+  background-position: center center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .app-gallery {
