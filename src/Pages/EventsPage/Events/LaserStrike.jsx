@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { Link } from "react-router-dom";
 import "./EventStyle.css";
 import roboGif from "../../../assets/images/events/robotgif.gif";
@@ -7,6 +7,14 @@ import NavMenu from '../../../components/NavMenu/NavMenu';
 import FooterBar from '../../../components/FooterBar/FooterBar';
 
 const LaserStrike = () => {
+
+  const [eform,seteform]=useState(false);
+
+  function handleform(){
+      seteform(!eform);
+      console.log(eform);
+  }
+
   return (
     <>
       <div className="eventpage-container">
@@ -101,8 +109,12 @@ const LaserStrike = () => {
             </h5>
           </div>
         </div>
-        <div class="register-btn">
-          <Link href="">REGISTER NOW</Link>
+        <div className="register-btn">
+          <button type='submit' onClick={handleform}> Register Now</button> 
+        </div>
+        <div className={ `registration-form ${eform? "" : "active-form" }`}>
+        
+        <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSf2aKI5hQqPnFpla_WW0eiPFEhXp84gv6q2Yr_wd1rkMWd1rw/viewform?embedded=true" width ="100%"height="1220" frameborder="0" marginheight="0" scrolling="no" marginwidth="0">Loading…</iframe>
         </div>
       </div>
       <FooterBar/>

@@ -115,6 +115,22 @@
 .register-btn{
   padding: 1rem;
 }
+.registration-form{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+
+}
+
+
+
+.registration-form::-webkit-scrollbar {
+  display:none;     
+}
+
+.active-form{
+  display: none;
+}
 
 @keyframes circle{
   100%{
