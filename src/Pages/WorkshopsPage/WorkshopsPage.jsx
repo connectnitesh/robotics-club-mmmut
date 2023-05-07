@@ -2,6 +2,7 @@ import './WorkshopsStyle.css';
 import img1 from '../../assets/images/workshop/bluetoothcar.jpg';
 import img2 from '../../assets/images/workshop/monsterpro.jpg';
 import NavMenu from '../../components/NavMenu/NavMenu';
+import FooterBar from '../../components/FooterBar/FooterBar';
 
 const WorkshopsPage = () => {
   return (
@@ -124,6 +125,7 @@ const WorkshopsPage = () => {
         </div>
       </div>
     </div>
+    <FooterBar/>
     </>
   );
 };
