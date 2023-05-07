@@ -84,6 +84,7 @@ footer a:focus {
     .footerbar-container{
         flex-direction: column;
         text-align: center;
+        overflow-x: hidden;
     }
     .footer-side-col{
       flex-direction: column;

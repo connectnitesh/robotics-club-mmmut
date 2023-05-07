@@ -102,7 +102,7 @@ const CladdingCode = () => {
           </div>
         </div>
         <div class="register-btn">
-          <Link href="">REGISTER NOW</Link>
+           <a href="https://forms.gle/AytENKq7RH1basfd6">REGISTER NOW</a>
         </div>
       </div>
       <FooterBar/>
