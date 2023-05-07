@@ -12,6 +12,7 @@
   .homepage-section {
     background: url("../../assets/images/general/bgmobile.png");
     background-position: center center;
+    background-size: cover;
   }
 
 }
