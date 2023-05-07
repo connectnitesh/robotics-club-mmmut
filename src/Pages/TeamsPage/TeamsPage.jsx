@@ -8,6 +8,7 @@ import Aos from "aos";
 import "aos/dist/aos.css";
 import { Link } from "react-router-dom";
 import NavMenu from "../../components/NavMenu/NavMenu";
+import FooterBar from "../../components/FooterBar/FooterBar"
 
 const TeamsPage = () => {
   useEffect(()=>{
@@ -57,8 +58,8 @@ const TeamsPage = () => {
     <nav className="team-uppernav">
       <ul>
         <li><Link href="">FINAL YEAR</Link> </li>
-        <li> <Link href="third-year">THIRD YEAR</Link> </li>
-        <li> <Link href="second-year">SECOND YEAR</Link> </li>
+        <li> <a href="#third-year">THIRD YEAR</a> </li>
+        <li> <a href="#second-year">SECOND YEAR</a> </li>
       </ul>
     </nav>
     <section id="final-year">
@@ -81,6 +82,7 @@ const TeamsPage = () => {
         {SecondyearList}
       </div>
       </section>
+      <FooterBar/>
     </>
   );
 };

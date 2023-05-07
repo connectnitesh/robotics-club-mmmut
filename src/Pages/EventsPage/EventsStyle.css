@@ -12,6 +12,9 @@
   height: 100vh;
   color: white;
 }
+.eventpage-section{
+  padding-bottom: 4rem;
+}
 
 .events-items {
   position: absolute;
@@ -109,6 +112,9 @@
   animation: circle 6s linear infinite;
 }
 
+.register-btn{
+  padding: 1rem;
+}
 
 @keyframes circle{
   100%{

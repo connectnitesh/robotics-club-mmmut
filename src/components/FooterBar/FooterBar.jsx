@@ -1,6 +1,7 @@
 import React from "react";
 import "./footerbar.css";
 import logo from "../../assets/images/general/logorc.png";
+import { BsFacebook, BsInstagram, BsLinkedin, BsYoutube } from "react-icons/bs";
 
 const FooterBar = () => {
   return (
@@ -20,19 +21,17 @@ const FooterBar = () => {
           <h3>
             ADDRESS
           </h3>
-          <p>MMMUT, Gorakhpur</p>
-          <p className="email-id">
-            <a href="mailto:anubhavgu2002@gmail.com">anubhavgu2002@gmail.com</a>
-          </p>
+          <p>Madan Mohan Malaviya University of Technology,Gorakhpur, Gorakhpur, Uttar Pradesh 273010</p>
+          
         </div>
         <div className="footerbar-col">
-          <h3>HOME</h3>
+          <h3>USEFUL LINKS</h3>
           <ul>
             <li>
-              <a href="#about">About Us</a>
+              <a href="/">About Us</a>
             </li>
             <li>
-              <a href="#">Contribute</a>
+              <a href="workshops">Workshops</a>
             </li>
           </ul>
         </div>
@@ -45,19 +44,24 @@ const FooterBar = () => {
           </h3>
           <div className="social-menu">
             <ul>
-              <a href="#" target="_blank">
+              <a href="https://www.facebook.com/roboticsclub.mmmut/" target="_blank">
                 <li id="social-twitter">
-                  <i className="fab fa-2x fa-twitter" />
+                  <i><BsFacebook /></i>
                 </li>
               </a>
-              <a href="#" target="_blank">
-                <li id="social-github">
-                  <i className="fab fa-2x fa-github" />
+              <a href="https://www.instagram.com/robotics_club_mmmut/?hl=en" target="_blank">
+                <li id="social-instagram">
+                  <i><BsInstagram /></i>
                 </li>
               </a>
-              <a href="#" target="_blank">
+              <a href="https://in.linkedin.com/company/robotics-club-mmmut-gorakhpur" target="_blank">
                 <li id="social-linkedin">
-                  <i className="fab fa-2x fa-linkedin-in" />
+                  <i><BsLinkedin/> </i>
+                </li>
+              </a>
+              <a href="https://www.youtube.com/results?search_query=robotics+club+mmmut" target="_blank">
+                <li id="social-youtube">
+                  <i><BsYoutube/> </i>
                 </li>
               </a>
             </ul>

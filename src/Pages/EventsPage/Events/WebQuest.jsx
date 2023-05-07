@@ -4,6 +4,7 @@ import "./EventStyle.css";
 import roboGif from "../../../assets/images/events/robotgif.gif";
 import roboGif2 from "../../../assets/images/events/robotgif2.gif";
 import NavMenu from '../../../components/NavMenu/NavMenu';
+import FooterBar from '../../../components/FooterBar/FooterBar';
 
 const WebQuest = () => {
   return (
@@ -104,6 +105,7 @@ const WebQuest = () => {
           <Link href="">REGISTER NOW</Link>
         </div>
       </div>
+      <FooterBar/>
     </>
   )
 }

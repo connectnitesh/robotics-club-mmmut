@@ -46,7 +46,7 @@ const EventsPage = () => {
         <h2 className="rs-text">Laser <br></br><span>Strike</span> </h2>
         <img src={laserStrike} className="rcevent-img ls-img" alt="" />
         <div className="events-btn">
-          <div className="laser-btn"><a href="electronfs">View Event</a></div> 
+          <div className="laser-btn"><a href="laserstrike">View Event</a></div> 
         </div>    
       </div>
       <div className="rb-events electro-nfs">
@@ -60,42 +60,42 @@ const EventsPage = () => {
         <h2 className="rs-text">Sherlocked <br></br><span></span> </h2>
         <img src={laserStrike} className="rcevent-img ls-img" alt="" />
         <div className="events-btn">
-          <div className="laser-btn"><a href="electronfs">View Event</a></div> 
+          <div className="laser-btn"><a href="sherlocked">View Event</a></div> 
         </div>   
       </div>
       <div className="rb-events electro-chess">
         <h2 className="ls-text">Electronic <br></br><span>Chess</span> </h2>
         <img src={laserStrike} className="rcevent-img rs-img" alt="" />
         <div className="events-btn">
-          <div className="laser-btn"><a href="electronfs">View Event</a></div> 
+          <div className="laser-btn"><a href="electronicchess">View Event</a></div> 
         </div>     
       </div>
       <div className="rb-events electro-art">
         <h2 className="rs-text">Electronic <br></br><span>Art</span> </h2>
         <img src={laserStrike} className="rcevent-img ls-img" alt="" />
         <div className="events-btn">
-          <div className="laser-btn"><a href="electronfs">View Event</a></div> 
+          <div className="laser-btn"><a href="electronicart">View Event</a></div> 
         </div>     
       </div>
       <div className="rb-events clad-code">
         <h2 className="ls-text">Cladding <br></br><span>the code</span> </h2>
         <img src={laserStrike} className="rcevent-img rs-img" alt="" />
         <div className="events-btn">
-          <div className="laser-btn"><a href="electronfs">View Event</a></div> 
+          <div className="laser-btn"><a href="claddingcode">View Event</a></div> 
         </div>    
       </div>
       <div className="rb-events web-quest">
         <h2 className="rs-text">Web <br></br><span>Quest</span> </h2>
         <img src={laserStrike} className="rcevent-img ls-img" alt="" />
         <div className="events-btn">
-          <div className="laser-btn"><a href="electronfs">View Event</a></div> 
+          <div className="laser-btn"><a href="webquest">View Event</a></div> 
         </div>     
       </div>
       <div className="rb-events infor-mal">
         <h2 className="ls-text">Informals <br></br><span></span> </h2>
         <img src={laserStrike} className="rcevent-img rs-img" alt="" />
         <div className="events-btn">
-          <div className="laser-btn"><a href="electronfs">View Event</a></div> 
+          <div className="laser-btn"><a href="informals">View Event</a></div> 
         </div>    
       </div>
     </div>
