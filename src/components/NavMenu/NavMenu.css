@@ -1,6 +1,7 @@
+
 .navcard-container {
   display: flex;
-  position: sticky;
+  position:relative;
   background: #00000057;
   padding: 0 2rem;
   z-index: 1000;
@@ -11,7 +12,7 @@
 }
 
 .navcard-left h1 {
-  color:white;
+  color: white;
   font-size: 1.3rem;
   font-weight: 600;
   padding: 1rem;
@@ -41,53 +42,81 @@
 }
 
 @media only screen and (max-width: 480px) {
-
-    .mob-menubar{
-        display: block;
-        position: absolute;
-        right:0;
-        top:0;
-    }
-
-    .mob-menubar i{
-        color: white;
-        position: absolute;
-        top:10px;
-        right:1rem;
-        font-size: 2.5rem;
-        z-index: 1000;
-    }
-
-    .navcard-left h1 {
-        display: none;
-    }
-
-    .navcard-right ul {
-        background-color:#01001e;
-        flex-direction: column;
-        top: 60px;
-        height: 100vh;
-        width:100vw;
-        text-align: center;
-      }
-
-    
-.navcard-right a {
-    font-size: 1.5rem;
+  .mob-menubar {
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
   }
 
-.navcard-right a:hover {
-    color:aqua;
-  }
-  
-  .navcard-right ul li {
-    padding: 1rem;
+  .mob-menubar i {
+    color: white;
+    position: absolute;
+    top: 10px;
+    right: 1rem;
+    font-size: 2.5rem;
+    z-index: 1000;
   }
 
-  .active-mobmenu{
+  .navcard-left h1 {
     display: none;
   }
 
+  .navcard-right ul {
+    background-color: #01001e;
+    flex-direction: column;
+    top: 60px;
+    height: 100vh;
+    width: 100vw;
+    padding-top: 20px;
+    text-align: center;
+  }
 
-  
+  .navcard-right a {
+    font-size: 1rem;
+    margin: 0;
+  }
+
+  .navcard-right a:hover {
+    color: aqua;
+  }
+
+  .navcard-right ul li {
+    padding: 0;
+  }
+
+  .navcard-ul > li {
+    text-align: center;
+    list-style: none;
+    width:50%;
+    margin:0 auto;
+    margin-bottom:1rem;
+    margin-top:1rem;
+    background: linear-gradient(0deg, #0deaf60c 0%, #0deaf66e 100%);
+    box-shadow: inset 2px 2px 5px #0decf6;
+    position: relative;
+    transform: skewX(25deg);
+    backdrop-filter: blur(16px);
+  }
+
+  .navcard-ul a {
+    text-align: center;
+    display: block;
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+  }
+
+  .navcard-ul li:hover {
+    background: linear-gradient(0deg, #0deaf600 0%, #0deaf61d 100%);
+  }
+
+  .navcard-ul > li > a {
+    transform: skewX(-25deg);
+    padding: 0.7rem 2rem;
+  }
+
+  .active-mobmenu {
+    display: none;
+  }
 }

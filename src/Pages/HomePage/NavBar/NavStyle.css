@@ -90,6 +90,10 @@
   text-decoration: none;
 }
 
+.menu a:hover {
+  color:#0decf6;
+}
+
 .menu li:hover {
   background: linear-gradient(0deg, #0deaf600 0%, #0deaf61d 100%);
 }

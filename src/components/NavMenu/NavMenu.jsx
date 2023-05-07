@@ -29,7 +29,7 @@ const NavMenu = () => {
           <h1>Robotics Club</h1>
         </div>
         <div className={`navcard-right  ${state? "" :  "active-mobmenu"}`}>
-          <ul>
+          <ul className="navcard-ul">
             <li>
               <a href="/">Home</a>
             </li>
