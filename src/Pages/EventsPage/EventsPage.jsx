@@ -1,5 +1,6 @@
 import React from "react";
 import "./EventsStyle.css";
+import Plx from "react-plx";
 import { motion } from "framer-motion";
 import rbText from "../../assets/images/events/rbmania23.png";
 import rbRobot from "../../assets/images/general/bg-robomania.png";
@@ -51,7 +52,24 @@ const EventsPage = () => {
               </p>
             </div>
           </div>
+          <Plx
+        parallaxData={[
+          {
+            start: 0,
+            end: 100,
+            easing: "ease-in",
+            properties: [
+              {
+                startValue: 1,
+                endValue: 0,
+                property: "opacity"
+              },
+            ]
+          }
+        ]}
+      >
           <img src={rbRobot} className="rc-robot" alt="" />
+          </Plx>
         </section>
         <div className="rb-events laser-strike" id="laserStrike">
           <motion.h2

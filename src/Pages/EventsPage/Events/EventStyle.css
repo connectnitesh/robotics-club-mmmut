@@ -1,6 +1,5 @@
-
 .eventpage-container {
-  background: #000 url('../../../assets/images/events/tekkn.jpg');
+  background: #000;
   height: 100vh;
   justify-content: center;
   align-items: center;
@@ -14,7 +13,7 @@
 .eventpage-hero img {
   width: 300px;
   height: 300px;
-  margin-top:7%;
+  margin-top: 7%;
 }
 
 .eventpage-hero h1 {
@@ -33,31 +32,30 @@
   opacity: 0.75;
 }
 
-.eventpage-description{
+.eventpage-description {
   display: flex;
   flex-direction: row;
-  padding:5rem;
+  padding: 2rem 5rem;
 }
 
-.eventpage-description-left{
+.eventpage-description-left {
   display: flex;
 }
 
-.eventpage-description-left h2{
+.eventpage-description-left h2 {
   height: max-content;
-  width:max-content;
+  width: max-content;
   color: white;
   text-transform: uppercase;
   background-color: #007690;
-  padding:0.5rem 3rem;
+  padding: 0.5rem 3rem;
   clip-path: polygon(0% 0%, 84% 0%, 100% 100%, 0% 100%);
 }
 
-.eventpage-description-left img{
+.eventpage-description-left img {
   width: 200px;
   height: 200px;
 }
-
 
 .eventpage-description-left .text-clip {
   width: 78.5px;
@@ -67,7 +65,7 @@
   clip-path: polygon(0% 0%, 55% 0%, 100% 100%, 45% 100%);
 }
 
-.eventpage-description-right p{
+.eventpage-description-right p {
   background: #00000040;
   color: var(--pure);
   font-size: 1.5rem;
@@ -77,76 +75,147 @@
   padding: 1rem;
 }
 
-
 .register-btn {
-  padding:0.8rem;
-  margin:0 auto;
-  width:max-content;
+  padding: 0.8rem;
+  margin: 0 auto;
+  width: max-content;
   align-items: center;
   justify-content: center;
   text-align: center;
-  color:white;
+  color: white;
+  cursor: pointer;
   background: linear-gradient(
     to right,
     rgba(192, 13, 192, 0.818),
     rgba(15, 15, 212, 0.878)
   );
-
 }
 
-.event-contact-details{
+.event-contact-details {
   display: flex;
-  padding:4rem;
+  padding: 2rem 4rem;
   text-align: center;
   justify-content: center;
 }
 
-.register-btn a{
+.register-btn a {
   color: var(--pure);
   text-decoration: none;
 }
 
-.upper-register{
+.upper-register {
   background: #000000b5;
-  font-size:1rem;
+  font-size: 1rem;
   letter-spacing: 0.4rem;
-  padding:1rem 2rem;
-  margin-top:5%;
+  padding: 1rem 2rem;
+  margin-top: 5%;
 }
 
-.contact-me{
-  margin:0 auto;
-  padding:5rem;
+.contact-me {
+  margin: 0 auto;
+  padding: 2rem 5rem;
 }
 
-.contact-me h5{
+.contact-me h5 {
   color: var(--pure);
   background-color: #00000066;
-  padding:1rem;
+  padding: 1rem;
+}
+
+.registration-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 
+.active-form{
+  display: none;
+}
+
+
+.registration-form::-webkit-scrollbar {
+  display: none;
+}
+
+/* ************* Individual pages background ********/
+
+.lst {
+  background: url("../../../assets/images//events/laser.jpg");
+  background-size: cover;
+  background-repeat: no repeat;
+  background-position: center center;
+}
+
+.enfs {
+  background: url("../../../assets/images/events/nfs.png");
+  background-size: cover;
+  background-repeat: no repeat;
+  background-position: center center;
+}
+
+.sld {
+  background: url("../../../assets/images/events/sherlock.jpg");
+  background-size: cover;
+  background-repeat: no repeat;
+  background-position: center center;
+}
+
+.echess {
+  background: url("../../../assets/images/events/chess.png");
+  background-size: cover;
+  background-repeat: no repeat;
+  background-position: center center;
+}
+
+.eart {
+  background: url("../../../assets/images/events/eart.jpg");
+  background-size: cover;
+  background-repeat: no repeat;
+  background-position: center center;
+}
+
+.webq {
+  background: url("../../../assets/images/events/webq.png");
+  background-size: cover;
+  background-repeat: no repeat;
+  background-position: center center;
+}
+
+.inf {
+  background: url("../../../assets/images/events/inf.png");
+  background-size: cover;
+  background-repeat: no repeat;
+  background-position: center center;
+}
+
+.cld {
+  background: url("../../../assets/images/events/ctd.png");
+  background-size: cover;
+  background-repeat: no repeat;
+  background-position: center center;
+}
+
 @media only screen and (max-width: 480px) {
-  .eventpage-container{
+  .eventpage-container {
     overflow-x: hidden;
   }
-  
-  .eventpage-description{
+
+  .eventpage-description {
     flex-direction: column;
-    padding:2rem;
+    padding: 2rem;
   }
 
-  .eventpage-description-left img{
+  .eventpage-description-left img {
     margin-left: -250px;
-    margin-top:50px;
+    margin-top: 50px;
   }
 
-  .eventpage-description-right p{
+  .eventpage-description-right p {
     font-size: 0.8rem;
   }
 
-  .contact-me{
-    padding:2rem;
+  .contact-me {
+    padding: 2rem;
   }
-  
 }

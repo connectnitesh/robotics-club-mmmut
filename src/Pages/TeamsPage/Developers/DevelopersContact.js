@@ -6,7 +6,7 @@ const developers = [
         "name": "Nitesh Rawat",
         "image": "",
         "position": "Technical Lead",
-        "insta": "/",
+        "insta": "https://instagram.com/connectnitesh8",
         "lin": "/"
        },
     {

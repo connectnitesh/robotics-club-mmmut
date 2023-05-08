@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { useState } from "react";
 import "./EventStyle.css";
 import roboGif from "../../../assets/images/events/robotgif.gif";
 import roboGif2 from "../../../assets/images/events/robotgif2.gif";
@@ -7,16 +7,24 @@ import NavMenu from "../../../components/NavMenu/NavMenu";
 import FooterBar from "../../../components/FooterBar/FooterBar";
 
 const ElectroNfs = () => {
+
+  const [eform,seteform]=useState(false);
+
+  function handleform(){
+      seteform(!eform);
+      console.log(eform);
+  }
+
   return (
     <>
-      <div className="eventpage-container">
+      <div className="eventpage-container enfs">
         <NavMenu />
         <div className="eventpage-hero">
           <img src={roboGif} alt="robogif" />
-          <h1>tekken</h1>
+          <h1 style={{color: "white"}}>Electro Nfs</h1>
         </div>
         <div class="register-btn upper-register">
-          <Link href="">REGISTER NOW</Link>
+        <a href="#register-form">REGISTER NOW</a>
         </div>
       </div>
       <div className="eventpage-section">
@@ -28,18 +36,7 @@ const ElectroNfs = () => {
           </div>
           <div class="eventpage-description-right">
             <p>
-              Let the wars begin! With the increasing popularity of robotic
-              combat sports such as <strong>RoboWars</strong> and Battle of
-              Bots, many students think about building a fighting robot of their
-              own. If you are crazy enough, then you can build your own fighting
-              machine then here stands your chance , conducted by the{" "}
-              <strong>Robotics Club</strong> of <strong>MMMUT Gorakhpur</strong>
-              . It is savage. It is treacherous. It is a game of style, control,
-              damage and aggression with the robots pitting each other in deadly
-              combat. It is time to concentrate on the hacking and slashing of
-              the robots. Now it is time to rumble. It's the Grand Finale of
-              war. Get ready to feel the chills and shivers down your spine and
-              become a part of Robowars
+            "Need For Speed brought to life....Get Ready to experience more thrilling,more exciting larger than life gaming with the club's newly introduced event NFS,gripping you more and more with its magnanimous setup both literally and metaphorically thrust your control skils at the stearing and race your opponent to the finish for a win.....!"
             </p>
           </div>
         </div>
@@ -50,19 +47,8 @@ const ElectroNfs = () => {
             <img src={roboGif2} alt="robogif" />
           </div>
           <div class="eventpage-description-right">
-            <p>
-              Let the wars begin! With the increasing popularity of robotic
-              combat sports such as <strong>RoboWars</strong> and Battle of
-              Bots, many students think about building a fighting robot of their
-              own. If you are crazy enough, then you can build your own fighting
-              machine then here stands your chance , conducted by the{" "}
-              <strong>Robotics Club</strong> of <strong>MMMUT Gorakhpur</strong>
-              . It is savage. It is treacherous. It is a game of style, control,
-              damage and aggression with the robots pitting each other in deadly
-              combat. It is time to concentrate on the hacking and slashing of
-              the robots. Now it is time to rumble. It's the Grand Finale of
-              war. Get ready to feel the chills and shivers down your spine and
-              become a part of Robowars
+          <p>
+              Uploaded Soon
             </p>
           </div>
         </div>
@@ -73,37 +59,31 @@ const ElectroNfs = () => {
             <img src={roboGif2} alt="robogif" />
           </div>
           <div class="eventpage-description-right">
-            <p>
-              Let the wars begin! With the increasing popularity of robotic
-              combat sports such as <strong>RoboWars</strong> and Battle of
-              Bots, many students think about building a fighting robot of their
-              own. If you are crazy enough, then you can build your own fighting
-              machine then here stands your chance , conducted by the{" "}
-              <strong>Robotics Club</strong> of <strong>MMMUT Gorakhpur</strong>
-              . It is savage. It is treacherous. It is a game of style, control,
-              damage and aggression with the robots pitting each other in deadly
-              combat. It is time to concentrate on the hacking and slashing of
-              the robots. Now it is time to rumble. It's the Grand Finale of
-              war. Get ready to feel the chills and shivers down your spine and
-              become a part of Robowars
+          <p>
+              12th - 14th May 2023
             </p>
           </div>
         </div>
         <div className="event-contact-details">
-          <div className="contact-me">
+        <div className="contact-me">
             <h5>
-              Name <span>987654321</span>
+              Nitesh Rawat <span>8090684923</span>
             </h5>
           </div>
           <div className="contact-me">
             <h5>
-              Name <span>987654321</span>
+              Aryan Anand <span>987654321</span>
             </h5>
           </div>
         </div>
-        <div class="register-btn">
-          <Link href="">REGISTER NOW</Link>
+        <div className="register-btn" id="register-form">
+        <a  onClick={handleform}>Click here to Register</a> 
+
         </div>
+        <div className={ `registration-form ${eform? "" : "active-form" }`}>
+        <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfEPCdzWP48SSYjBLOTy4yOnp_3j3WS9FsU7k3j6xjVahgqyw/viewform?embedded=true" scrolling='no'  width="640" height="1512" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+        </div>
+
       </div>
       <FooterBar/>
     </>

@@ -114,8 +114,11 @@
   color: var(--pure);
 }
 
-.events-btn a:hover{
-  color: var(--glow-color2);
+.events-btn:hover{
+  background-color: #060a24ce;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
 }
 
 .events-btn .laser-btn{
@@ -125,22 +128,7 @@
 .register-btn{
   padding: 1rem;
 }
-.registration-form{
- display: flex;
- justify-content: center;
- align-items: center;
 
-}
-
-
-
-.registration-form::-webkit-scrollbar {
-  display:none;     
-}
-
-.active-form{
-  display: none;
-}
 
 @keyframes circle{
   100%{

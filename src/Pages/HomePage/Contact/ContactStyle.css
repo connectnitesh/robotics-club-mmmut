@@ -111,6 +111,18 @@ button[type="submit"] {
   font-size: 1rem;
 }
 
+.copyright-homepage a{
+  color: var(--glow-color);
+  text-decoration: none;
+}
+
+.copyright-homepage span{
+  color: var(--glow-color);
+  text-decoration: none;
+}
+
+
+
 .footer-mobile-homepage{
   display: flex;
   flex-direction: row;

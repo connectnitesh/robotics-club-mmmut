@@ -1,7 +1,11 @@
+.navforteam{
+    background: #1a1717ef;
+}
+
 /*       team-uppernav           */
 .team-uppernav{
     width: 100vw;
-    background-color: black;
+    background: #000000e6;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -31,6 +35,7 @@
 }
 
 .team-uppernav li a{
+    cursor: pointer;
     text-decoration: none;
     color: black;
     font-size: 0.8rem;
@@ -180,6 +185,10 @@
 {
     color: #fff;
     font-size:22px;
+}
+
+.active-teamnow{
+    display: none;
 }
 
 @media only screen and (max-width:480px) {

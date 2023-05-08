@@ -1,5 +1,4 @@
 import React, { useState } from 'react'
-import { Link } from "react-router-dom";
 import "./EventStyle.css";
 import roboGif from "../../../assets/images/events/robotgif.gif";
 import roboGif2 from "../../../assets/images/events/robotgif2.gif";
@@ -17,14 +16,14 @@ const LaserStrike = () => {
 
   return (
     <>
-      <div className="eventpage-container">
+      <div className="eventpage-container lst">
         <NavMenu />
         <div className="eventpage-hero">
           <img src={roboGif} alt="robogif" />
-          <h1>tekken</h1>
+          <h1 style={{color: "white"}}>Laser Strike</h1>
         </div>
         <div class="register-btn upper-register">
-          <Link href="">REGISTER NOW</Link>
+        <a href="#register-form">REGISTER NOW</a>
         </div>
       </div>
       <div className="eventpage-section">
@@ -36,18 +35,7 @@ const LaserStrike = () => {
           </div>
           <div class="eventpage-description-right">
             <p>
-              Let the wars begin! With the increasing popularity of robotic
-              combat sports such as <strong>RoboWars</strong> and Battle of
-              Bots, many students think about building a fighting robot of their
-              own. If you are crazy enough, then you can build your own fighting
-              machine then here stands your chance , conducted by the{" "}
-              <strong>Robotics Club</strong> of <strong>MMMUT Gorakhpur</strong>
-              . It is savage. It is treacherous. It is a game of style, control,
-              damage and aggression with the robots pitting each other in deadly
-              combat. It is time to concentrate on the hacking and slashing of
-              the robots. Now it is time to rumble. It's the Grand Finale of
-              war. Get ready to feel the chills and shivers down your spine and
-              become a part of Robowars
+            If you spend hours playing counter strike, <strong>Laser Strike</strong> is the one for you. A simulation of counter strike, it leaves you thrilled and amazed. Two teams will be fighting simultaneously with the help of a sensor kit and a laser kit and members of one team will have to kill the members of the enemy team.
             </p>
           </div>
         </div>
@@ -59,18 +47,7 @@ const LaserStrike = () => {
           </div>
           <div class="eventpage-description-right">
             <p>
-              Let the wars begin! With the increasing popularity of robotic
-              combat sports such as <strong>RoboWars</strong> and Battle of
-              Bots, many students think about building a fighting robot of their
-              own. If you are crazy enough, then you can build your own fighting
-              machine then here stands your chance , conducted by the{" "}
-              <strong>Robotics Club</strong> of <strong>MMMUT Gorakhpur</strong>
-              . It is savage. It is treacherous. It is a game of style, control,
-              damage and aggression with the robots pitting each other in deadly
-              combat. It is time to concentrate on the hacking and slashing of
-              the robots. Now it is time to rumble. It's the Grand Finale of
-              war. Get ready to feel the chills and shivers down your spine and
-              become a part of Robowars
+              Uploaded Soon
             </p>
           </div>
         </div>
@@ -82,40 +59,30 @@ const LaserStrike = () => {
           </div>
           <div class="eventpage-description-right">
             <p>
-              Let the wars begin! With the increasing popularity of robotic
-              combat sports such as <strong>RoboWars</strong> and Battle of
-              Bots, many students think about building a fighting robot of their
-              own. If you are crazy enough, then you can build your own fighting
-              machine then here stands your chance , conducted by the{" "}
-              <strong>Robotics Club</strong> of <strong>MMMUT Gorakhpur</strong>
-              . It is savage. It is treacherous. It is a game of style, control,
-              damage and aggression with the robots pitting each other in deadly
-              combat. It is time to concentrate on the hacking and slashing of
-              the robots. Now it is time to rumble. It's the Grand Finale of
-              war. Get ready to feel the chills and shivers down your spine and
-              become a part of Robowars
+              12th - 14th May 2023
             </p>
           </div>
         </div>
         <div className="event-contact-details">
           <div className="contact-me">
             <h5>
-              Name <span>987654321</span>
+              Nitesh Rawat <span>8090684923</span>
             </h5>
           </div>
           <div className="contact-me">
             <h5>
-              Name <span>987654321</span>
+              Aryan Anand <span>987654321</span>
             </h5>
           </div>
         </div>
-        <div className="register-btn">
-          <button type='submit' onClick={handleform}> Register Now</button> 
+        <div className="register-btn" id="register-form">
+        <a  onClick={handleform}>Click here to Register</a> 
+
         </div>
         <div className={ `registration-form ${eform? "" : "active-form" }`}>
-        
-        <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSf2aKI5hQqPnFpla_WW0eiPFEhXp84gv6q2Yr_wd1rkMWd1rw/viewform?embedded=true" width ="100%"height="1220" frameborder="0" marginheight="0" scrolling="no" marginwidth="0">Loading…</iframe>
+        <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfEPCdzWP48SSYjBLOTy4yOnp_3j3WS9FsU7k3j6xjVahgqyw/viewform?embedded=true" scrolling='no'  width="640" height="1512" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
         </div>
+
       </div>
       <FooterBar/>
     </>
