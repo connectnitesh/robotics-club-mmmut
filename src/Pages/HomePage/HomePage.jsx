@@ -6,6 +6,8 @@ import About from "./About/About";
 import Sponsors from "./Sponsors/Sponsors";
 import Contact from "./Contact/Contact";
 import RcText from "./RcText/RcText";
+import ParticleBckg from "../../components/ParticleBckg/ParticleBckg";
+import particleconfig from "./ParticleConfig";
 
 const HomePage = () => {
   return (
@@ -26,6 +28,7 @@ const HomePage = () => {
         <Contact />
       </section>
       </div>
+<ParticleBckg myparticle={particleconfig}/>
     </>
   );
 };

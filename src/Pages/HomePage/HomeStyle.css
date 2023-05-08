@@ -1,5 +1,5 @@
 .homepage-body{
-  background: url('../../assets/images/general/bg_event.jpg');
+  background: none;
 }
 
 .homepage-section {
@@ -9,10 +9,21 @@
 }
 
 @media only screen and (max-width: 480px) {
+  .homepage-body{
+    background:#000 url('../../assets/images/general/phone5.png');
+    background-position: bottom center;
+    background-size: cover;
+    background-attachment: fixed;
+  }
+
   .homepage-section {
     background: url("../../assets/images/general/bgmobile.png");
     background-position: center center;
     background-size: cover;
+  }
+
+  #tsparticles{
+    display: none;
   }
 
 }

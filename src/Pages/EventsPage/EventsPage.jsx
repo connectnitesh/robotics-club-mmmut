@@ -1,5 +1,6 @@
 import React from "react";
 import "./EventsStyle.css";
+import { motion } from "framer-motion";
 import rbText from "../../assets/images/general/robomania-text.png";
 import rbRobot from "../../assets/images/general/bg-robomania.png";
 import laserStrike from "../../assets/images/events/laser.jpg"
@@ -43,7 +44,15 @@ const EventsPage = () => {
         <img src={rbRobot} className="rc-robot" alt="" />
       </section>
       <div className="rb-events laser-strike" id="laserStrike">
-        <h2 className="rs-text">Laser <br></br><span>Strike</span> </h2>
+        <motion.h2 className="rs-text" animate={{ x: [50, 150, 50], opacity: 0.9, scale: 0.9 }}
+                transition={{
+                    duration: 5,
+                    delay: 0.3,
+                    ease: [0.5, 0.71, 1, 1.5],
+                    repeat: Infinity,
+                }}
+                initial={{ opacity: 0.7, scale: 0.7 }}
+                >Laser <br></br><span>Strike</span> </motion.h2>
         <img src={laserStrike} className="rcevent-img ls-img" alt="" />
         <div className="events-btn">
           <div className="laser-btn"><a href="laserstrike">View Event</a></div> 
