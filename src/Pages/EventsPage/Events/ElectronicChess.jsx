@@ -16,7 +16,7 @@ const ElectronicChess = () => {
           <h1>tekken</h1>
         </div>
         <div class="register-btn upper-register">
-          <Link href="">REGISTER NOW</Link>
+          <a href="#register-form">REGISTER NOW</a>
         </div>
       </div>
       <div className="eventpage-section">
@@ -102,7 +102,7 @@ const ElectronicChess = () => {
           </div>
         </div>
         <div class="register-btn">
-          <Link href="">REGISTER NOW</Link>
+          <Link href="" id="register-form">REGISTER NOW</Link>
         </div>
       </div>
       <FooterBar/>

@@ -41,7 +41,10 @@
 }
 
 .team-card{
-    background: #00043d;
+    background:#000 url('../../assets/images/general/bgteam2.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
     margin:0 auto;
     text-align: center;
     align-items: center;
