@@ -25,10 +25,7 @@ const WorkshopsPage = () => {
           <div className="workshop-rightcontent">
             <h3>HTML Classes</h3>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Laudantium voluptate quas aperiam incidunt. Quam, veritatis totam
-              asperiores expedita consectetur molestias officiis vitae nostrum!
-              Dolore.
+            Web development workshop is a training program that provides individuals with the knowledge and skills required to design and build modern, functional websites. The workshop typically covers a wide range of topics, including HTML, CSS, JavaScript, and other essential programming languages and tools used for web development.
             </p>
           </div>
         </div>
@@ -45,10 +42,7 @@ const WorkshopsPage = () => {
           <div className="workshop-rightcontent">
             <h3>CSS Classes</h3>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Laudantium voluptate quas aperiam incidunt. Quam, veritatis totam
-              asperiores expedita consectetur molestias officiis vitae nostrum!
-              Dolore.
+            Web development workshop is a training program that provides individuals with the knowledge and skills required to design and build modern, functional websites. The workshop typically covers a wide range of topics, including HTML, CSS, JavaScript, and other essential programming languages and tools used for web development.
             </p>
           </div>
         </div>
@@ -65,10 +59,7 @@ const WorkshopsPage = () => {
           <div className="workshop-rightcontent">
             <h3>Javascript Classes</h3>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Laudantium voluptate quas aperiam incidunt. Quam, veritatis totam
-              asperiores expedita consectetur molestias officiis vitae nostrum!
-              Dolore.
+            Web development workshop is a training program that provides individuals with the knowledge and skills required to design and build modern, functional websites. The workshop typically covers a wide range of topics, including HTML, CSS, JavaScript, and other essential programming languages and tools used for web development.
             </p>
           </div>
         </div>
@@ -85,10 +76,7 @@ const WorkshopsPage = () => {
           <div className="workshop-rightcontent">
             <h3>Backend-PHP Classes </h3>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Laudantium voluptate quas aperiam incidunt. Quam, veritatis totam
-              asperiores expedita consectetur molestias officiis vitae nostrum!
-              Dolore.
+            Web development workshop conducted by Robotics Club MMMUT is a training program that provides individuals with the knowledge and skills required to design and build modern, functional websites. The workshop typically covers a wide range of topics, including HTML, CSS, JavaScript, and other essential programming languages and tools used for web development.
             </p>
           </div>
         </div>
@@ -116,10 +104,7 @@ const WorkshopsPage = () => {
           <div className="workshop-rightcontent">
             <h3>Monster Design</h3>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Laudantium voluptate quas aperiam incidunt. Quam, veritatis totam
-              asperiores expedita consectetur molestias officiis vitae nostrum!
-              Doloree.
+            Circuitry workshop conducted by Robotics Club MMMUT is a hands-on training program that focuses on teaching participants the fundamental concepts and skills related to electronics and circuit design. During the workshop, participants will learn how to work with electronic components, read and design circuit diagrams, and build their own circuits.
             </p>
           </div>
         </div>

@@ -1,9 +1,16 @@
 import React from "react";
 import "./EventsStyle.css";
 import { motion } from "framer-motion";
-import rbText from "../../assets/images/general/robomania-text.png";
+import rbText from "../../assets/images/events/rbmania23.png";
 import rbRobot from "../../assets/images/general/bg-robomania.png";
 import laserStrike from "../../assets/images/events/laser.jpg";
+import nfs from '../../assets/images/events/nfs.png'
+import shl from '../../assets/images/events/sherlock.jpg'
+import chess from '../../assets/images/events/chess2.png'
+import eart from '../../assets/images/events/eart.jpg'
+import ctd from '../../assets/images/events/ctd.png'
+import webq from '../../assets/images/events/webq.png'
+import inf from '../../assets/images/events/inf.png'
 import NavMenu from "../../components/NavMenu/NavMenu";
 import FooterBar from "../../components/FooterBar/FooterBar";
 
@@ -16,12 +23,7 @@ const EventsPage = () => {
           <div className="events-items">
             <img src={rbText} className="rb-text" alt="" />
             <p className="robo-para">
-              Robomania is the coalescence of caliber and rewards, technical
-              expertise and valor where budding engi Lorem ipsum dolor sit amet
-              consectetur adipisicing elit. Odit necessitatibus nesciunt
-              exercitationem! Incidunt quia iusto totam nobis quis explicabo
-              dolore, architecto at fugiat amet voluptatibus. Ab vel eos est
-              voluptatibus?
+            Robomania is the coalescence of caliber and rewards, technical expertise and valor where budding engineers and technology enthusiasts can showcase their innovative ideas and skills. Participants have the opportunity to collaborate with other like-minded individuals. Robomania is a must-attend event for anyone interested in pushing the boundaries of what is possible in the field of robotics.
             </p>
             <div>
               <a href="#laserStrike" className="btn-robomania">
@@ -90,7 +92,7 @@ const EventsPage = () => {
             Electro <br></br>
             <span>NFS</span>{" "}
           </motion.h2>
-          <img src={laserStrike} className="rcevent-img rs-img" alt="" />
+          <img src={nfs} className="rcevent-img rs-img" alt="" />
           <div className="events-btn">
             <div className="laser-btn">
               <a href="electronfs">View Event</a>
@@ -113,7 +115,7 @@ const EventsPage = () => {
             Sherlocked <br></br>
             <span></span>{" "}
           </motion.h2>
-          <img src={laserStrike} className="rcevent-img ls-img" alt="" />
+          <img src={shl} className="rcevent-img ls-img" alt="" />
           <div className="events-btn">
             <div className="laser-btn">
               <a href="sherlocked">View Event</a>
@@ -136,7 +138,7 @@ const EventsPage = () => {
             Electronic <br></br>
             <span>Chess</span>{" "}
           </motion.h2>
-          <img src={laserStrike} className="rcevent-img rs-img" alt="" />
+          <img src={chess} className="rcevent-img rs-img" alt="" />
           <div className="events-btn">
             <div className="laser-btn">
               <a href="electronicchess">View Event</a>
@@ -159,7 +161,7 @@ const EventsPage = () => {
             Electronic <br></br>
             <span>Art</span>{" "}
           </motion.h2>
-          <img src={laserStrike} className="rcevent-img ls-img" alt="" />
+          <img src={eart} className="rcevent-img ls-img" alt="" />
           <div className="events-btn">
             <div className="laser-btn">
               <a href="electronicart">View Event</a>
@@ -182,7 +184,7 @@ const EventsPage = () => {
             Cladding <br></br>
             <span>the code</span>{" "}
           </motion.h2>
-          <img src={laserStrike} className="rcevent-img rs-img" alt="" />
+          <img src={ctd} className="rcevent-img rs-img" alt="" />
           <div className="events-btn">
             <div className="laser-btn">
               <a href="claddingcode">View Event</a>
@@ -205,7 +207,7 @@ const EventsPage = () => {
             Web <br></br>
             <span>Quest</span>{" "}
           </motion.h2>
-          <img src={laserStrike} className="rcevent-img ls-img" alt="" />
+          <img src={webq} className="rcevent-img ls-img" alt="" />
           <div className="events-btn">
             <div className="laser-btn">
               <a href="webquest">View Event</a>
@@ -228,7 +230,7 @@ const EventsPage = () => {
             Informals <br></br>
             <span></span>{" "}
           </motion.h2>
-          <img src={laserStrike} className="rcevent-img rs-img" alt="" />
+          <img src={inf} className="rcevent-img rs-img" alt="" />
           <div className="events-btn">
             <div className="laser-btn">
               <a href="informals">View Event</a>

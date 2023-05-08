@@ -29,8 +29,12 @@
 .navcard-right a {
   color: var(--pure);
   font-size: 1.3rem;
-  margin: 2rem;
+  margin: 1.5rem;
   text-decoration: none;
+}
+
+.navcard-right a:hover{
+  color: aqua;
 }
 
 .navcard-right ul li {
@@ -78,7 +82,7 @@
   }
 
   .navcard-right a:hover {
-    color: aqua;
+    color: white;
   }
 
   .navcard-right ul li {
@@ -97,6 +101,10 @@
     position: relative;
     transform: skewX(25deg);
     backdrop-filter: blur(16px);
+  }
+
+  .navcard-ul > li:hover{
+    background: linear-gradient(0deg, #0deaf600 0%, #0deaf61d 100%);
   }
 
   .navcard-ul a {

@@ -3,6 +3,7 @@ import "./GalleryStyle.css";
 import GalleryImage from "./GalleryImage";
 import GalleryCard from "./GalleryCard";
 import NavMenu from "../../components/NavMenu/NavMenu";
+import FooterBar from "../../components/FooterBar/FooterBar";
 
 const GalleryPage = () => {
 
@@ -21,6 +22,7 @@ const GalleryPage = () => {
       </div>
     </div>
     </div>
+    <FooterBar />
    
     </>
   );

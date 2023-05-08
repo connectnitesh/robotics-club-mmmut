@@ -1,6 +1,6 @@
 .workshop-bckg {
-  background: #000 url('../../assets/images/general/parallax8.png');
-  background-position: bottom center;
+  background: #000 url('../../assets/images/general/parallax10d.jpg');
+  background-position: center center;
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
@@ -12,6 +12,7 @@
   color:var(--grey);
   padding:2rem;
 }
+
 
 .workshop-content{
   display: flex;
@@ -38,6 +39,7 @@
   font-weight: 400;
   line-height: 1.5;
   word-spacing: 10px;
+  padding:1rem;
 }
 
 /* **************************************************************** */

@@ -18,13 +18,18 @@
 
 .events-items {
   position: absolute;
-  top: 15%;
+  top: 10%;
   width: 70%;
-  padding: 2rem;
+  padding: 1rem;
 }
 
 .events-items img {
-  width: 100%;
+  width: 1024px;
+}
+
+.robo-para{
+  margin-top:4rem;
+  margin-left:2rem;
 }
 
 .rc-robot {
@@ -36,7 +41,7 @@
 .btn-robomania {
   color: #ff0000;
   background: #fff;
-  margin: 2rem;
+  margin:2rem 4rem;
   text-align: center;
   text-decoration: none;
   font-size: 1.5rem;
@@ -153,6 +158,14 @@
   position: absolute;
   right: 10%;
   top: 20%;
+  border-width:8px;
+  border-style: solid;
+  border-image: 
+    linear-gradient(
+      to bottom, 
+      var(--glow-color), 
+      rgba(0, 0, 0, 0)
+    )1 100%;
 }
 
 .ls-text {
@@ -165,7 +178,22 @@
   position: absolute;
   left: 10%;
   top: 15%;
+  border-width:8px;
+  border-style: solid;
+  border-image: 
+    linear-gradient(
+      to top, 
+      var(--glow-color), 
+      rgba(0, 0, 0, 0)
+    )1 100%;
 }
+
+
+.rcevent-img{
+  width:55%;
+  height:60%;
+}
+
 
 /*************************************************************************** */
 
@@ -223,6 +251,10 @@
 
   .landing-details {
     display: none;
+  }
+
+  .events-items img {
+    width: 100%;
   }
 
   .events-items p {

@@ -40,6 +40,9 @@ const NavMenu = () => {
               <a href="workshops">Workshop</a>
             </li>
             <li>
+              <a href="gallery">Gallery</a>
+            </li>
+            <li>
               <a href="team">Team</a>
             </li>
           </ul>

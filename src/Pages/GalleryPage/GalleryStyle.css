@@ -1,7 +1,7 @@
 .gallery-bckg{
-  background: url("../../assets/images/gallery/bg_event.jpg");
+  background: url("../../assets/images/general/parallax10.png");
   min-height: 100vh;
-  background-position: center center;
+  background-position: bottom center;
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
