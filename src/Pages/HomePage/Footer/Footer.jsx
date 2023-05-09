@@ -8,14 +8,14 @@ const Footer = () => {
       <div className="footer-left">
         <ul class="menu">
           <li>
-            <a href="#about">ABOUT US</a>
+            <a href="#about-us">ABOUT US</a>
           </li>
           <li>
-            <a href="#contact">CONTACT US</a>
+            <a href="#contact-us">CONTACT US</a>
           </li>
-          <li>
+          {/* <li>
             <a href="#sponsor">SPONSORS</a>
-          </li>
+          </li> */}
         </ul>
       </div>
       <div className="footer-right">

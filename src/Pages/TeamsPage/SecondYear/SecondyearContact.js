@@ -1,6 +1,6 @@
 import aryan from "../../../assets/images/teams/2nd Year/aryan.jpeg";
 import anubhavg from "../../../assets/images/teams/2nd Year/anubhavg.png";
-import anubhavs from "../../../assets/images/teams/2nd Year/anubhavs.jpg";
+import anubhavs from "../../../assets/images/teams/2nd Year/anubhavs.jpeg";
 import nitish from "../../../assets/images/teams/2nd Year/nitish.jpg";
 import ashish from "../../../assets/images/teams/2nd Year/ashish.jpg";
 import akash from "../../../assets/images/teams/2nd Year/akash.JPG";

@@ -44,9 +44,9 @@ const HomePage = () => {
       <section id="about-us">
         <About />
       </section>
-      <section id="sponsors">
+      {/* <section id="sponsors">
         <Sponsors />
-      </section>
+      </section> */}
       <section id="contact-us">
         <Contact />
       </section>

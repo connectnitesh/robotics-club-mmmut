@@ -17,12 +17,7 @@ const Contact = () => {
       <h1 data-aos="fade-right">Contact Us</h1>
       <div className="contact-container">
         <div data-aos="flip-up" className="left-contact">
-          <iframe title="map"
-            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14253.622450778397!2d83.4331276!3d26.7314295!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39915ca3e2aa136b%3A0xc039bdf0211338a9!2sMadan%20Mohan%20Malaviya%20University%20Of%20Technology!5e0!3m2!1sen!2sin!4v1682628507785!5m2!1sen!2sin"
-            allowFullScreen
-            loading="lazy"
-            referrerPolicy="no-referrer-when-downgrade"
-          />
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3563.470221725312!2d83.43147071504104!3d26.72936673320687!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39914363ffffffef%3A0xb0560a34fcd804c0!2sRobotics%20Club%2C%20MMMUT%20Gorakhpur!5e0!3m2!1sen!2sin!4v1683674881349!5m2!1sen!2sin" width="600" height="450" style={{border:0}} allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" />
         </div>
         <div data-aos="fade-up" className="right-contact">
           <form action method="post">
@@ -60,15 +55,16 @@ const Contact = () => {
         </div>
       </div>
       <div data-aos="fade-up" className="details-container">
-        <Link href="">
-          <IoMdCall /> 8095d656{" "}
-        </Link>
-        <Link href="">
-          <HiOutlineMail /> v@example.com{" "}
-        </Link>
-        <Link href="">
-          <BiMap /> RCMMMUT
-        </Link>
+        <a href="tel:+918081165522">
+          <IoMdCall />  +91 80811 65522
+        </a>
+        <a href="mailto:roboticsclub.mmmut@gmail.com" target="_blank">
+          <HiOutlineMail /> 
+ roboticsclub.mmmut@gmail.com
+        </a>
+        <a href="https://goo.gl/maps/7nbySXkE2MyNMVYL6?coh=178571&entry=tt" target="_blank">
+          <BiMap /> 
+        </a>
       </div>
 
       <ul class="footer-mobile-homepage">

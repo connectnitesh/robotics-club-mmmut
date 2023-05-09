@@ -5,13 +5,13 @@ import { motion } from "framer-motion";
 import rbText from "../../assets/images/events/rbmania23.png";
 import rbRobot from "../../assets/images/general/bg-robomania.png";
 import laserStrike from "../../assets/images/events/laser.jpg";
-import nfs from '../../assets/images/events/nfs.png'
+import nfs from '../../assets/images/events/nfs.jpg'
 import shl from '../../assets/images/events/sherlock.jpg'
-import chess from '../../assets/images/events/chess2.png'
+import chess from '../../assets/images/events/chess2.jpg'
 import eart from '../../assets/images/events/eart.jpg'
-import ctd from '../../assets/images/events/ctd.png'
-import webq from '../../assets/images/events/webq.png'
-import inf from '../../assets/images/events/inf.png'
+import ctd from '../../assets/images/events/ctd.jpg'
+import webq from '../../assets/images/events/webq.jpg'
+import inf from '../../assets/images/events/inf.jpg'
 import NavMenu from "../../components/NavMenu/NavMenu";
 import FooterBar from "../../components/FooterBar/FooterBar";
 

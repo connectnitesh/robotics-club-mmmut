@@ -1,5 +1,4 @@
 import React from "react";
-import { useState } from "react";
 import NavMenu from "../../../components/NavMenu/NavMenu";
 import "./EventStyle.css";
 import roboGif from "../../../assets/images/events/robotgif.gif";
@@ -7,14 +6,6 @@ import roboGif2 from "../../../assets/images/events/robotgif2.gif";
 import FooterBar from "../../../components/FooterBar/FooterBar";
 
 const CladdingCode = () => {
-
-  
-  const [eform,seteform]=useState(false);
-
-  function handleform(){
-      seteform(!eform);
-      console.log(eform);
-  }
 
   return (
     <>
@@ -78,11 +69,8 @@ const CladdingCode = () => {
           </div>
         </div>
         <div className="register-btn" id="register-form">
-        <a  onClick={handleform}>Click here to Register</a> 
+        <a href="https://forms.gle/kgmdWG3ercSRXrcPA">Click here to Register</a> 
 
-        </div>
-        <div className={ `registration-form ${eform? "" : "active-form" }`}>
-        <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfEPCdzWP48SSYjBLOTy4yOnp_3j3WS9FsU7k3j6xjVahgqyw/viewform?embedded=true" scrolling='no'  width="640" height="1512" frameborder="0" marginheight="0"  marginwidth="0">Loading…</iframe>
         </div>
 
       </div>
