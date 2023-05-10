@@ -117,6 +117,29 @@ const EventsPage = () => {
             </div>
           </div>
         </div>
+         <div className="rb-events bomb-diff">
+          <motion.h2
+            className="ls-text"
+            animate={{ x: [0, -100, 0], opacity: 0.9, scale: 0.9 }}
+            transition={{
+              duration: 5,
+              delay: 0.3,
+              ease: [0.5, 0.71, 1, 1.5],
+              repeat: Infinity,
+            }}
+            initial={{ opacity: 0.7, scale: 0.7 }}
+            whileHover={{ scale: 1.1 }}
+          >
+            Bomb Diffusion <br></br>
+            <span></span>{" "}
+          </motion.h2>
+          <img src={bmb} className="rcevent-img rs-img" alt="" />
+          <div className="events-btn">
+            <div className="laser-btn">
+              <a href="bombdiffusion">View Event</a>
+            </div>
+          </div>
+        </div>
         <div className="rb-events sher-lock">
           <motion.h2
             className="rs-text"
@@ -232,29 +255,7 @@ const EventsPage = () => {
             </div>
           </div>
         </div>
-        <div className="rb-events bomb-diff">
-          <motion.h2
-            className="ls-text"
-            animate={{ x: [0, -100, 0], opacity: 0.9, scale: 0.9 }}
-            transition={{
-              duration: 5,
-              delay: 0.3,
-              ease: [0.5, 0.71, 1, 1.5],
-              repeat: Infinity,
-            }}
-            initial={{ opacity: 0.7, scale: 0.7 }}
-            whileHover={{ scale: 1.1 }}
-          >
-            Bomb Diffusion <br></br>
-            <span></span>{" "}
-          </motion.h2>
-          <img src={bmb} className="rcevent-img rs-img" alt="" />
-          <div className="events-btn">
-            <div className="laser-btn">
-              <a href="bombdiffusion">View Event</a>
-            </div>
-          </div>
-        </div>
+       
       </div>
       <FooterBar />
     </>

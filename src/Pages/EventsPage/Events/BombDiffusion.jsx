@@ -24,7 +24,7 @@ const BombDiffusion = () => {
           <h1 style={{color: "white"}}>Bomb Diffusion</h1>
         </div>
         <div class="register-btn upper-register">
-        <a href="#register-form">REGISTER NOW</a>
+        <a href="https://linktr.ee/Robomania23" target='_blank'>REGISTER NOW</a>
         </div>
       </div>
       <div className="eventpage-section">
@@ -36,7 +36,7 @@ const BombDiffusion = () => {
           </div>
           <div class="eventpage-description-right">
             <p>
-            The <strong>Robotics Club at MMMUT</strong> is organizing a fun event to bring student together and create a positive and enjoyable atmosphere. This event will offer a variety of activities and games that promote socialization and relaxation in a supportive and inclusive environment. The goal of the event is to build a strong sense of community on campus and provide a safe and welcoming space for participants of all ages and backgrounds to enjoy themselves.
+            Take a few minutes to hatchet up the tension via that classic struggle over which wire to cut so as to defuse a bomb and avert catastrophe The dilemma of the wire,the bomb and the ticking clock.Plunge yourself into a web of intricate circuits, mind boggling logics and be a part of the electrifying odyssey to realise what separates you from the rest. Come on solve the electrical networks and be a part of <strong>Robomania</strong>  Bomb Diffusion.
             </p>
           </div>
         </div>
@@ -75,13 +75,6 @@ const BombDiffusion = () => {
               Aryan Anand <span>987654321</span>
             </h5>
           </div>
-        </div>
-        <div className="register-btn" id="register-form">
-        <a  onClick={handleform}>Click here to Register</a> 
-
-        </div>
-        <div className={ `registration-form ${eform? "" : "active-form" }`}>
-        <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfEPCdzWP48SSYjBLOTy4yOnp_3j3WS9FsU7k3j6xjVahgqyw/viewform?embedded=true" scrolling='no'  width="640" height="1512" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
         </div>
 
       </div>

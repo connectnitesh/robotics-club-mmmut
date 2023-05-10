@@ -1,18 +1,17 @@
-import React from 'react'
+import React from "react";
 import { useState } from "react";
 import "./EventStyle.css";
 import roboGif from "../../../assets/images/events/robotgif.gif";
 import roboGif2 from "../../../assets/images/events/robotgif2.gif";
-import NavMenu from '../../../components/NavMenu/NavMenu';
-import FooterBar from '../../../components/FooterBar/FooterBar';
+import NavMenu from "../../../components/NavMenu/NavMenu";
+import FooterBar from "../../../components/FooterBar/FooterBar";
 
 const WebQuest = () => {
+  const [eform, seteform] = useState(false);
 
-  const [eform,seteform]=useState(false);
-
-  function handleform(){
-      seteform(!eform);
-      console.log(eform);
+  function handleform() {
+    seteform(!eform);
+    console.log(eform);
   }
 
   return (
@@ -21,10 +20,10 @@ const WebQuest = () => {
         <NavMenu />
         <div className="eventpage-hero">
           <img src={roboGif} alt="robogif" />
-          <h1 style={{color: "white"}}>Web Quest</h1>
+          <h1 style={{ color: "white" }}>Web Quest</h1>
         </div>
         <div class="register-btn upper-register">
-        <a href="#register-form">REGISTER NOW</a>
+          <a href="https://linktr.ee/Robomania23">REGISTER NOW</a>
         </div>
       </div>
       <div className="eventpage-section">
@@ -36,7 +35,14 @@ const WebQuest = () => {
           </div>
           <div class="eventpage-description-right">
             <p>
-            The <strong>Robotics Club at MMMUT</strong> is organizing web quest, an event that encourages collaboration and innovation in web development. Participants will work in teams to create functional and innovative web-based solutions within a specific timeframe. The web quest will provide an opportunity for participants to showcase their skills, learn new technologies, and network with others in the tech industry. By organizing this event, the Robotics Club at MMMUT is promoting creativity, problem-solving, and community building in the field of web development.
+              Join us for an exciting event on the world of web
+              development! Whether you're an experienced web developer or just
+              starting out, this event is the perfect opportunity to learn new
+              skills, meet like-minded individuals, and get inspired. No matter
+              what your level of experience or area of interest, you're sure to
+              find something of value at this event. So mark your calendar,
+              spread the word, and join us for an unforgettable day of learning
+              and discovery in the exciting world of web development.
             </p>
           </div>
         </div>
@@ -47,9 +53,7 @@ const WebQuest = () => {
             <img src={roboGif2} alt="robogif" />
           </div>
           <div class="eventpage-description-right">
-          <p>
-              Uploaded Soon
-            </p>
+            <p>Uploaded Soon</p>
           </div>
         </div>
         <div className="eventpage-description">
@@ -59,13 +63,11 @@ const WebQuest = () => {
             <img src={roboGif2} alt="robogif" />
           </div>
           <div class="eventpage-description-right">
-          <p>
-              12th - 14th May 2023
-            </p>
+            <p>12th - 14th May 2023</p>
           </div>
         </div>
         <div className="event-contact-details">
-        <div className="contact-me">
+          <div className="contact-me">
             <h5>
               Nitesh Rawat <span>8090684923</span>
             </h5>
@@ -76,17 +78,10 @@ const WebQuest = () => {
             </h5>
           </div>
         </div>
-        <div className="register-btn" id="register-form">
-          <a  onClick={handleform}>Click here to Register</a> 
-        </div>
-        <div className={ `registration-form ${eform? "" : "active-form" }`}>
-        <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfEPCdzWP48SSYjBLOTy4yOnp_3j3WS9FsU7k3j6xjVahgqyw/viewform?embedded=true" scrolling='no'  width="640" height="1512" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
-        </div>
-
       </div>
-      <FooterBar/>
+      <FooterBar />
     </>
-  )
-}
+  );
+};
 
-export default WebQuest
+export default WebQuest;

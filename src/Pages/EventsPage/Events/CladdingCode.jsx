@@ -6,17 +6,16 @@ import roboGif2 from "../../../assets/images/events/robotgif2.gif";
 import FooterBar from "../../../components/FooterBar/FooterBar";
 
 const CladdingCode = () => {
-
   return (
     <>
       <div className="eventpage-container cld">
         <NavMenu />
         <div className="eventpage-hero">
           <img src={roboGif} alt="robogif" />
-          <h1 style={{color: "white"}}>Cladding the Code</h1>
+          <h1 style={{ color: "white" }}>Cladding the Code</h1>
         </div>
         <div class="register-btn upper-register">
-          <a href="#register-form">REGISTER NOW</a>
+          <a href="https://linktr.ee/Robomania23">REGISTER NOW</a>
         </div>
       </div>
       <div className="eventpage-section">
@@ -28,7 +27,17 @@ const CladdingCode = () => {
           </div>
           <div class="eventpage-description-right">
             <p>
-            <strong>Cladding the code</strong> refers to the process of adding an additional layer of complexity or functionality to an existing codebase, in order to protect it from bugs, security vulnerabilities, or other issues. This involves identifying areas where additional functionality is needed, designing and implementing new code, and testing and debugging to ensure that everything works smoothly. It's a challenging task that requires technical expertise and creativity, but can help to keep a codebase effective and relevant.
+              Join us for an exciting event dedicated to the world of coding!
+              Whether you're a seasoned coder or just starting out, this event
+              is the perfect opportunity to learn new skills, network with
+              like-minded individuals, and get inspired. This event will consist
+              of both a quiz and a coding round, designed to challenge your
+              knowledge and coding abilities. The quiz round will cover a wide
+              range of coding concepts and principles, testing your
+              understanding of programming languages, data structures,
+              algorithms, and more. The coding round will challenge you to write
+              efficient, well-structured code to solve a variety of real-world
+              problems.
             </p>
           </div>
         </div>
@@ -39,9 +48,7 @@ const CladdingCode = () => {
             <img src={roboGif2} alt="robogif" />
           </div>
           <div class="eventpage-description-right">
-            <p>
-              Uploaded Soon
-            </p>
+            <p>Uploaded Soon</p>
           </div>
         </div>
         <div className="eventpage-description">
@@ -51,13 +58,11 @@ const CladdingCode = () => {
             <img src={roboGif2} alt="robogif" />
           </div>
           <div class="eventpage-description-right">
-            <p>
-              12th - 14th May 2023
-            </p>
+            <p>12th - 14th May 2023</p>
           </div>
         </div>
         <div className="event-contact-details">
-        <div className="contact-me">
+          <div className="contact-me">
             <h5>
               Nitesh Rawat <span>8090684923</span>
             </h5>
@@ -69,12 +74,12 @@ const CladdingCode = () => {
           </div>
         </div>
         <div className="register-btn" id="register-form">
-        <a href="https://forms.gle/kgmdWG3ercSRXrcPA">Click here to Register</a> 
-
+          <a href="https://forms.gle/kgmdWG3ercSRXrcPA">
+            Click here to Register
+          </a>
         </div>
-
       </div>
-      <FooterBar/>
+      <FooterBar />
     </>
   );
 };

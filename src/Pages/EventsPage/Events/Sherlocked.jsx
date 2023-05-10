@@ -24,7 +24,7 @@ const Sherlocked = () => {
           <h1 style={{display: "none"}}>Sherlocked</h1>
         </div>
         <div class="register-btn upper-register">
-        <a href="#register-form">REGISTER NOW</a>
+        <a href="https://linktr.ee/Robomania23">REGISTER NOW</a>
         </div>
       </div>
       <div className="eventpage-section">
@@ -75,12 +75,6 @@ const Sherlocked = () => {
               Aryan Anand <span>987654321</span>
             </h5>
           </div>
-        </div>
-        <div className="register-btn" id="register-form">
-        <a  onClick={handleform}>Click here to Register</a> 
-        </div>
-        <div className={ `registration-form ${eform? "" : "active-form" }`}>
-        <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfEPCdzWP48SSYjBLOTy4yOnp_3j3WS9FsU7k3j6xjVahgqyw/viewform?embedded=true" scrolling='no'  width="640" height="1512" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
         </div>
 
       </div>
