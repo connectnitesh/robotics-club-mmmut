@@ -56,14 +56,14 @@ const Contact = () => {
       </div>
       <div data-aos="fade-up" className="details-container">
         <a href="tel:+918081165522">
-          <IoMdCall />  +91 80811 65522
+          <IoMdCall />  <span>+91 80811 65522</span>
         </a>
         <a href="mailto:roboticsclub.mmmut@gmail.com" target="_blank">
           <HiOutlineMail /> 
- roboticsclub.mmmut@gmail.com
+ <span>roboticsclub.mmmut@gmail.com</span>
         </a>
         <a href="https://goo.gl/maps/7nbySXkE2MyNMVYL6?coh=178571&entry=tt" target="_blank">
-          <BiMap /> 
+          <BiMap /> <span>Robotics Club MMMUT</span> 
         </a>
       </div>
 

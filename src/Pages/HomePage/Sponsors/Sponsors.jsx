@@ -12,7 +12,7 @@ const Sponsors = () => {
     <section className="sponsor-sec" id="sponsor">
       <div data-aos="fade-right"><h1>Sponsors</h1></div>
       <div className="sponsor-list">
-        <img data-aos="flip-up"
+        {/* <img data-aos="flip-up"
           src={require("../../../assets/images/sponsors/a.jpg")}
           alt=""
           srcset=""
@@ -60,7 +60,7 @@ const Sponsors = () => {
           src={require("../../../assets/images/sponsors/c.jpg")}
           alt=""
           srcset=""
-        />
+        /> */}
       </div>
     </section>
   );

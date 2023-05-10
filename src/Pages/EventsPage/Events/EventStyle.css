@@ -148,7 +148,7 @@
 }
 
 .enfs {
-  background: url("../../../assets/images/events/nfs.jpg");
+  background: url("../../../assets/images/events/nfs.png");
   background-size: cover;
   background-repeat: no repeat;
   background-position: center center;
@@ -162,7 +162,7 @@
 }
 
 .echess {
-  background: url("../../../assets/images/events/chess.jpg");
+  background: url("../../../assets/images/events/chess.png");
   background-size: cover;
   background-repeat: no repeat;
   background-position: center center;
@@ -176,21 +176,21 @@
 }
 
 .webq {
-  background: url("../../../assets/images/events/webq.jpg");
+  background: url("../../../assets/images/events/webq.png");
   background-size: cover;
   background-repeat: no repeat;
   background-position: center center;
 }
 
-.inf {
-  background: url("../../../assets/images/events/inf.jpg");
+.bmb {
+  background: url("../../../assets/images/events/bombdiffusion1.jpg");
   background-size: cover;
   background-repeat: no repeat;
   background-position: center center;
 }
 
 .cld {
-  background: url("../../../assets/images/events/ctd.jpg");
+  background: url("../../../assets/images/events/ctd.png");
   background-size: cover;
   background-repeat: no repeat;
   background-position: center center;

@@ -13,7 +13,6 @@ import ilfam from '../../../assets/images/teams/3rd Year/ifham.jpg'
 import akshat from '../../../assets/images/teams/3rd Year/akshat.jpg'
 import anushka from '../../../assets/images/teams/3rd Year/anushka.jpg'
 import akshay from '../../../assets/images/teams/3rd Year/akshay.jpg'
-import ashutosh from '../../../assets/images/teams/3rd Year/ashutosh.jpg'
 import rohit from '../../../assets/images/teams/3rd Year/rohit.jpg'
 import ankit from '../../../assets/images/teams/3rd Year/ankit.jpg'
 import priyanshi from '../../../assets/images/teams/3rd Year/priyanshi.jpg'
@@ -154,13 +153,6 @@ const thirdyear = [
     {
         "name": "Ankit Garg",
         "image": ankit
-       },
-       {
-        "name": "Ashutosh Shukla",
-        "image": ashutosh,
-        "position": "Technical Lead",
-        "insta": "https://instagram.com/ashutosh_shukla99?igshid=ZDdkNTZiNTM=",
-        "lin": "https://linkedin.com/in/ashutosh-shukla9/"
        }
    ]
 

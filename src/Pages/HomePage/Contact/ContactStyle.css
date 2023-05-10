@@ -150,6 +150,16 @@ button[type="submit"] {
 }
 
 
+.details-container a{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.details-container a span{
+  margin-top:0.5rem;
+}
+
 @media only screen and (max-width: 480px) {
   .contact-container{
     flex-direction: column;

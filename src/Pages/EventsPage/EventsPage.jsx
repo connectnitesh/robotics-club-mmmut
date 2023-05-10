@@ -5,13 +5,13 @@ import { motion } from "framer-motion";
 import rbText from "../../assets/images/events/rbmania23.png";
 import rbRobot from "../../assets/images/general/bg-robomania.png";
 import laserStrike from "../../assets/images/events/laser.jpg";
-import nfs from '../../assets/images/events/nfs.jpg'
+import nfs from '../../assets/images/events/nfs.png'
 import shl from '../../assets/images/events/sherlock.jpg'
-import chess from '../../assets/images/events/chess2.jpg'
+import chess from '../../assets/images/events/chess2.png'
 import eart from '../../assets/images/events/eart.jpg'
-import ctd from '../../assets/images/events/ctd.jpg'
-import webq from '../../assets/images/events/webq.jpg'
-import inf from '../../assets/images/events/inf.jpg'
+import ctd from '../../assets/images/events/ctd.png'
+import webq from '../../assets/images/events/webq.png'
+import bmb from '../../assets/images/events/bombdiffusion1.jpg'
 import NavMenu from "../../components/NavMenu/NavMenu";
 import FooterBar from "../../components/FooterBar/FooterBar";
 
@@ -232,7 +232,7 @@ const EventsPage = () => {
             </div>
           </div>
         </div>
-        <div className="rb-events infor-mal">
+        <div className="rb-events bomb-diff">
           <motion.h2
             className="ls-text"
             animate={{ x: [0, -100, 0], opacity: 0.9, scale: 0.9 }}
@@ -245,13 +245,13 @@ const EventsPage = () => {
             initial={{ opacity: 0.7, scale: 0.7 }}
             whileHover={{ scale: 1.1 }}
           >
-            Informals <br></br>
+            Bomb Diffusion <br></br>
             <span></span>{" "}
           </motion.h2>
-          <img src={inf} className="rcevent-img rs-img" alt="" />
+          <img src={bmb} className="rcevent-img rs-img" alt="" />
           <div className="events-btn">
             <div className="laser-btn">
-              <a href="informals">View Event</a>
+              <a href="bombdiffusion">View Event</a>
             </div>
           </div>
         </div>

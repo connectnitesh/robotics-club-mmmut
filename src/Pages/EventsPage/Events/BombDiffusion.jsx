@@ -6,7 +6,7 @@ import roboGif2 from "../../../assets/images/events/robotgif2.gif";
 import NavMenu from '../../../components/NavMenu/NavMenu';
 import FooterBar from '../../../components/FooterBar/FooterBar';
 
-const Informals = () => {
+const BombDiffusion = () => {
 
   const [eform,seteform]=useState(false);
 
@@ -17,11 +17,11 @@ const Informals = () => {
 
   return (
     <>
-      <div className="eventpage-container inf">
+      <div className="eventpage-container bmb">
         <NavMenu />
         <div className="eventpage-hero">
           <img src={roboGif} alt="robogif" />
-          <h1 style={{color: "white"}}>Informals</h1>
+          <h1 style={{color: "white"}}>Bomb Diffusion</h1>
         </div>
         <div class="register-btn upper-register">
         <a href="#register-form">REGISTER NOW</a>
@@ -90,4 +90,4 @@ const Informals = () => {
   )
 }
 
-export default Informals
+export default BombDiffusion

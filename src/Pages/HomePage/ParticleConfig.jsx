@@ -33,7 +33,7 @@ const particleconfig = {
     "detectsOn": "window",
     "events": {
       "onClick": {
-        "enable": true,
+        "enable": false,
         "mode": "repulse"
       },
       "onDiv": {
@@ -43,8 +43,8 @@ const particleconfig = {
         "type": "rectangle"
       },
       "onHover": {
-        "enable": true,
-        "mode": "slow",
+        "enable": false,
+        "mode": "repulse",
         "parallax": {
           "enable": false,
           "force": 2,
