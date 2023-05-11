@@ -54,6 +54,14 @@ const secondyear = [
     lin: "https://www.linkedin.com/in/nitish-kumar-bharti-171640228",
   },
   {
+    name: "Sahil Srivastava",
+    image: sahil,
+    position: "Executive Member",
+    insta: "https://instagram.com/sahil_srivastava_25?igshid=ZDdkNTZiNTM=",
+    fb: "https://www.facebook.com/profile.php?id=100075365914423&mibextid=ZbWKwL",
+    lin: "https://www.linkedin.com/in/sahil-srivastava-211957225",
+  },
+  {
     name: "Ashish Gupta",
     image: ashish,
     position: "Executive Member",
@@ -130,14 +138,7 @@ const secondyear = [
     fb: "https://www.facebook.com/profile.php?id=100084858442930",
     lin: "www.linkedin.com/in/ divyanshi-gautam-b7ba66228",
   },
-  {
-    name: "Sahil Srivastava",
-    image: sahil,
-    position: "Executive Member",
-    insta: "https://instagram.com/sahil_srivastava_25?igshid=ZDdkNTZiNTM=",
-    fb: "https://www.facebook.com/profile.php?id=100075365914423&mibextid=ZbWKwL",
-    lin: "https://www.linkedin.com/in/sahil-srivastava-211957225",
-  },
+
   {
     name: "Jyoti Singh",
     image: jyotis,

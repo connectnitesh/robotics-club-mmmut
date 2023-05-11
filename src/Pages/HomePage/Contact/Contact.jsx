@@ -90,7 +90,7 @@ const Contact = () => {
           </li>
         </ul>
 
-      <div className="copyright-homepage"> ©️ Robotics Club MMMUT All rights reserved. <br></br> Design by <span><a href="https://github.com/connectnitesh">Nitesh</a> & team </span></div>
+      <div className="copyright-homepage"> ©️ Robotics Club MMMUT All rights reserved. </div>
     </section>
   );
 };
