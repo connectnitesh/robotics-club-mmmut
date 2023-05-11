@@ -36,9 +36,9 @@ const About = () => {
         </div>
         {/* <img src="" alt="" /> */}
         <div data-aos="fade-left" className="vision-items">
-          <h3 className="vision-content">Explore</h3>
-          <h3 className="vision-content">Develope</h3>
-          <h3 className="vision-content">Innovate</h3>
+          <h3 className="vision-content"><a href="https://linktr.ee/Robomania23">Robomania 23</a></h3>
+          <h3 className="vision-content"><a href="https://www.instagram.com/robotics_club_mmmut/?hl=en">Instagram</a></h3>
+          <h3 className="vision-content"><a href="https://www.youtube.com/channel/UCq1SGYOxepwOHBE8eQcE_Pg">Youtube</a></h3>
         </div>
       </div>
       <div data-aos="fade-up"><h3>

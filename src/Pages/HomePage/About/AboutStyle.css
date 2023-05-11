@@ -50,6 +50,13 @@
   border-radius: 50px;
 }
 
+.vision-items h3 a{
+  color: white;
+  text-align:  center;
+  text-decoration: none;
+
+}
+
 
 @media only screen and (max-width: 480px) {
 

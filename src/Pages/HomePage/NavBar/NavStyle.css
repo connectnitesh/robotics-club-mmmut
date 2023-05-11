@@ -31,7 +31,7 @@
   --border-size: 50px;
   --border-angle: 0turn;
   border-radius: 50%;
-  background-image: conic-gradient(
+  /* background-image: conic-gradient(
       from var(--border-angle),
       #213,
       #112 50%,
@@ -40,10 +40,10 @@
     conic-gradient(from var(--border-angle), transparent 20%, #08f, #f03);
   background-size: calc(100% - (var(--border-size) * 2))
       calc(100% - (var(--border-size) * 2)),
-    cover;
+    cover; */
   background-position: center center;
   background-repeat: no-repeat;
-  animation: bg-spin 3s linear infinite;
+  /* animation: bg-spin 3s linear infinite; */
 }
 
 .nav-items {
