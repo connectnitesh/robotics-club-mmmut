@@ -1,4 +1,4 @@
-import nitesh from '../../../assets/images/teams/3rd Year/nitesh.jpg'
+import nitesh from '../../../assets/images/teams/3rd Year/nitesh.png'
 import aniket from '../../../assets/images/teams/3rd Year/aniket.jpg'
 import ashish from '../../../assets/images/teams/3rd Year/ashish.jpg'
 import ishika from '../../../assets/images/teams/3rd Year/ishika.jpeg'
