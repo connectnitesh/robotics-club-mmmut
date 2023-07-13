@@ -8,7 +8,6 @@ import akhil from "../../../assets/images/teams/2nd Year/akhil.jpg";
 import gaurav from "../../../assets/images/teams/2nd Year/gaurav.jpg";
 import jyoti from "../../../assets/images/teams/2nd Year/jyoti.jpg";
 import vandana from "../../../assets/images/teams/2nd Year/vandana.jpg";
-import atulya from "../../../assets/images/teams/2nd Year/atulaya.jpg";
 import sneha from "../../../assets/images/teams/2nd Year/sneha.jpeg"
 import niraj from "../../../assets/images/teams/2nd Year/niraj.jpg"
 import amisha from "../../../assets/images/teams/2nd Year/amisha.jpeg"
@@ -154,14 +153,6 @@ const secondyear = [
     fb: "https://www.facebook.com/profile.php?id=100010234097525",
     insta: "https://instagram.com/saurabhmishra_21?igshid=ZDdkNTZiNTM=",
     lin: "https://www.linkedin.com/public-profile/settings",
-  },
-  {
-    name: "Atulya Vaibhav Pandey",
-    image: atulya,
-    position: "Exectutive Member",
-    fb: "https://www.facebook.com/profile.php?id=100084858442930",
-    insta: "https://www.instagram.com/atulyavaibhavpandey/",
-    lin: "https://www.linkedin.com/in/atulya-vaibhav-pandey/",
   },
   {
     name: "Utkarsh Gupta",

@@ -11,7 +11,6 @@ import arunesh from '../../../assets/images/teams/3rd Year/arunesh.jpeg'
 import pragya from '../../../assets/images/teams/3rd Year/pragya.jpg'
 import ilfam from '../../../assets/images/teams/3rd Year/ifham.jpg'
 import akshat from '../../../assets/images/teams/3rd Year/akshat.jpg'
-import anushka from '../../../assets/images/teams/3rd Year/anushka.jpg'
 import akshay from '../../../assets/images/teams/3rd Year/akshay.jpg'
 import rohit from '../../../assets/images/teams/3rd Year/rohit.jpg'
 import ankit from '../../../assets/images/teams/3rd Year/ankit.jpg'
@@ -128,28 +127,19 @@ const thirdyear = [
      "lin": "https://linkedin.com/in/akriti-srivastava-0b4b97215"
     },
     
-   
-   
-    
-    {
-        "name": "Anushka Yadav",
-        "image": anushka,
-        "position": "Designing Lead",
-        
-       },
     {
         "name": "Priyanshi Verma",
         "image": priyanshi,
         "position": "Editorial Lead",
         
-       },
+    },
     {
         "name": "Akshay Singh Kushwaha",
         "image": akshay,
         "insta": "https://instagram.com/choexo_freak?igshid=ZDdkNTZiNTM=",
         "fb": "https://facebook.com/profile.php?id=100005430964788",
         "lin": "https://linkedin.com/in/akshay-singh-kushwaha-b0b295203"
-       },
+    },
     {
         "name": "Ankit Garg",
         "image": ankit
