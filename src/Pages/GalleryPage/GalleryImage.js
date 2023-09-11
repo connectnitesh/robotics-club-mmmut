@@ -15,9 +15,15 @@ import img14 from '../../assets/images/gallery/robomania14.jpg'
 import img15 from '../../assets/images/gallery/robomania15.jpg'
 import img16 from '../../assets/images/gallery/robomania16.jpg'
 import img17 from '../../assets/images/gallery/robomania17.jpg'
-import img18 from '../../assets/images/gallery/robomania18.jpg'
 import img19 from '../../assets/images/gallery/robomania19.jpg'
 import img20 from '../../assets/images/gallery/robomania20.jpg'
+import img21 from '../../assets/images/gallery/rb23.jpg'
+import img22 from '../../assets/images/gallery/rb232.jpg'
+import img23 from '../../assets/images/gallery/rb233.jpg'
+import img24 from '../../assets/images/gallery/rb234.jpg'
+import img25 from '../../assets/images/gallery/rb235.jpg'
+import img26 from '../../assets/images/gallery/rb236.jpg'
+import img27 from '../../assets/images/gallery/rb237.jpg'
 
 
 const GalleryImage = [
@@ -25,7 +31,22 @@ const GalleryImage = [
        src: img1,
     },
     {
+       src: img26,
+    },
+    {
+       src: img22,
+    },
+    {
+       src: img23,
+    },
+    {
        src: img2,
+    },
+    {
+       src: img27,
+    },
+    {
+       src: img21,
     },
     {
        src: img3,
@@ -44,6 +65,9 @@ const GalleryImage = [
     },
     {
        src: img8,
+    },
+    {
+       src: img24,
     },
     {
       src: img9,
@@ -73,13 +97,13 @@ const GalleryImage = [
       src: img17,
    },
    {
-      src: img18,
-   },
-   {
       src: img19,
    },
    {
       src: img20,
+   },
+   {
+      src: img25,
    }
  ];
 
