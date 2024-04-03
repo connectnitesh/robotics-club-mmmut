@@ -20,7 +20,7 @@ const WebQuest = () => {
         <NavMenu />
         <div className="eventpage-hero">
           <img src={roboGif} alt="robogif" />
-          <h1 style={{ color: "white" }}>Web Quest</h1>
+          <h1 style={{ color: "white" }}>Dev Quest</h1>
         </div>
         <div class="register-btn upper-register">
           <a href="https://linktr.ee/Robomania23">REGISTER NOW</a>
@@ -69,7 +69,7 @@ const WebQuest = () => {
         <div className="event-contact-details">
           <div className="contact-me">
             <h5>
-              Nitesh Rawat <span>8090684923</span>
+              Anubhav Gupta <span>6386326572</span>
             </h5>
           </div>
           <div className="contact-me">

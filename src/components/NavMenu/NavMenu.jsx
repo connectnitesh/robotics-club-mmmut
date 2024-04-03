@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "./NavMenu.css";
-import logo from "../../assets/images/general/logorc.png";
+import logo from "../../assets/images/general/rclogo2.png";
 import { FiMenu } from "react-icons/fi";
 import { RxCross1 } from "react-icons/rx";
 
