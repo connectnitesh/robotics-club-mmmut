@@ -2,7 +2,7 @@ import React from "react";
 import "./EventsStyle.css";
 import Plx from "react-plx";
 import { motion } from "framer-motion";
-import rbText from "../../assets/images/events/rbmania23.png";
+import rbText from "../../assets/images/events/rbtext.png";
 import rbRobot from "../../assets/images/general/bg-robomania.png";
 import laserStrike from "../../assets/images/events/laser.jpg";
 import nfs from '../../assets/images/events/nfs.png'
@@ -209,7 +209,7 @@ const EventsPage = () => {
             </div>
           </div>
         </div>
-        <div className="rb-events clad-code">
+        {/* <div className="rb-events clad-code">
           <motion.h2
             className="ls-text"
             animate={{ x: [0, -100, 0], opacity: 0.9, scale: 0.9 }}
@@ -231,7 +231,7 @@ const EventsPage = () => {
               <a href="claddingcode">View Event</a>
             </div>
           </div>
-        </div>
+        </div> */}
         <div className="rb-events web-quest">
           <motion.h2
             className="rs-text"

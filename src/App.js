@@ -2,7 +2,7 @@ import React from 'react'
 import { BrowserRouter, Routes, Route } from "react-router-dom"; 
 import HomePage from './Pages/HomePage/HomePage';
 import EventsPage from './Pages/EventsPage/EventsPage';
-import WorkshopsPage from './Pages/WorkshopsPage/WorkshopsPage';
+// import WorkshopsPage from './Pages/WorkshopsPage/WorkshopsPage';
 import TeamsPage from './Pages/TeamsPage/TeamsPage';
 import GalleryPage from './Pages/GalleryPage/GalleryPage';
 import CladdingCode from './Pages/EventsPage/Events/CladdingCode';
@@ -22,7 +22,7 @@ function App() {
         <Route path="events" element={<EventsPage />} />
         <Route path="gallery" element={<GalleryPage />} />
         <Route path="team" element={<TeamsPage />} />
-        <Route path="workshops" element={<WorkshopsPage />}/>
+        {/* <Route path="workshops" element={<WorkshopsPage />}/> */}
         <Route path="claddingcode" element={<CladdingCode />}/>
         <Route path="electronfs" element={<ElectroNfs />}/>
         <Route path="electronicart" element={<ElectronicArt />}/>
