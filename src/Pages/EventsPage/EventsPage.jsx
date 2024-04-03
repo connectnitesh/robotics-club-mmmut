@@ -10,7 +10,7 @@ import shl from '../../assets/images/events/sherlock.jpg'
 import chess from '../../assets/images/events/chess2.png'
 import eart from '../../assets/images/events/eart.jpg'
 import ctd from '../../assets/images/events/ctd.png'
-import webq from '../../assets/images/events/webq.png'
+import webq from '../../assets/images/events/web.jpg'
 import bmb from '../../assets/images/events/bombdiffusion1.jpg'
 import NavMenu from "../../components/NavMenu/NavMenu";
 import FooterBar from "../../components/FooterBar/FooterBar";
@@ -245,7 +245,7 @@ const EventsPage = () => {
             initial={{ opacity: 0.7, scale: 0.7 }}
             whileHover={{ scale: 1.1 }}
           >
-            Web <br></br>
+            Dev <br></br>
             <span>Quest</span>{" "}
           </motion.h2>
           <img src={webq} className="rcevent-img ls-img" alt="" />

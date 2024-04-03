@@ -109,7 +109,7 @@ const facultyList = FacultyContact.map( (members) => {
     </div>
     <nav className="team-uppernav">
       <ul>
-      <li><a  onClick={facultyfunc}>Faculty</a> </li>
+      <li><a  onClick={facultyfunc}>FACULTY</a> </li>
         <li><a  onClick={finalYearfunc}>FINAL YEAR</a> </li>
         <li> <a  onClick={thirdYearfunc}>THIRD YEAR</a> </li>
         <li> <a  onClick={secYearfunc}>SECOND YEAR</a> </li>

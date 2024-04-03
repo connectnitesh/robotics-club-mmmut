@@ -1,6 +1,6 @@
 import React from "react";
 import "./footerbar.css";
-import logo from "../../assets/images/general/logorc.png";
+import logo from "../../assets/images/general/rclogo2.png";
 import { BsFacebook, BsInstagram, BsLinkedin, BsYoutube } from "react-icons/bs";
 
 const FooterBar = () => {

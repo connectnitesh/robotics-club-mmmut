@@ -150,20 +150,20 @@ const secondyear = [
   {
     name: "Utkarsh Gupta",
     image: utkarshg,
-    position: "Exectutive Member",
+    position: "Designing Lead",
     fb: "https://www.facebook.com/profile.php?id=100013653669037&mibextid=ZbWKwL",
     insta: "https://instagram.com/ut_covers",
   },
   {
     name: "Sameeksha Mishra",
     image: sameeksha,
-    position: "Exectutive Member",
+    position: "Inventory & Managerial Lead",
   },
  
   {
     name: "Yogeshwar Gupta",
     image: yogeshwar,
-    position: "Exectutive Member",
+    position: "Media & Publicity Lead",
     insta: "http://instagram.com/yogeshwar.gupta.73?utm_source=qr",
     fb: "https://www.facebook.com/yogeshwar.gupta.73?mibextid=ZbWKwL",
     lin: "https://www.linkedin.com/in/yogeshwar-gupta-689562228",

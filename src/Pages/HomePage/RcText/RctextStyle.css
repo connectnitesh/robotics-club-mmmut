@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap');
+
 .rcmmmut-text-container {
   margin: auto;
   width: 50%;
@@ -8,18 +10,27 @@
   color:var(--pure);
   text-shadow: 1px 1px 10px #0decf6;
   text-align: center;
-  font-family: 'Black Ops One', cursive;
+  /* font-family: 'Black Ops One', cursive; */
   font-size: 5rem;
   text-transform: uppercase;
+
+  font-family: "Roboto Slab", serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
 }
 
 .brand-college-text {
   color:var(--pure);
   text-shadow: 1px 1px 10px #0decf6;
-  font-family: 'Black Ops One', cursive;
+  /* font-family: 'Black Ops One', cursive; */
   font-size: 1.5rem;
   text-transform: uppercase;
   text-align: center;
+  font-family: "Roboto Slab", serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
 }
 
 
