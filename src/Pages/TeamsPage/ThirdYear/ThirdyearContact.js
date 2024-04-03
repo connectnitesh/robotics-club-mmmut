@@ -23,7 +23,7 @@ const secondyear = [
   {
     name: "Aryan Anand",
     image: aryan,
-    position: "Executive Member",
+    position: "Web & App Development Lead",
     insta: "https://instagram.com/iaryan_anand_2003?igshid=NzMyMjgxZWIzNw==",
     fb: "https://www.facebook.com/profile.php?id=100075712623601&mibextid=ZbWKwL",
     lin: "https://www.linkedin.com/in/aryan-anand-948998229",
@@ -31,7 +31,7 @@ const secondyear = [
   {
     name: "Anubhav Gupta",
     image: anubhavg,
-    position: "Executive Member",
+    position: "Web & App Development Lead",
     insta: "https://instagram.com/anubhavgupta8083?igshid=ZDdkNTZiNTM=",
     fb: "https://www.facebook.com/profile.php?id=100022662433391&mibextid=ZbWKwL",
     lin: "https://www.linkedin.com/in/anubhav-gupta-011164210",
@@ -39,7 +39,7 @@ const secondyear = [
   {
     name: "Anubhav Sonker",
     image: anubhavs,
-    position: "Executive Member",
+    position: "Circuitary & Simulation Lead",
     insta: "https://instagram.com/anubhav_sonker?igshid=ZDdkNTZiNTM=",
     fb: "https://www.facebook.com/profile.php?id=100079561038653&mibextid=ZbWKwL",
     lin: "https://www.linkedin.com/in/anubhav-sonkar-93762122b",
@@ -48,6 +48,7 @@ const secondyear = [
   {
     name: "Nitish Kumar Bharti",
     image: nitish,
+    position:"Desigining Lead",
     insta: "https://instagram.com/nitishbharti68?igshid=ZDdkNTZiNTM=",
     fb: "https://www.facebook.com/profile.php?id=100008422118217&mibextid=ZbWKwL",
     lin: "https://www.linkedin.com/in/nitish-kumar-bharti-171640228",
@@ -55,7 +56,7 @@ const secondyear = [
   {
     name: "Sahil Srivastava",
     image: sahil,
-    position: "Executive Member",
+    position: "Inventary & Managerial Lead",
     insta: "https://instagram.com/sahil_srivastava_25?igshid=ZDdkNTZiNTM=",
     fb: "https://www.facebook.com/profile.php?id=100075365914423&mibextid=ZbWKwL",
     lin: "https://www.linkedin.com/in/sahil-srivastava-211957225",
@@ -63,7 +64,7 @@ const secondyear = [
   {
     name: "Ashish Gupta",
     image: ashish,
-    position: "Executive Member",
+    position: "Circuitary & Simulation Lead",
     insta: "https://instagram.com/ashish_gupta_curious_?igshid=ZDdkNTZiNTM=",
     lin: "https://www.linkedin.com/in/ashish-gupta-5b7282228",
   },
@@ -71,7 +72,7 @@ const secondyear = [
   {
     name: "Akash Singh ",
     image: akash,
-    position: "Executive Member",
+    position: "Circuitary & Simulation Lead",
     insta: "https://www.instagram.com/akashsingh_9936/",
     fb: "https://www.facebook.com/profile.php?id=100032861633645",
     lin: "https://www.linkedin.com/in/akash-singh-0b950a22a",
@@ -79,7 +80,7 @@ const secondyear = [
   {
     name: "Akhil Verma",
     image: akhil,
-    position: "Executive Member",
+    position: "Editorial Lead",
     insta: "https://instagram.com/akhilverma_27?igshid=ZDdkNTZiNTM=",
     fb: "https://www.facebook.com/profile.php?id=100073450068479&mibextid=ZbWKwL",
     lin: "https://www.linkedin.com/in/akhil-verma-67a3bb171",
@@ -88,7 +89,7 @@ const secondyear = [
   {
     name: "Gaurav Kumar Sen",
     image: gaurav,
-    position: "Executive Member",
+    position: "Editorial Lead",
     insta: "https://www.instagram.com/sengaurav383/tagged/",
     fb: "https://www.facebook.com/profile.php?id=100024316561213",
     lin: "https://www.linkedin.com/in/gaurav-sen-317093228",
@@ -96,14 +97,14 @@ const secondyear = [
   {
     name: "Jyoti Rai",
     image: jyoti,
-    position: "Exectutive Member",
+    position: "Editorial Lead",
     insta: "https://instagram.com/jyo_brai?igshid=ZDdkNTZiNTM=",
     lin: "https://www.linkedin.com/in/jyoti-rai-732176228",
   },
   {
     name: "Vandana Yadav",
     image: vandana,
-    position: "Executive Member",
+    position: "Inventary & Managerial Lead",
     insta: "https://instagram.com/vandanayadav3767?igshid=ZDdkNTZiNTM=",
     lin: "https://www.linkedin.com/in/vandana-yadav-bb6900205",
   },
@@ -111,13 +112,13 @@ const secondyear = [
   {
     name: "Sneha Prajapati",
     image: sneha,
-    position: "Executive Member",
+    position: "Desigining Lead",
     insta: "https://instagram.com/sudreksha?igshid=YmMyMTA2M2Y=",
   },
   {
     name: "Niraj Kumar",
     image: niraj,
-    position: "Exectutive Member",
+    position: "Desigining Lead",
     fb: "https://www.facebook.com/profile.php?id=100077897731686",
     insta: "https://www.instagram.com/artificialhuman_1729/",
     lin: "https://www.linkedin.com/in/niraj-kumar-a81655228/",
@@ -125,7 +126,7 @@ const secondyear = [
   {
     name: "Amisha Mishra",
     image: amisha,
-    position: "Exectutive Member",
+    position: "Editorial Lead",
     fb: "https://www.facebook.com/profile.php?id=100076398445065",
     insta: "http://instagram.com/amisha_mishra125",
     lin: "http://linkedin.com/in/amisha-mishra-24985a227",
@@ -133,7 +134,7 @@ const secondyear = [
   {
     name: "Divyanshi Gautam",
     image: divyanshi,
-    position: "Exectutive Member",
+    position: "Web & App Development Lead",
     fb: "https://www.facebook.com/profile.php?id=100084858442930",
     lin: "www.linkedin.com/in/ divyanshi-gautam-b7ba66228",
   },
@@ -141,19 +142,11 @@ const secondyear = [
   {
     name: "Jyoti Singh",
     image: jyotis,
-    position: "Exectutive Member",
+    position: "Inventary & Managerial Lead",
     insta: "https://instagram.com/jyotijulisingh?igshid=ZDdkNTZiNTM=",
     lin: "https://www.linkedin.com/in/jyoti-singh-8a7bb2260",
   },
 
-  {
-    name: "Saurabh Mishra",
-    image: saurabh,
-    position: "Exectutive Member",
-    fb: "https://www.facebook.com/profile.php?id=100010234097525",
-    insta: "https://instagram.com/saurabhmishra_21?igshid=ZDdkNTZiNTM=",
-    lin: "https://www.linkedin.com/public-profile/settings",
-  },
   {
     name: "Utkarsh Gupta",
     image: utkarshg,
@@ -166,11 +159,7 @@ const secondyear = [
     image: sameeksha,
     position: "Exectutive Member",
   },
-  {
-    name: "Sandesh kumar",
-    image: sandesh,
-    position: "Exectutive Member",
-  },
+ 
   {
     name: "Yogeshwar Gupta",
     image: yogeshwar,
