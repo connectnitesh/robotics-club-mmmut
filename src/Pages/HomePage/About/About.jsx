@@ -30,7 +30,7 @@ const About = () => {
       <div className="vision">
         <div data-aos="fade-right" className="vision-img">
           <img
-            src={require("../../../assets/images/gallery/rcian.jpg")}
+            src={require("../../../assets/images/general/team.jpg")}
             alt=""
           />
         </div>
