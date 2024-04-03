@@ -56,7 +56,7 @@ const Contact = () => {
       </div>
       <div data-aos="fade-up" className="details-container">
         <a href="tel:+918081165522">
-          <IoMdCall />  <span>+91 80811 65522</span>
+          <IoMdCall />  <span>+91 8240066996</span>
         </a>
         <a href="mailto:roboticsclub.mmmut@gmail.com" target="_blank">
           <HiOutlineMail /> 
