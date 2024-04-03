@@ -176,8 +176,8 @@ const EventsPage = () => {
             initial={{ opacity: 0.7, scale: 0.7 }}
             whileHover={{ scale: 1.1 }}
           >
-            Electronic <br></br>
-            <span>Chess</span>{" "}
+            Chess <br></br>
+            <span>Reimagined</span>{" "}
           </motion.h2>
           <img src={chess} className="rcevent-img rs-img" alt="" />
           <div className="events-btn">

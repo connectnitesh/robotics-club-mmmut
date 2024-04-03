@@ -22,7 +22,7 @@ const ElectronicChess = () => {
         <NavMenu />
         <div className="eventpage-hero">
           <img src={roboGif} alt="robogif" />
-          <h1 >Electronic Chess</h1>
+          <h1 >Chess Reimagined</h1>
         </div>
         <div class="register-btn upper-register">
           <a href="https://linktr.ee/Robomania23">REGISTER NOW</a>

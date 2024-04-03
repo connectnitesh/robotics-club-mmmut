@@ -26,7 +26,7 @@ function App() {
         <Route path="claddingcode" element={<CladdingCode />}/>
         <Route path="electronfs" element={<ElectroNfs />}/>
         <Route path="electronicart" element={<ElectronicArt />}/>
-        <Route path="electronicchess"element={<ElectronicChess />}/>
+        <Route path="electronicchess" element={<ElectronicChess />}/>
         <Route path="bombdiffusion" element={<BombDiffusion />}/>
         <Route path="laserstrike" element={<LaserStrike />}/>
         <Route path="sherlocked" element={< Sherlocked/>}/>

@@ -1,4 +1,4 @@
-import aryan from "../../../assets/images/teams/2nd Year/aryan.jpeg";
+
 import anubhavg from "../../../assets/images/teams/2nd Year/anubhavg.png";
 import anubhavs from "../../../assets/images/teams/2nd Year/anubhavs.jpeg";
 import nitish from "../../../assets/images/teams/2nd Year/nitish.jpg";
@@ -20,14 +20,7 @@ import sandesh from "../../../assets/images/teams/2nd Year/sandesh.jpg"
 import sameeksha from "../../../assets/images/teams/2nd Year/sameeksha.jpg"
 import yogeshwar from "../../../assets/images/teams/2nd Year/yogeshwar.jpg"
 const secondyear = [
-  {
-    name: "Aryan Anand",
-    image: aryan,
-    position: "Executive Member",
-    insta: "https://instagram.com/iaryan_anand_2003?igshid=NzMyMjgxZWIzNw==",
-    fb: "https://www.facebook.com/profile.php?id=100075712623601&mibextid=ZbWKwL",
-    lin: "https://www.linkedin.com/in/aryan-anand-948998229",
-  },
+  
   {
     name: "Anubhav Gupta",
     image: anubhavg,

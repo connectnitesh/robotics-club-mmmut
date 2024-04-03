@@ -1,182 +1,149 @@
-import prakhar from "../../../assets/images/teams//final year/prakhar.jpg";
-import ayush from "../../../assets/images/teams//final year/ayush2.jpg";
-import alisha from "../../../assets/images/teams//final year/alisha.jpg";
-import user from "../../../assets/images/teams/2nd Year/user.jpg";
-import sanskar from "../../../assets/images/teams/final year/sanskar.jpg";
-import pranjul from "../../../assets/images/teams/final year/pranjul.jpg";
-import anubhav from "../../../assets/images/teams/final year/anubhav.jpg";
-import harshs from "../../../assets/images/teams/final year/harsh.jpg";
-import prakrity from "../../../assets/images/teams/final year/prakrity.jpg";
-import harsh from "../../../assets/images/teams/final year/harsh.jpeg";
-import swaraj from "../../../assets/images/teams/final year/swaraj.jpg";
-import shantanu from "../../../assets/images/teams/final year/shantanu.jpg";
-import prateek from "../../../assets/images/teams/final year/prateek.jpg";
-import avantika from "../../../assets/images/teams/final year/avantika.jpeg";
-import gireesh from "../../../assets/images/teams/final year/gireesh.jpg";
-import krishna from "../../../assets/images/teams/final year/krishna.jpg";
+import nitesh from '../../../assets/images/teams/3rd Year/nitesh.png'
+import aniket from '../../../assets/images/teams/3rd Year/aniket.jpg'
+import ashish from '../../../assets/images/teams/3rd Year/ashish.jpg'
+import ishika from '../../../assets/images/teams/3rd Year/ishika.jpeg'
+import archana from '../../../assets/images/teams/3rd Year/archana.jpg'
+import nitish from '../../../assets/images/teams/3rd Year/nitish2.jpg'
+import kshitij from '../../../assets/images/teams/3rd Year/kshitij.jpg'
+import akash from '../../../assets/images/teams/3rd Year/Akash.jpeg'
+import akriti from '../../../assets/images/teams/3rd Year/akriti.jpg'
+import arunesh from '../../../assets/images/teams/3rd Year/arunesh.jpeg'
+import pragya from '../../../assets/images/teams/3rd Year/pragya.jpg'
+import ilfam from '../../../assets/images/teams/3rd Year/ifham.jpg'
+import akshat from '../../../assets/images/teams/3rd Year/akshat.jpg'
+import akshay from '../../../assets/images/teams/3rd Year/akshay.jpg'
+import rohit from '../../../assets/images/teams/3rd Year/rohit.jpg'
+import ankit from '../../../assets/images/teams/3rd Year/ankit.jpg'
+import priyanshi from '../../../assets/images/teams/3rd Year/priyanshi.jpg'
 
+const thirdyear = [
+   
+    {
+     "name": "Nitesh Rawat",
+     "image": nitesh,
+     "position": "Technical Lead",
+     "insta": "https://instagram.com/connectnitesh",
+     "lin": ""
+    },
+    {
+        "name": "Kshitiz Patel",
+        "image": kshitij,
+        "position": "Web Development Lead",
+        "insta": "https://instagram.com/astronaut_wolowitz/",
+        "lin": "https://linkedin.com/in/kshitiz-patel/"
+       },
+       {
+        "name": "Nitish Kumar Singh",
+        "image": nitish,
+        "position": "Managerial Lead",
+        "insta": "https://instagram.com/_nitishwa__?igshid=ZWIzMWE5ZmU3Zg==",
+        "fb": "https://facebook.com/nitish.singhchauhan.357?mibextid=ZbWKwL",
+        "lin": "https://linkedin.com/in/nitishwa"
+       },
+       {
+        "name": "Pragya Gupta ",
+        "image": pragya,
+        "position": "Managerial Lead",
+        "insta": "https://instagram.com/yunn_hii1410?igshid=NzMyMjgxZWIzNw==",
+        "fb": "https://facebook.com/profile.php?id=100068451654507",
+        "lin": "https://linkedin.com/in/pragya-gupta-6262a9204"
+       },
+   
+    
+    {
+        "name": "Ishika Gupta ",
+        "image": ishika,
+        "position": "Web Development Lead ",
+        "insta": "https://instagram.com/confusishika",
+        "fb": "https://facebook.com/confusishika",
+        "lin": "https://linkedin.com/in/ishikagupta19"
+       },
+    {
+     "name": "Archana Chaurasiya",
+     "image": archana,
+     "position": "Editorial Lead",
+     "insta": "https://instagram.com",
+     "fb": "https://facebook.com/archana.chaurasiya.7399?mibextid=ZbWKwL",
+     "lin": "https://linkedin.com/in/archana-chaurasiya-4507bb182"
+    },
 
+   
+   
+    {
+     "name": "Akash Singh",
+     "image": akash,
+     "position": "Technical lead",
+     "insta": "https://instagram.com/the_sky_2928?igshid=ZWIzMWE5ZmU3Zg==",
+     "fb":"https://www.facebook.com/profile.php?id=100028392704726&mibextid=ZbWKwL"
+    },
+    {
+        "name": "Aniket Chaurasia",
+        "image": aniket,
+        "position": "Technical Head",
+        "insta": "https://instagram.com/aniket.annii ",
+        "fb": "https://facebook.com/RealAniketChaurasia ",
+        "lin": "https://linkedin.com/in/aniketchaurasia"
+       },
+       {
+        "name": "Ashish Patel ",
+        "image": ashish,
+        "position": "Technical Lead",
+        "insta": "https://instagram.com/a_s_h_i_s_h_patel_02?igshid=YmMyMTA2M2Y=",
+        "lin": "https://linkedin.com/in/ashish-patel-3464b7203"
+       },
+    {
+        "name": "Mohammad Ifham ",
+        "image": ilfam,
+        "position": "Editorial Lead",
+        "lin": "https://linkedin.com/in/mohammad-ifham-549446226"
+       },
+       {
+        "name": "Akshat Agarwal",
+        "image": akshat,
+        "position": "Web Development Lead",
+        "insta": "https://instagram.com/akshat493/",
+        "lin": "https://linkedin.com/in/akshat-agarwal-263995210"
+       },
+       {
+        "name": "Arunesh Kumar Sagar",
+        "image": arunesh,
+        "position": "Designing Lead",
+        "insta": "https://instagram.com/aruneshsagar/",
+        "lin": "https://linkedin.com/in/aruneshkumarsagar/"
+       },
+    {
+     "name": "Rohit Jaiswal",
+     "image": rohit,
+     "position": "Desiging lead"
+     
+    },
+    
+    {
+     "name": "Akriti Srivastava ",
+     "image": akriti,
+     "position": "Editorial lead",
+     "insta": "",
+     "fb": "https://facebook.com/akriti.srivastava.3939503",
+     "lin": "https://linkedin.com/in/akriti-srivastava-0b4b97215"
+    },
+    
+    {
+        "name": "Priyanshi Verma",
+        "image": priyanshi,
+        "position": "Editorial Lead",
+        
+    },
+    {
+        "name": "Akshay Singh Kushwaha",
+        "image": akshay,
+        "insta": "https://instagram.com/choexo_freak?igshid=ZDdkNTZiNTM=",
+        "fb": "https://facebook.com/profile.php?id=100005430964788",
+        "lin": "https://linkedin.com/in/akshay-singh-kushwaha-b0b295203"
+    },
+    {
+        "name": "Ankit Garg",
+        "image": ankit
+       }
+   ]
 
-
-const finalyear = [
-  {
-    name: "Prakhar Saxena",
-    image: prakhar,
-    position: "President"
-  },
-  {
-    name: "Ayush Mishra",
-    image: ayush,
-    position: "Vice President",
-    insta: "https://www.instagram.com/krishnasaxena1997/",
-    fb: "https://www.facebook.com/profile.php?id=100010742352951",
-    lin: "https://www.linkedin.com/mwlite/in/krishna-saxena-700447237",
-  },
-  {
-    name: "Alisha Singh ",
-    image: alisha,
-    position: "Vice President ",
-    insta: "singh_alisha007",
-  },
-  {
-    name: "Shantanu Tiwari",
-    image: shantanu,
-    position: "Vice President ",
-    insta: "singh_alisha007",
-  },
-  {
-    name: "Sanskar Srivastava",
-    image: sanskar,
-    position: "Treasurer",
-    insta: "https://www.instagram.com/krishnasaxena1997/",
-    fb: "https://www.facebook.com/profile.php?id=100010742352951",
-    lin: "https://www.linkedin.com/mwlite/in/krishna-saxena-700447237",
-  },
-  {
-    name: "Pranjul Pal",
-    image: pranjul,
-    position: "Secretary ",
-    insta: "https://instagram.com/badmin.passion?igshid=NzMyMjgxZWIzNw==",
-    fb: "https://www.facebook.com/pranjul.pal.399?mibextid=ZbWKwL",
-    lin: "https://www.linkedin.com/in/pranjul-pal-7269971b9",
-  },
-  {
-    name: "Anubhav Omar",
-    image: anubhav,
-    position: "Secretary ",
-    insta: "https://instagram.com/badmin.passion?igshid=NzMyMjgxZWIzNw==",
-    fb: "https://www.facebook.com/pranjul.pal.399?mibextid=ZbWKwL",
-    lin: "https://www.linkedin.com/in/pranjul-pal-7269971b9",
-  },
-  {
-    name: "Harsh Sehgal",
-    image: harshs,
-    position: "Joint Secretary",
-    insta: "https://instagram.com/harsh_3161?igshid=ZDdkNTZiNTM=",
-    fb: "https://www.facebook.com/harsh.sehgal.100",
-    lin: "https://www.linkedin.com/in/harsh3161",
-  },
-  
-  {
-    name: "Prakrity Srivastava",
-    image: prakrity,
-    position: "Joint Secretary ",
-    insta: "https://instagram.com/_prakritisrivastava?igshid=ZDdkNTZiNTM=",
-    fb: "https://www.facebook.com/prakritiisrivastava?mibextid=ZbWKwL",
-    lin: "https://www.linkedin.com/in/prakrity-srivastava-94b7a5204",
-  },
-  {
-    name: "Harsh Kumar Bharti",
-    image: harsh,
-    position: "Management Head",
-
-    fb: "https://www.facebook.com/harsh.bharti.146",
-    lin: "https://www.linkedin.com/in/harsh-kumar-bharti-385b601ba",
-  },
-  {
-    name: "Swaraj Ji Srivastava",
-    image: swaraj,
-    position: "Creative Head",
-    insta: "https://instagram.com/swaraj_ji_?igshid=ZDdkNTZiNTM=",
-    lin: "https://linkedin.com/in/swaraj-jisrivastava-9043b6193",
-  },
-  {
-    name: "Prateek Jain",
-    image: prateek,
-    position: "Creative Head",
-    insta: "https://instagram.com/prateekjain506?igshid=ZDdkNTZiNTM=",
-    lin: "www.linkedin.com/in/prateekjain85",
-  },
-  {
-    name: "Nimish",
-    image: user,
-    position: "Web & App Development"
-  },
-  {
-    name: "Anushka",
-    image: user,
-    position: "Editorial Head"
-  },
-  {
-    name: "Twinkle",
-    image: user,
-    position: "Designing Head"
-  },
-  {
-    name: "Gireesh Chand Vishwakarma ",
-    image: gireesh,
-    position: "Technical head",
-    insta: "https://instagram.com/vishwakarma_gc?igshid=ZDdkNTZiNTM=",
-    fb: "https://www.facebook.com/gireesh.chandvishwakarma?mibextid=ZbWKwL",
-    lin: "www.linkedin.com/in/gcvishwakarma",
-  },
-  
-  {
-    name: "Avantika Singh",
-    image: avantika,
-    position: "Technical Head",
-    insta: "https://www.instagram.com/avantika_s_singh_/",
-    fb: "https://www.facebook.com/profile.php?id=100005882074641",
-  },
-  {
-    name: "Sonali",
-    image: user,
-    position: "Technical Head"
-  },
-  {
-    name: "Aditya",
-    image: user,
-    position: "Technical Head"
-  },
- 
-  {
-    name: "Krishna Saxena",
-    image: krishna,
-    position: "Media and Publicity Head",
-    insta: "https://www.instagram.com/krishnasaxena1997/",
-    fb: "https://www.facebook.com/profile.php?id=100010742352951",
-    lin: "https://www.linkedin.com/mwlite/in/krishna-saxena-700447237",
-  },
-  {
-    name: "Mritunjay",
-    image: user,
-    position: "Media and Publicity Head"
-  },
-  {
-    name: "Nimit",
-    image: user,
-    position: "Mentor"
-  },
-  {
-    name: "Deep Jha",
-    image: user,
-    position: "Mentor"
-  }
- 
- 
- 
-
- 
-];
-
-export default finalyear;
+export default thirdyear;
