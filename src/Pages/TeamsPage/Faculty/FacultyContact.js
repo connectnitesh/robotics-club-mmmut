@@ -2,13 +2,19 @@ import brahma from '../../../assets/images/teams/Faculty/bpsir.jpg'
 import anupam from '../../../assets/images/teams/Faculty/anupam.jpg'
 import sks from '../../../assets/images/teams/Faculty/skssir.jpg'
 import bk from '../../../assets/images/teams/Faculty/BKPandey.jpg'
+import rajan from "../../../assets/images/teams/Faculty/rajan mishra .jpg"
 
 const faculty=[
     {
-   
         "name": "B.K. Pandey",
         "image": bk,
         "position": "CSA Chairman",
+        "club":"ROBOTICS CLUB"
+       },
+    {
+        "name": "Rajan Mishra",
+        "image": rajan,
+        "position": "CSA Vice Chairman",
         "club":"ROBOTICS CLUB"
        },
     {
