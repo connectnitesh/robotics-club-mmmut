@@ -13,7 +13,10 @@ import ctd from '../../assets/images/events/ctd.png'
 import webq from '../../assets/images/events/web.jpg'
 import bmb from '../../assets/images/events/bombdiffusion1.jpg'
 import NavMenu from "../../components/NavMenu/NavMenu";
+import drone from "../../assets/images/events/drone.jpg"
 import FooterBar from "../../components/FooterBar/FooterBar";
+import Robowar from "../../assets/images/events/Digital art part 53.jpg"
+import robosoccer from "../../assets/images/events/robosocer landscape.png"
 
 const EventsPage = () => {
   return (
@@ -71,6 +74,32 @@ const EventsPage = () => {
           <img src={rbRobot} className="rc-robot" alt="" />
           </Plx>
         </section>
+
+
+        <div className="rb-events electro-nfs">
+          <motion.h2
+            className="ls-text"
+            animate={{ x: [0, -100, 0], opacity: 0.9, scale: 0.9 }}
+            transition={{
+              duration: 5,
+              delay: 0.3,
+              ease: [0.5, 0.71, 1, 1.5],
+              repeat: Infinity,
+            }}
+            initial={{ opacity: 0.7, scale: 0.7 }}
+            whileHover={{ scale: 1.1 }}
+          >
+            RoboWar
+          </motion.h2>
+          <img src={Robowar} className="rcevent-img rs-img" alt="" />
+          <div className="events-btn">
+            <div className="laser-btn">
+              <a href="robowar">View Event</a>
+            </div>
+          </div>
+        </div>
+
+
         <div className="rb-events laser-strike" id="laserStrike">
           <motion.h2
             className="rs-text"
@@ -117,6 +146,31 @@ const EventsPage = () => {
             </div>
           </div>
         </div>
+
+        <div className="rb-events electro-nfs">
+          <motion.h2
+            className="ls-text"
+            animate={{ x: [0, -100, 0], opacity: 0.9, scale: 0.9 }}
+            transition={{
+              duration: 5,
+              delay: 0.3,
+              ease: [0.5, 0.71, 1, 1.5],
+              repeat: Infinity,
+            }}
+            initial={{ opacity: 0.7, scale: 0.7 }}
+            whileHover={{ scale: 1.1 }}
+          >
+            Robosoccer
+          </motion.h2>
+          <img src={robosoccer} className="rcevent-img rs-img" alt="" />
+          <div className="events-btn">
+            <div className="laser-btn">
+              <a href="robosoccer">View Event</a>
+            </div>
+          </div>
+        </div>
+
+
          <div className="rb-events bomb-diff">
           <motion.h2
             className="ls-text"
@@ -252,6 +306,30 @@ const EventsPage = () => {
           <div className="events-btn">
             <div className="laser-btn">
               <a href="webquest">View Event</a>
+            </div>
+          </div>
+        </div>
+
+
+        <div className="rb-events electro-nfs">
+          <motion.h2
+            className="ls-text"
+            animate={{ x: [0, -100, 0], opacity: 0.9, scale: 0.9 }}
+            transition={{
+              duration: 5,
+              delay: 0.3,
+              ease: [0.5, 0.71, 1, 1.5],
+              repeat: Infinity,
+            }}
+            initial={{ opacity: 0.7, scale: 0.7 }}
+            whileHover={{ scale: 1.1 }}
+          >
+            Drone Symposium
+          </motion.h2>
+          <img src={drone} className="rcevent-img rs-img" alt="" />
+          <div className="events-btn">
+            <div className="laser-btn">
+              <a href="dronesymposium">View Event</a>
             </div>
           </div>
         </div>

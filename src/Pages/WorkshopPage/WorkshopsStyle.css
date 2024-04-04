@@ -1,0 +1,74 @@
+.workshop-bckg {
+    background: #000 url('../../assets/images/general/bg_event.jpg');
+    background-position: center center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .workshopPage-container h1{
+    font-size: 3rem;
+    text-align: center;
+    color:var(--grey);
+    padding:2rem;
+  }
+  
+  .workshop-content{
+    display: flex;
+    flex-direction: row;
+    padding:2rem 5rem;
+  }
+  
+  .workshop-leftcontent .embed-video{
+    height: 350px;
+    width: 400px;
+  }
+  
+  .workshop-rightcontent{
+    margin-left:4rem;
+    color:var(--pure);
+  }
+  
+  .workshop-rightcontent h3{
+    font-size: 2rem;
+  }
+  
+  .workshop-rightcontent p{
+    font-size: 1.5rem;
+    font-weight: 400;
+    line-height: 1.5;
+    word-spacing: 10px;
+  }
+  
+  /* **************************************************************** */
+  
+  @media only screen and (max-width: 480px) {
+  
+    .workshopPage-container{
+      overflow-x: hidden;
+    }
+  
+    .workshop-content{
+      flex-direction: column;
+      padding:2rem;
+    }
+  
+    .workshop-leftcontent .embed-video{
+      height: 250px;
+      width: 300px;
+    }
+    
+    .workshopPage-container h1{
+      font-size: 2rem;
+    }
+  
+    .workshop-rightcontent{
+      margin: 0;
+      margin-top: 0.8rem;
+    }
+    
+    .workshop-rightcontent p{
+      font-size: 0.8rem;
+    }
+  
+  }
